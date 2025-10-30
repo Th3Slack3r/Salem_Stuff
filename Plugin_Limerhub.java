@@ -77,7 +77,7 @@ class HelloWorldWindow extends Window {
 
         btnDiscord = new Button(new Coord(centerX, firstButtonY + buttonHeight + buttonSpacing), Integer.valueOf(buttonWidth), this, "Discord") {
             public void click() {
-                openLink("https://discord.com/invite/1180963100820779110");
+                openLink("https://discord.gg/z6YFaeJMrK");
             }
         };
 
