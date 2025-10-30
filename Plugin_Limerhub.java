@@ -52,12 +52,6 @@ class HelloWorldWindow extends Window {
             e.printStackTrace();
         }
 
-        /*
-         * IMPORTANT:
-         * - Do NOT call pack() here (pack would shrink the window).
-         * - Use 'asz' (the inner content size) to center things inside the window.
-         */
-
         int buttonWidth = 200;
         int buttonHeight = 25;
         int imgHeight = 200;
@@ -81,7 +75,6 @@ class HelloWorldWindow extends Window {
             }
         };
 
-        // DO NOT call pack(); we want a stable 300x300 window as set above
     }
 
     @Override
