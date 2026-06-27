@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HafenResTool</class>
+ <widget class="QMainWindow" name="HafenResTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HafenResTool</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="LayerWidget" name="layersListWidget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="labelResourceName">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelResourceVersion">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="editorLayoutHolder">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>624</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLocalResource"/>
+    <addaction name="actionRemoteResource"/>
+    <addaction name="separator"/>
+    <addaction name="actionSaveResource"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuLayers">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Layers</string>
+    </property>
+    <addaction name="actionRemove_layer"/>
+    <addaction name="actionRestore_layer"/>
+    <addaction name="separator"/>
+    <addaction name="actionExport_layer_to_raw_format"/>
+    <addaction name="actionReplace_layer_from_raw_format"/>
+    <addaction name="actionAdd_layer_from_raw_format"/>
+   </widget>
+   <widget class="QMenu" name="menuExport_Obj">
+    <property name="title">
+     <string>Obj</string>
+    </property>
+    <addaction name="actionExport_Obj"/>
+    <addaction name="actionExport_Obj_With_Texture"/>
+    <addaction name="actionView"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuLayers"/>
+   <addaction name="menuExport_Obj"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>mainToolBar</string>
+   </property>
+   <addaction name="actionLocalResource"/>
+   <addaction name="actionRemoteResource"/>
+   <addaction name="actionSaveResource"/>
+   <addaction name="separator"/>
+   <addaction name="actionKritterGetter"/>
+  </widget>
+  <action name="actionLocalResource">
+   <property name="icon">
+    <iconset resource="appres.qrc">
+     <normaloff>:/root/icons/local.png</normaloff>:/root/icons/local.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open local resource</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionRemoteResource">
+   <property name="icon">
+    <iconset resource="appres.qrc">
+     <normaloff>:/root/icons/remote.png</normaloff>:/root/icons/remote.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open remote resource</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="appres.qrc">
+     <normaloff>:/root/icons/exit.png</normaloff>:/root/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionSaveResource">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Save resource</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionRemove_layer">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Remove layer</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::TextHeuristicRole</enum>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRestore_layer">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Restore layer</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionExport_layer_to_raw_format">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Export layer to raw format</string>
+   </property>
+  </action>
+  <action name="actionReplace_layer_from_raw_format">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Replace layer from raw format</string>
+   </property>
+  </action>
+  <action name="actionAdd_layer_from_raw_format">
+   <property name="text">
+    <string>Add layer from raw format</string>
+   </property>
+  </action>
+  <action name="actionExport_Obj">
+   <property name="text">
+    <string>Export Obj</string>
+   </property>
+  </action>
+  <action name="actionExport_Obj_With_Texture">
+   <property name="text">
+    <string>Export Obj + Texture</string>
+   </property>
+  </action>
+  <action name="actionView">
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="actionKritterGetter">
+   <property name="text">
+    <string>Kritter Getter</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>LayerWidget</class>
+   <extends>QWidget</extends>
+   <header>widgets/layerwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="appres.qrc"/>
+ </resources>
+ <connections/>
+</ui>

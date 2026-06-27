@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/root">
+        <file>icons/local.png</file>
+        <file>icons/remote.png</file>
+        <file>icons/exit.png</file>
+    </qresource>
+</RCC>
