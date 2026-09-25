@@ -84,6 +84,31 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            368,
+            -124
+          ],
+          [
+            321,
+            104
+          ],
+          [
+            472,
+            122
+          ],
+          [
+            527,
+            -40
+          ]
+        ]
+      }
     }
   ]
 }
