@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            251,
+            -68
+          ],
+          [
+            431,
+            184
+          ],
+          [
+            322,
+            348
+          ],
+          [
+            565,
+            336
+          ],
+          [
+            516,
+            -18
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              346,
+              -172
+            ],
+            [
+              39,
+              -346
+            ],
+            [
+              20,
+              -194
+            ],
+            [
+              346,
+              -172
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
