@@ -1,19 +1,19 @@
 [
   {
-    "title": "New Marker",
+    "title": "OMG",
+    "x": -1,
+    "y": 0,
+    "type": "interest"
+  },
+  {
+    "title": "ITS ",
     "x": 0,
     "y": 0,
     "type": "interest"
   },
   {
-    "title": "New Marker",
-    "x": 0,
-    "y": 0,
-    "type": "interest"
-  },
-  {
-    "title": "New Marker",
-    "x": 0,
+    "title": "Markers",
+    "x": 1,
     "y": 0,
     "type": "interest"
   }
