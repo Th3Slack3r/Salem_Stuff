@@ -1,0 +1,54 @@
+{
+    "icons": {
+        "town": {
+            "image": "img/marker/town_icon.png",
+            "size": [40, 40],
+            "anchor": [12, 41]
+        },
+        "player": { 
+            "image": "img/marker/player_icon.png",
+            "size": [40, 40],
+            "anchor": [12, 41]
+        },
+        "claim": {
+            "image": "img/marker/claim_icon.png",
+            "size": [40, 40],
+            "anchor": [12, 41]
+        },
+        "interest": {
+            "image": "img/marker/question_icon.png",
+            "size": [40, 40],
+            "anchor": [12, 41]
+        },
+        "abandon": {
+            "image": "img/marker/abandon_icon.png",
+            "size": [40, 40],
+            "anchor": [12, 41]
+        },
+        "event": {
+            "image": "img/marker/event_icon.png",
+            "size": [40, 40],
+            "anchor": [12, 41]
+        },
+        "farm": {
+            "color": "#4caf50",
+            "size": 38
+        },
+        "mine": {
+            "color": "#ff5722",
+            "size": 38
+        },
+        "camp": {
+            "color": "#795548",
+            "size": 38
+        },
+        "Blah": {
+            "color": "#795548",
+            "size": 38
+        }
+    },
+    "survey": {
+        "background": "img/map/world_survey.png",
+        "marker": "img/map/x_survey.png"
+    }
+}
