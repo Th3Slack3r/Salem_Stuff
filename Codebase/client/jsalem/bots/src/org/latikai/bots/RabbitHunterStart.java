@@ -1,0 +1,366 @@
+package org.latikai.bots;
+
+import haven.Composite;
+import haven.Coord;
+import haven.GameUI;
+import haven.Gob;
+import haven.LinMove;
+import haven.Loading;
+import haven.MCache;
+import haven.Moving;
+import haven.ResDrawable;
+import haven.UI;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
+@BotAnnotation(
+   bot = "rabbithunter",
+   step = "start"
+)
+public class RabbitHunterStart extends BotState {
+   private static final BotStuff botHelper = new BotStuff();
+   private static final int FIGHT_RANGE = 22;
+   private static final int LOW_YBILE = 10;
+   private static final int NEAR_FULL = 1000;
+   private static final int TILESZ = 11;
+   private long lastWalk = 0;
+   private long lastAction = 0;
+   private long lastStompTime = 0;
+   private long lastTargetRefresh = 0;
+   private Gob lastTarget = null;
+   private boolean started = false;
+   private Coord interceptPoint = null;
+   private Coord lastRabbitDest = null;
+   private Coord rabbitDeathPos = null;
+   private int stuckCount = 0;
+   private Coord lastPlayerPos = null;
+   private long standTime = 0;
+   private boolean looting = false;
+   private boolean cancelPending = false;
+   private int lootTick = 0;
+   private long blacklistGobId = 0;
+   private long blacklistTime = 0;
+   private long pursuitStart = 0;
+
+   @Override
+   public Stack<BotState> update(UI ui, Bot bot) {
+      try {
+         if (ui == null || ui.gui == null || ui.gui.map == null || ui.gui.map.player() == null) return null;
+
+         if (!started) {
+            ui.message("[RabbitHunter] Bot started.", GameUI.MsgType.INFO);
+            started = true;
+         }
+
+         Gob player = ui.gui.map.player();
+         int ybile = getYbile(ui);
+         if (ybile < LOW_YBILE) { clearState(); return null; }
+
+         if (looting) return doLooting(ui, bot, player);
+
+         if (botHelper.inventoriesFull(ui.gui, NEAR_FULL)) {
+            ui.message("[RabbitHunter] Inventory full, stopping.", GameUI.MsgType.INFO);
+            return BotState.initializeStack("rabbithunter", "end");
+         }
+
+         Gob rabbit = lastTarget;
+         if (rabbit != null) {
+            boolean alive = false;
+            for (Gob g : ui.sess.glob.oc) {
+               if (g.id == rabbit.id) { rabbit = g; alive = true; break; }
+            }
+            if (!alive) {
+               ui.message("[RabbitHunter] Rabbit dead.", GameUI.MsgType.INFO);
+               rabbitDeathPos = lastTarget != null ? lastTarget.rc : player.rc;
+               clearState();
+               looting = true;
+               return null;
+            }
+         }
+
+         if (rabbit == null) {
+            List<Gob> rabbits = findRabbits(ui);
+            if (rabbits.isEmpty()) return null;
+            rabbit = rabbits.get(0);
+            double best = player.rc.dist(rabbit.rc);
+            for (Gob g : rabbits) {
+               double d = player.rc.dist(g.rc);
+               if (d < best) { best = d; rabbit = g; }
+            }
+             lastTarget = rabbit;
+             pursuitStart = System.currentTimeMillis();
+         }
+
+         double dist = player.rc.dist(rabbit.rc);
+         long now = System.currentTimeMillis();
+         if (now - blacklistTime > 10000) { blacklistGobId = 0; }
+
+         Coord ppos = player.rc.div(TILESZ);
+
+         if (lastPlayerPos != null && lastPlayerPos.equals(ppos)) {
+            stuckCount++;
+         } else {
+            stuckCount = 0;
+         }
+         lastPlayerPos = ppos;
+
+         if (stuckCount > 2) {
+            stuckCount = 0;
+            if (lastTarget != null) { blacklistGobId = lastTarget.id; blacklistTime = now; }
+            clearState();
+            ui.message("[RabbitHunter] Gave up on stuck rabbit.", GameUI.MsgType.INFO);
+         }
+
+         if (pursuitStart > 0 && now - pursuitStart > 25000 && dist > FIGHT_RANGE) {
+            pursuitStart = 0;
+            if (lastTarget != null) { blacklistGobId = lastTarget.id; blacklistTime = now; }
+            clearState();
+            ui.message("[RabbitHunter] Pursuit timeout - could not reach rabbit.", GameUI.MsgType.INFO);
+         }
+
+         if (now - lastTargetRefresh > 60000) {
+            rabbit = refreshTarget(ui, rabbit);
+            lastTargetRefresh = now;
+            if (rabbit == null) {
+               rabbitDeathPos = lastTarget != null ? lastTarget.rc : player.rc;
+               clearState();
+               looting = true;
+               return null;
+            }
+         }
+
+         if (dist <= FIGHT_RANGE && now - lastStompTime > 2000) {
+            lastStompTime = now;
+            ui.cons.run("act atk stomp");
+            ui.wdgmsg(ui.gui.map, "click", rabbit.rc, rabbit.rc, 1, ui.modflags());
+            cancelPending = true;
+         }
+
+         if (dist > FIGHT_RANGE) {
+            if (cancelPending && now - lastAction > 100) {
+               lastAction = now;
+               cancelPending = false;
+               ui.wdgmsg(ui.gui.map, "click", player.rc.add(0, 1), player.rc.add(0, 1), 3, ui.modflags());
+               return null;
+            }
+            Coord dest = getRabbitDest(rabbit);
+            if (dest != null && (interceptPoint == null || !dest.equals(lastRabbitDest)
+               || player.rc.dist(interceptPoint) < TILESZ)) {
+               interceptPoint = dest;
+               lastRabbitDest = dest;
+            }
+            if (isApproaching(player, rabbit) && dist < 60) {
+               if (standTime == 0) standTime = now;
+               if (now - standTime < 5000) return null;
+            }
+            standTime = 0;
+
+            if (stuckCount > 1 && now - lastWalk > 1000) {
+               Coord safe = findClearWaypoint(ui, player, interceptPoint);
+               if (safe == null) safe = findAnyClearDirection(ui, player, interceptPoint);
+               if (safe != null) {
+                  lastWalk = now;
+                  stuckCount = 0;
+                  ui.wdgmsg(ui.gui.map, "click", safe, safe, 1, ui.modflags());
+               }
+            } else if (now - lastWalk > 800 && interceptPoint != null) {
+               lastWalk = now;
+               ui.wdgmsg(ui.gui.map, "click", interceptPoint, interceptPoint, 1, ui.modflags());
+            }
+         }
+      } catch (Exception e) {
+         if (ui != null) ui.message("[RabbitHunter] Error: " + e.getMessage(), GameUI.MsgType.ERROR);
+      }
+      return null;
+   }
+
+   private Stack<BotState> doLooting(UI ui, Bot bot, Gob player) {
+      long now = System.currentTimeMillis();
+      if (now - lastAction < 500) return null;
+      lastAction = now;
+      lootTick++;
+
+      if (lootTick == 1) {
+         ui.wdgmsg(ui.gui.map, "click", player.sc, player.rc.add(2, 0), 3, ui.modflags());
+         return null;
+      }
+
+      for (Gob g : ui.sess.glob.oc) {
+         String nm = "";
+         try {
+            ResDrawable rd = g.getattr(ResDrawable.class);
+            if (rd != null) nm = rd.res.get().name;
+            else {
+               Composite cmp = g.getattr(Composite.class);
+               if (cmp != null) nm = cmp.base.get().name;
+            }
+         } catch (Loading l) { continue; }
+
+         if (nm.contains("kritter") && g.rc.dist(rabbitDeathPos) < 15) {
+            double d = player.rc.dist(g.rc);
+            if (d > 15) {
+               ui.wdgmsg(ui.gui.map, "click", g.rc, g.rc, 1, ui.modflags());
+            } else {
+               ui.wdgmsg(ui.gui.map, "click", player.sc, g.rc, 3, ui.modflags(), 0, (int)g.id, g.rc, 0, -1);
+            }
+            return null;
+         }
+      }
+
+      for (Gob g : ui.sess.glob.oc) {
+         String nm = "";
+         try {
+            ResDrawable rd = g.getattr(ResDrawable.class);
+            if (rd != null) nm = rd.res.get().name;
+            else {
+               Composite cmp = g.getattr(Composite.class);
+               if (cmp != null) nm = cmp.base.get().name;
+            }
+         } catch (Loading l) { continue; }
+
+         if (nm.contains("rabbit") && g.rc.dist(rabbitDeathPos) < 15) {
+            double d = player.rc.dist(g.rc);
+            if (d > 15) {
+               ui.wdgmsg(ui.gui.map, "click", g.rc, g.rc, 1, ui.modflags());
+            } else {
+               ui.wdgmsg(ui.gui.map, "click", player.sc, g.rc, 3, ui.modflags(), 0, (int)g.id, g.rc, 0, -1);
+            }
+            return null;
+         }
+      }
+
+      looting = false;
+      lootTick = 0;
+      rabbitDeathPos = null;
+      return null;
+   }
+
+   private void clearState() {
+      lastTarget = null;
+      interceptPoint = null;
+      stuckCount = 0;
+      lastPlayerPos = null;
+      lootTick = 0;
+      cancelPending = false;
+      pursuitStart = 0;
+   }
+
+   private boolean isApproaching(Gob player, Gob rabbit) {
+      Moving mv = rabbit.getattr(Moving.class);
+      if (mv instanceof LinMove) {
+         Coord dest = ((LinMove)mv).t;
+         return dest.dist(player.rc) < rabbit.rc.dist(player.rc);
+      }
+      return false;
+   }
+
+   private Coord getRabbitDest(Gob rabbit) {
+      Moving mv = rabbit.getattr(Moving.class);
+      if (mv instanceof LinMove) {
+         return ((LinMove)mv).t;
+      }
+      return rabbit.rc;
+   }
+
+   private boolean isRidge(UI ui, Coord fromTile, Coord toTile) {
+      try {
+         MCache map = ui.sess.glob.map;
+         int fh = botHelper.getMCacheZ(map, fromTile);
+         int th = botHelper.getMCacheZ(map, toTile);
+         return Math.abs(fh - th) > 15;
+      } catch (Exception e) { return false; }
+   }
+
+   private Coord findClearWaypoint(UI ui, Gob player, Coord target) {
+      if (target == null) return null;
+      List<Coord> path = Bot.findPath(ui, player.rc, target);
+      if (path != null) {
+         Coord prevTile = player.rc.div(TILESZ);
+         for (Coord p : path) {
+            Coord tile = p.div(TILESZ);
+            if (tile.equals(prevTile)) continue;
+            if (isRidge(ui, prevTile, tile)) return null;
+            boolean blocked = false;
+            for (Gob g : ui.sess.glob.oc) {
+               if (g == player || (lastTarget != null && g.id == lastTarget.id)) continue;
+               if (g.rc.dist(p) < TILESZ && isObstacle(g)) { blocked = true; break; }
+            }
+            if (!blocked) return p;
+            prevTile = tile;
+         }
+      }
+      return null;
+   }
+
+   private Coord findAnyClearDirection(UI ui, Gob player, Coord target) {
+      Coord dir = target.add(player.rc.inv());
+      Coord playerTile = player.rc.div(TILESZ);
+      int best = Integer.MIN_VALUE;
+      Coord bestPt = null;
+      for (int dx = -22; dx <= 22; dx += 11) {
+         for (int dy = -22; dy <= 22; dy += 11) {
+            if (dx == 0 && dy == 0) continue;
+            Coord pt = player.rc.add(dx, dy);
+            Coord tile = pt.div(TILESZ);
+            if (tile.equals(playerTile)) continue;
+            if (isRidge(ui, playerTile, tile)) continue;
+            boolean blocked = false;
+            for (Gob g : ui.sess.glob.oc) {
+               if (g.rc.dist(pt) < TILESZ && isObstacle(g)) { blocked = true; break; }
+            }
+            if (!blocked) {
+               int score = dir.x * dx + dir.y * dy;
+               if (score > best) { best = score; bestPt = pt; }
+            }
+         }
+      }
+      return bestPt;
+   }
+
+   private boolean isObstacle(Gob g) {
+      try {
+         ResDrawable rd = g.getattr(ResDrawable.class);
+         if (rd != null) {
+            String nm = rd.res.get().name;
+            if (nm.contains("tree") || nm.contains("bush") || nm.contains("stump")
+               || nm.contains("boulder") || nm.contains("log"))
+               return true;
+         }
+      } catch (Loading l) {}
+      return false;
+   }
+
+   private Gob refreshTarget(UI ui, Gob old) {
+      for (Gob g : ui.sess.glob.oc) {
+         if (g.id == old.id) return g;
+      }
+      return null;
+   }
+
+   private List<Gob> findRabbits(UI ui) {
+      List<Gob> rabbits = new ArrayList<>();
+      for (Gob g : ui.sess.glob.oc) {
+         String nm = "";
+         try {
+            ResDrawable rd = g.getattr(ResDrawable.class);
+            if (rd != null) nm = rd.res.get().name;
+            else {
+               Composite cmp = g.getattr(Composite.class);
+               if (cmp != null) nm = cmp.base.get().name;
+            }
+         } catch (Loading l) { continue; }
+         if (nm.contains("kritter") && nm.contains("rabbit") && g.id != blacklistGobId) rabbits.add(g);
+      }
+      return rabbits;
+   }
+
+   private int getYbile(UI ui) {
+      try {
+         java.lang.reflect.Field softField = haven.Tempers.class.getDeclaredField("soft");
+         softField.setAccessible(true);
+         int[] soft = (int[])softField.get(ui.gui.tm);
+         return soft[2];
+      } catch (Exception e) { return 100; }
+   }
+}

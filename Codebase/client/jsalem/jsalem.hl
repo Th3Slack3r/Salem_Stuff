@@ -1,0 +1,25 @@
+require 1.0
+
+class-path http://yourserver.com/jsalem.jar
+class-path http://yourserver.com/jbots.jar
+class-path http://game.salemthegame.com/java/builtin-res.jar
+class-path http://game.salemthegame.com/java/salem-res.jar
+
+main-class haven.MainFrame
+
+include /java/jogl2/jogl.hl
+
+title "jsalem"
+icon icon.gif
+splash-image splash.png
+
+heap-size 1024
+
+property haven.defserv game.salemthegame.com
+property haven.errorurl "http://game.salemthegame.com/java/error"
+property haven.resurl "http://game.salemthegame.com/res/"
+property haven.screenurl "http://game.salemthegame.com/mt/ss"
+property haven.storebase https://game.salemthegame.com/store/client/
+property haven.regurl "http://login.salemthegame.com/beta/nregister"
+
+include launcher-hacks.hl

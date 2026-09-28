@@ -1,0 +1,7 @@
+validate tls-cert:key:rsa:290AC23878A69204A641205248B3FBBE9BBBFD3E1546606638B520267E015038
+include https://game.salemthegame.com/java/salem.hl
+
+validate always
+title "Salem"
+icon "https://game.salemthegame.com/java/icon.gif"
+splash-image "https://game.salemthegame.com/java/splash.png"

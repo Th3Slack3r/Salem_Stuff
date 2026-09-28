@@ -1,0 +1,43 @@
+package org.latikai.bots;
+
+import haven.FlowerMenu;
+import haven.GameUI;
+import haven.UI;
+import haven.Widget;
+import java.util.Stack;
+
+@BotAnnotation(
+   bot = "loglooter",
+   step = "flowermenu"
+)
+public class LogLooterBotFlowerMenu extends BotState {
+
+   private static final BotStuff botHelper = new BotStuff();
+
+   @Override
+   public Stack<BotState> update(UI ui, Bot bot) {
+      Widget mapchild = ui.root.child;
+      while (mapchild != null && !(mapchild instanceof FlowerMenu)) {
+         mapchild = mapchild.next;
+      }
+      if (mapchild != null) {
+         FlowerMenu fm = (FlowerMenu) mapchild;
+         try {
+            Object[] opts = botHelper.getFlowerMenuOpts(fm);
+            if (opts != null && opts.length > 0) {
+               for (Object opt : opts) {
+                  if (opt == null) continue;
+                  String optName = botHelper.getFlowerMenuOptionName(opt);
+                  if (optName != null && optName.equalsIgnoreCase("open")) {
+                     botHelper.chooseFlowerMenuOption(fm, opt);
+                     return BotState.initializeStack("loglooter", "loot");
+                  }
+               }
+            }
+         } catch (Exception e) {
+            ui.message("[LogLooter] Menu error: " + e.getMessage(), GameUI.MsgType.ERROR);
+         }
+      }
+      return null;
+   }
+}

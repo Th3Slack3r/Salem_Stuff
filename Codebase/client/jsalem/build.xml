@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<project name="jsalem" default="jar">
+  <target name="bots-jar">
+    <ant dir="bots" target="jar" inheritall="false" />
+  </target>
+
+  <target name="client-jar" depends="bots-jar">
+    <ant dir="client" target="jar" inheritall="false" />
+  </target>
+
+  <target name="launcher-jar">
+    <ant dir="launcher" target="jar" inheritall="false" />
+  </target>
+
+  <target name="jar" depends="client-jar,launcher-jar" />
+
+  <target name="clean">
+    <ant dir="bots" target="clean" inheritall="false" />
+    <ant dir="client" target="clean" inheritall="false" />
+    <ant dir="launcher" target="clean" inheritall="false" />
+  </target>
+</project>

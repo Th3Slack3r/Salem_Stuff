@@ -1,0 +1,60 @@
+<config jar="tsalem.jar" mem="768m" server="game.salemthegame.com" res="http://game.salemthegame.com/res/">
+	<!-- WINDOWS -->
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-windows-i586.jar" os="Windows" arch="x86" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-windows-i586.jar" os="Windows" arch="x86" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-windows-amd64.jar" os="Windows" arch="amd64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-windows-amd64.jar" os="Windows" arch="amd64" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-windows-amd64.jar" os="Windows" arch="x86_64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-windows-amd64.jar" os="Windows" arch="x86_64" />
+	
+	<!-- SOLARIS -->
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-solaris-sparc.jar" os="SunOS" arch="sparc" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-solaris-sparc.jar" os="SunOS" arch="sparc" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-solaris-sparcv9.jar" os="SunOS" arch="sparcv9" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-solaris-sparcv9.jar" os="SunOS" arch="sparcv9" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-solaris-i586.jar" os="SunOS" arch="x86" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-solaris-i586.jar" os="SunOS" arch="x86" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-solaris-amd64.jar" os="SunOS" arch="amd64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-solaris-amd64.jar" os="SunOS" arch="amd64" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-solaris-amd64.jar" os="SunOS" arch="x86_64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-solaris-amd64.jar" os="SunOS" arch="x86_64" />
+	
+	<!-- LINUX -->
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-linux-i586.jar" os="Linux" arch="i386" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-linux-i586.jar" os="Linux" arch="i386" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-linux-i586.jar" os="Linux" arch="x86" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-linux-i586.jar" os="Linux" arch="x86" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-linux-amd64.jar" os="Linux" arch="amd64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-linux-amd64.jar" os="Linux" arch="amd64" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-linux-amd64.jar" os="Linux" arch="x86_64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-linux-amd64.jar" os="Linux" arch="x86_64" />
+	
+	<!-- MAC OS X -->
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-macosx-universal.jar" os="Mac OS X" arch="i386" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-macosx-universal.jar" os="Mac OS X" arch="i386" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-macosx-i586.jar" os="Mac OS X" arch="ppc" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-macosx-i586.jar" os="Mac OS X" arch="ppc" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all-natives-macosx-universal.jar" os="Mac OS X" arch="x86_64" />
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt-natives-macosx-universal.jar" os="Mac OS X" arch="x86_64" />
+	
+	<item link="http://game.salemthegame.com/java/jogl2/jar/jogl-all.jar"/>
+	<item link="http://game.salemthegame.com/java/jogl2/jar/gluegen-rt.jar"/>
+	<item link="http://game.salemthegame.com/java/salem-res.jar" />
+	<item link="http://game.salemthegame.com/java/builtin-res.jar" />
+        
+	<item link="http://DonnEssime.github.io/Salem/lclient-res.jar" />
+	<item link="https://TaipionsSalemClient.github.io/tsalem.jar" />
+	<item link="https://TaipionsSalemClient.github.io/tstarter.bat" />
+	
+</config>

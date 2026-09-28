@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+
+<project name="jsalem-launcher" default="jar">
+  <property name="src" value="." />
+  <property name="build" value="build" />
+  <property name="classes" value="${build}/classes" />
+
+  <target name="build-env">
+    <mkdir dir="${build}" />
+    <mkdir dir="${classes}" />
+  </target>
+
+  <target name="compile" depends="build-env">
+    <javac srcdir="${src}" destdir="${classes}" debug="on" source="11" target="11" includeantruntime="no" encoding="iso-8859-1">
+    </javac>
+    <copy todir="${classes}">
+      <fileset dir="${src}" excludes="**/*.java,build.xml" />
+    </copy>
+  </target>
+
+  <target name="jar" depends="compile">
+    <jar destfile="${build}/jsalem-launcher.jar">
+      <fileset dir="${classes}" />
+      <manifest>
+        <attribute name="Main-Class" value="haven.launcher.Driver" />
+        <attribute name="Permissions" value="all-permissions" />
+        <attribute name="Codebase" value="*" />
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build}" />
+  </target>
+</project>

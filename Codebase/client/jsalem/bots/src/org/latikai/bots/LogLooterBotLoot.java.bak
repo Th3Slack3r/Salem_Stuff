@@ -1,0 +1,69 @@
+package org.latikai.bots;
+
+import haven.Coord;
+import haven.GItem;
+import haven.GameUI;
+import haven.Inventory;
+import haven.UI;
+import haven.Widget;
+import java.util.Map;
+import java.util.Stack;
+
+@BotAnnotation(
+   bot = "loglooter",
+   step = "loot"
+)
+public class LogLooterBotLoot extends BotState {
+
+   private long lastAction = 0;
+   private int idleTicks = 0;
+   private static final BotStuff botHelper = new BotStuff();
+
+   @Override
+   public Stack<BotState> update(UI ui, Bot bot) {
+      if (lastAction + 400 > System.currentTimeMillis()) return null;
+      lastAction = System.currentTimeMillis();
+
+      try {
+         // Look for the opened stump/log container window.
+         for (Widget w : ui.widgets.values()) {
+            if (!(w instanceof Inventory)) continue;
+            Inventory inv = (Inventory) w;
+            if (inv == ui.gui.maininv) continue;
+
+            String title = null;
+            try {
+               title = botHelper.getWindowTitle(inv);
+            } catch (Exception ignore) {
+            }
+            if (title == null || title.isEmpty()) continue;
+            if (!(title.contains("Stump") || title.contains("Old Log"))) continue;
+
+            try {
+               Map<GItem, ?> wmap = (Map<GItem, ?>) inv.wmap;
+               for (GItem gi : wmap.keySet()) {
+                  try {
+                     String nm = gi.res.get().name;
+                     if (LogLooterBotStart.isLoot(nm)) {
+                        gi.wdgmsg("transfer", new Object[]{Coord.z});
+                        ui.message("[LogLooter] Took: " + nm, GameUI.MsgType.INFO);
+                        return null;
+                     }
+                  } catch (Exception ignore) {
+                  }
+               }
+            } catch (Exception e) {
+               ui.message("[LogLooter] Loot item error: " + e.getMessage(), GameUI.MsgType.ERROR);
+            }
+         }
+
+         idleTicks++;
+         if (idleTicks < 5) return null;
+         ui.message("[LogLooter] Done with this log, moving on.", GameUI.MsgType.INFO);
+         return BotState.initializeStack("loglooter", "start");
+      } catch (Exception e) {
+         if (ui != null) ui.message("[LogLooter] Loot error: " + e.getMessage(), GameUI.MsgType.ERROR);
+      }
+      return null;
+   }
+}

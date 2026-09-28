@@ -1,0 +1,4544 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.13
+Created-By: 11.0.21+9-post-Debian-1deb11u1 (Debian)
+Main-Class: haven.MainFrame
+Class-Path: jogl.jar gluegen-rt.jar steamworks4j.jar builtin-res.jar sal
+ em-res.jar
+Permissions: all-permissions
+Codebase: *
+Trusted-Library: true
+Application-Name: Salem
+
+Name: haven/PUtils$Hanning.class
+SHA-256-Digest: htLLULvvoe1If+tIgr0eGRnh29FkhRIbLsQ1cvFPQRk=
+
+Name: haven/Debug.class
+SHA-256-Digest: N1EEloqN85G/YJMO4vBfIG/JXaTTIXB5sEuhqhVlW8E=
+
+Name: haven/OldGobble$1.class
+SHA-256-Digest: fC1hwdOXTkDBDNuwwB9xPcMlf2EXINmJ+REAWDlbKoQ=
+
+Name: haven/HackSocket$1.class
+SHA-256-Digest: VJAyAUaR3XxO7AfS3QoFbs/XVMvwMDdLVxSf5rhm0c0=
+
+Name: haven/Screenshooter.class
+SHA-256-Digest: AmKA6mpXGJCb1s+AYmJy0Pdqk/zoD3xNr18bF1sXSv0=
+
+Name: haven/Equipory$Box.class
+SHA-256-Digest: 8qBOhoi+siQZJZeaxVDvAAc18X1LJJMmikHyyUihYxs=
+
+Name: haven/Store$Browser$2.class
+SHA-256-Digest: EItxXTTvDhu48vH3f0hojZPsR3fKAmU99RRhOn4QNXM=
+
+Name: com/jcraft/jorbis/InfoMode.class
+SHA-256-Digest: Viv8VQCJTOOD660S229Ha3IrUFR4hhNDmFJHNZq0Gqo=
+
+Name: haven/Store$CartWidget$ListWidget.class
+SHA-256-Digest: q56G3IQlIgTxS2feSk3LLMHBIgXZFbPwdq7tTkRmqqM=
+
+Name: haven/glsl/VertexContext$3.class
+SHA-256-Digest: GwydR4W/S3JbWWX1veJkYlBBgkvdldhPLcRPtM+Cacw=
+
+Name: haven/BuddyWnd$CTextEntry.class
+SHA-256-Digest: qyxKnsFlwGCIMEYgCxFPeCFKJqZBcJTriLJCG61/aYk=
+
+Name: haven/MainFrame$3$2.class
+SHA-256-Digest: VrL72EMUQUk3yWCExEPK4Ql+VRaHtb5FW93IgQuAEck=
+
+Name: haven/ShadowMap$Shader$1.class
+SHA-256-Digest: RRtxNUR1hggx2eRZgrMTy0fKCdt2m67Vxm03nc9O8Iw=
+
+Name: haven/MapView$4.class
+SHA-256-Digest: C1sRoU+KEYH/Gfx4mhZ4Cei/R4mCjxEyn6T43k7mlWE=
+
+Name: haven/GobbleInfo.class
+SHA-256-Digest: IQV6l9D2JopV4GZBSB7ZK8r6nj3F9hrbcLrdZs0m32A=
+
+Name: haven/Composited$1.class
+SHA-256-Digest: vh3xGLrLaUPFv6tkgt6dRNI4S5niz7s5Yi4TV94q2Rc=
+
+Name: haven/IBox.class
+SHA-256-Digest: cGbX0dFU4Y8BpF84ha1p3Tx1SrT2UHlK9Mt6nHWUYpo=
+
+Name: haven/Skeleton$BoneOffset$1.class
+SHA-256-Digest: Xx1hJT7+ojtnfxMfoLFkzp5HTVfNpO4O0SM3rfgTgWc=
+
+Name: haven/Gob$Save.class
+SHA-256-Digest: wVqNjyTsi7mxdsx1t9D3re//2HMvxeK2FsCnv5GLo+Q=
+
+Name: haven/ChatUI$SimpleChat.class
+SHA-256-Digest: jbGZrGPPESKqBVWPzBqQlHc9Qhou/BxJkboaIAr8wNw=
+
+Name: haven/BuddyWnd$1.class
+SHA-256-Digest: Hhl1cL+Dkd7T/xZ6KRMzIx9nWi0PuzNSeu0ZiC33Hfo=
+
+Name: haven/MeshBuf$Layer.class
+SHA-256-Digest: GcbKDSQy1kp9O5uY534eTlZbWMW0q+nI/GwRz+2RosU=
+
+Name: haven/FBConfig$ResolveMS$1$1.class
+SHA-256-Digest: D11xmNEwhk9KGAI79N8LXtQPPiMvWIHjfhNST9mURAg=
+
+Name: haven/glsl/MiscLib$9.class
+SHA-256-Digest: SrzuFGov65UvmW3xTIEqyQMZ0DrzG+PBYp/PDAXLhVw=
+
+Name: haven/CPButton.class
+SHA-256-Digest: D4aDbS1spmKwViGv/57xBWh8wCXorloZQdkOA4EUh5A=
+
+Name: haven/Skeleton$Pose$2.class
+SHA-256-Digest: UmbqK07pJDzaukiNQVUtPjRnq6+vJWElhnEr5H2ffqg=
+
+Name: haven/Following.class
+SHA-256-Digest: z9PhIEZVrF6lnMosdC6M/Sdl8BhGQiw15ZyTpK6Ac/w=
+
+Name: haven/authsrv.crt
+SHA-256-Digest: 4AoXpLYFD1kJOXQe/B1bUkaHqMG4GqhqcWH2M3l3Lmk=
+
+Name: haven/glsl/VertexContext$8.class
+SHA-256-Digest: XXFC0JpakyU1XHJputkhQl5QyXBpSdoRNmupOkJSpxk=
+
+Name: haven/MeshBuf$ALayerID.class
+SHA-256-Digest: r7SqEDMkm16s5jJYw04gIlYjg7kD/wT5qRSaTT/jF6E=
+
+Name: haven/Audio.class
+SHA-256-Digest: Slz4BbNic4tN/hx6O90h3FAWdMrEqCL3CepTaDTzQS0=
+
+Name: haven/WebBrowser.class
+SHA-256-Digest: rF5GVLpmEmeqbHXugO5vD4QHs0F/3oje0W4U/Xou758=
+
+Name: haven/GOut$GLOutOfMemoryException.class
+SHA-256-Digest: HpXQiFlzgIr1BadNEzCQiIKPtuQgNKNNzfUlB/ExPOI=
+
+Name: haven/Store$NumberEntry.class
+SHA-256-Digest: WAyVz7RqNlvI+WfKUpnTnPeDeHuL0/rKBM9u+GlSp+4=
+
+Name: haven/GOut$GLException.class
+SHA-256-Digest: vH7e5DtIoPfHmGQ1KJaZ6udhKIVy/PnLJJ7ZQe9K3Og=
+
+Name: haven/HavenPanel$1$1.class
+SHA-256-Digest: eCtEiVQ5m/1vgssnzSL+1LeqLSicA7x0tUCAaxMJyFE=
+
+Name: haven/WItem$ItemTip.class
+SHA-256-Digest: lOQfrKJbABNxT902K6rAeX5xc/NALrKkLeg2RjRAeHc=
+
+Name: haven/ArrayIdentity$Entry.class
+SHA-256-Digest: yPhVazrxBgGT+IdXDKLpH9ivsaK4UWlZEP7GUgPfsU0=
+
+Name: haven/MapMesh.class
+SHA-256-Digest: OnTyqiPQ6KpHGzt/XZtlQ1UFLjUlT1/F5C98sjV3+gw=
+
+Name: com/jcraft/jogg/Packet.class
+SHA-256-Digest: 4baDaVpxZNr24bHNU+zqx2VBYuj4N8ahUODhZyBHvUg=
+
+Name: com/jcraft/jorbis/Residue0.class
+SHA-256-Digest: E2WrilhnE5BXsIRXIqeTl4lXS3bddjeu5vi2LkyM8Gs=
+
+Name: haven/error/ErrorGui$1$1.class
+SHA-256-Digest: Fqcg5e1VcZjnKcEcxCnjytMjPnODhXmBoDEt5pgNC+o=
+
+Name: haven/glsl/Return.class
+SHA-256-Digest: +iW+ug0AnHKzh3twCzN5gWsMdL3TGFlv+qCi/7hQeHY=
+
+Name: haven/SteamCreds.class
+SHA-256-Digest: ZO/HDEfScxyg5EGVwkGBbItAPLPOnNoLN6PGaABYxo8=
+
+Name: haven/Screenshooter$1.class
+SHA-256-Digest: bay4oHZ/0FQflZM4V6qYuugVIWgHEkfZdRYM9iiTeXw=
+
+Name: haven/TextEntry.class
+SHA-256-Digest: 0l05Uxe3LRHCsUigpEe7oNcHHDcOUU7G1WvEZoSx7LA=
+
+Name: haven/UI$WidgetConsole.class
+SHA-256-Digest: /V4gJw/VTGo3JHJBed2eUBkaxH1YGUl1oJ5KE3PMcnY=
+
+Name: haven/glsl/Symbol$Fix.class
+SHA-256-Digest: F+VMQjfizo+wJoctS9x/9q3Hw9BpF9ZG5fSDkfj/vYA=
+
+Name: haven/Profiler$3.class
+SHA-256-Digest: nUM2OcKrdxiaEIRJq1eCGe1//vbzoUqGh5GJwCHtUmE=
+
+Name: haven/TexGL$$tex$1.class
+SHA-256-Digest: BBozfhWiYij+OOitBZh0O6agzvwcL+/jFV5MFCUMDRQ=
+
+Name: haven/MenuGrid$$_.class
+SHA-256-Digest: ooHUj82sHGOo5hmj1IaRBD6PdmVRojxYp7UOogJKz3M=
+
+Name: haven/Speedget.class
+SHA-256-Digest: 2iuzPupXSxJMXFKFNuR6Mc0Zt7A5rA8uGWhjg0arAl4=
+
+Name: haven/glsl/Statement$1.class
+SHA-256-Digest: elw8G2kkwMXoZWIbXdnfI5O6+yDHmVmJJ8VlU8c0b4g=
+
+Name: haven/resutil/WaterTile$2$2$1.class
+SHA-256-Digest: CKb5gUgk8fFtVkm7KFoj9NM7mFw5AeBKHTbFYRawclk=
+
+Name: haven/resutil/WaterTile$Fac.class
+SHA-256-Digest: UJOO4Y3CHPEQCGoLSx9dO3JOiIvuIyhKQUf1GCPQHMg=
+
+Name: haven/ChatUI$ChatParser.class
+SHA-256-Digest: jn/WcPBoEjTRPUnrx4QR5cR3MkgBHhwO9XfudQS3HJA=
+
+Name: haven/Resource$CacheSource.class
+SHA-256-Digest: oHpCP+sYdwXU8xH/5t6KpDMX3RiRjssQ0PpHdgZveYw=
+
+Name: haven/Transform.class
+SHA-256-Digest: No4uqUIOjBiYlFZLqMp69F4nbZmcPk9455fkdJ9U7Rw=
+
+Name: haven/glsl/GLColorVary.class
+SHA-256-Digest: 8nTztug+igNTGOp7W7EDsUlEcRhyXdSc/0sK81fSL/o=
+
+Name: haven/glsl/PreOp.class
+SHA-256-Digest: AzHewkh53pLmSQjxh61MccTfSabcoCv8ctiSEzTHEnE=
+
+Name: haven/Screenshooter$Uploader$1.class
+SHA-256-Digest: nGE3cE3YQbmlogRHahUU6ebS0NGqqnNA3qnXt3xgtRM=
+
+Name: haven/GLState$Abstract.class
+SHA-256-Digest: uow6IevtI5r8T+LntOmiSI3LNIY/AqWiKp1DhB7rvmc=
+
+Name: haven/Makewindow$Spec.class
+SHA-256-Digest: 0YZURN+ttNATsJWDNzXG1oyZnVbMlFZ/aGdiauXiJZc=
+
+Name: haven/Screenshooter$Uploader.class
+SHA-256-Digest: 5YJ+7QOSWQNudWOASGQvaL4fpzB1eQpFTBgS7ShijIM=
+
+Name: haven/Skeleton$TrackMod.class
+SHA-256-Digest: 135K7ZWdjjw0/P2Z6DK+yEW9aFhXKqn/JSEhWNZX+Go=
+
+Name: haven/MainFrame$6.class
+SHA-256-Digest: KrNw3MwlmfLSj2VTluPHjwOg0QOOl/aGN+A0SnrKzC0=
+
+Name: haven/SSWidget.class
+SHA-256-Digest: jgZPHTV7e8bceAqofUSpMsTfZGwsxpE8tQjaLSrCxVQ=
+
+Name: haven/MapMesh$4.class
+SHA-256-Digest: EKm5/bLyHRe4Ylmi1sr2Icqt3Wv0XAeCpZrJb5K6TiA=
+
+Name: haven/glsl/Cons.class
+SHA-256-Digest: xHjWfBFCbzdcQEb02+xEyx0NF8A0Ah/RWCHvplriEWM=
+
+Name: haven/MorphedMesh$MorphedBuf.class
+SHA-256-Digest: dn2Na+QYzAFpIRw4wowGyBe8KR356Lesiv68IPNcxY8=
+
+Name: haven/GameUI$1.class
+SHA-256-Digest: YM3GsFHHJXLWJRFSjHKFhDbxqXBpSG8YBmjAWJQGdPk=
+
+Name: haven/Charlist$Char$1.class
+SHA-256-Digest: MfWF0aOeeZHjgQqdLoH3Yylj2p6wC4+jQ8wdzTLovu0=
+
+Name: haven/glsl/MiscLib$4.class
+SHA-256-Digest: hFJkMlTKboVDYs5XUsWgyqO+qZLHfU2PFm0VAVJWbfQ=
+
+Name: haven/glsl/Type$1.class
+SHA-256-Digest: Iq43bt7K56sV7fsjUQgM49Vns2z+p/ch5+dsDxLJCeM=
+
+Name: haven/ChatUI$Channel$Message.class
+SHA-256-Digest: mR5nc8HMfzzohMCEcI04QUrq/8NFdDtixe5yZzcWdT4=
+
+Name: haven/HashBMap$1$1.class
+SHA-256-Digest: U/ImLUkhyTHCNEODKou31+uKU6ni3PlBHMT4EVhC7tI=
+
+Name: haven/Skeleton$Track.class
+SHA-256-Digest: 7z5NHMauX3r9oUWb8jg4bw0pEVQN5tWf8cNH8km1lus=
+
+Name: haven/Store$CartWidget$ItemWidget$1.class
+SHA-256-Digest: moGCRfeniK7+Eq5tNml1wRQwkfjSBdOQtPxpdoEt4wk=
+
+Name: haven/Light$Model.class
+SHA-256-Digest: qfJt4FQ7Zdr/rDSp3qlR/txzBdrBCgWlcyq222gdPVc=
+
+Name: haven/PosixArgs$1.class
+SHA-256-Digest: 4DYc/gls+ktYGmq1S1TG8Oeio/PmDjuBpzrMiqVFPcM=
+
+Name: haven/OptWnd$VideoPanel$CPanel$1.class
+SHA-256-Digest: +D8dEmmOpUdbB8+5rK6D9UDctWrrnI+rNOl+2judbTI=
+
+Name: haven/rs/GBuffer$Context$1.class
+SHA-256-Digest: gxK1589lgTVgxbTVy7pEuycCircoVDqT+brBAmqf9zo=
+
+Name: haven/Charlist$$_.class
+SHA-256-Digest: ddOWyv5IQaTWecwOZbCtpt9AES6eRYyJqIWZ1rtyuoE=
+
+Name: haven/Rendered$Order$Default$1.class
+SHA-256-Digest: O9Y0NO9k6kWPhWIfw/uAsPK/Mukj2JT2NoHd+CB5x8k=
+
+Name: haven/FlowerMenu$Cancel.class
+SHA-256-Digest: 1n61j+YhddFyBvu360csxceiEoIjjBQsR946Hc8gTyg=
+
+Name: haven/HashBMap$1$1$IteredEntry.class
+SHA-256-Digest: JUxGVR3WIPsxkxGnQNrud2nbWFZwX6vyPJZtHFisDWc=
+
+Name: haven/glsl/GLColorVary$1.class
+SHA-256-Digest: o0nhp+BXSs1+/YO03P/s3p+xVjwiyyAYZcpVQNPX6rw=
+
+Name: haven/test/TestClient$1.class
+SHA-256-Digest: EgYvNRomNWZ7w57ch5xcpHvd7DXbXf+Xlmj4OPLzHXE=
+
+Name: haven/VertexBuf$AttribArray.class
+SHA-256-Digest: CJgVfYlsObc2bgKDy95dDwSbvOZ/sNoTQmgZ0oa0ioI=
+
+Name: haven/ItemInfo$AdHoc.class
+SHA-256-Digest: 0MlPVjA/bJxFDmWbb7Q+kT33v/dB5c8qAhDGkdJuk5c=
+
+Name: haven/WItem.class
+SHA-256-Digest: b1pYkzFpOGRCT73rYIiOHYdOpop7U0RNg1/j2+eDGtY=
+
+Name: dolda/xiphutil/VorbisException.class
+SHA-256-Digest: aDTXlFlZBbMIPNril9SrtPDrWctJ4oW6fchR4L2zTNw=
+
+Name: haven/Widget$1.class
+SHA-256-Digest: FrGnkIAJyk0PWLINkqIa4h67SbdvcfI7lNzWIa1Y1vQ=
+
+Name: haven/ChatUI$Log.class
+SHA-256-Digest: B+ppIvrXKO9vuSWRoVHNMXJF+1ih5w/Qt4DieEPdL2g=
+
+Name: haven/GLFrameBuffer$RenderBuffer$RBO.class
+SHA-256-Digest: trg9gim9tIFMjDW4NBJ1Mp1wMyjmVlmHOYaQcJ+1N/E=
+
+Name: haven/Skeleton$BoneOffset$4$1.class
+SHA-256-Digest: pYwErRf/Ql4b+Edtx+cFPYaRDpVg7yLcmEsBI/r5n+A=
+
+Name: haven/SIWidget.class
+SHA-256-Digest: FXMlRJTPOYSk0feslrthJ4yw1br/oTKP3Z/Yj9pLrSY=
+
+Name: buildinfo
+SHA-256-Digest: zTAdyIMXeBYCtwk1c/U3pV0pfl7/TH12ar7rFbhsV8U=
+
+Name: haven/Store$Currency.class
+SHA-256-Digest: 1Bn3bQS7Jzdn4xbirpAQuNglPajXEYOGBWohaso1hgs=
+
+Name: haven/glsl/MiscLib$7$1.class
+SHA-256-Digest: NtxW/nQUJXo345o3tBFH1BGZAdr3y6pJoJ3sn5fk6Ps=
+
+Name: haven/FBView$1.class
+SHA-256-Digest: BrxS4FaiI1SRYXC0ZE2veWjE8KId/Pn0g1btvMx/lF4=
+
+Name: haven/Polity.class
+SHA-256-Digest: R9cYc7OEBDussP23Qp7A0dsc7Z1MlEWp/MsGGCFISzc=
+
+Name: haven/glsl/Attribute.class
+SHA-256-Digest: iiSE4ZPb+Mh6JiBRFf8CXmOtMQST1Pjj76deyuNecRA=
+
+Name: haven/BuddyWnd$BuddyList$3.class
+SHA-256-Digest: C6iY6MC7BFaPCWYYgKKZPz+N0Lwu2btYgm2WW9v5f1U=
+
+Name: haven/glsl/Function$Def$Definition.class
+SHA-256-Digest: n800rAAR0LD0pWO5/I291tWNvWV69cuFU1Y30N595F0=
+
+Name: haven/resutil/WaterTile$SimpleSurface.class
+SHA-256-Digest: TZPkTxKs7oMbhSUBH6F3Tx7Tp3KO4kCnAhiXQjt8/wo=
+
+Name: haven/glsl/ValBlock$Value$1.class
+SHA-256-Digest: zL0svlgbFi+1kFoynEBZQ9USu6pDuKxRElUMfhBU3Wg=
+
+Name: com/jcraft/jorbis/Comment.class
+SHA-256-Digest: rhx/oyP/bCfUDb3WHJbMaMabcL6BWViyv0qNnWrfosE=
+
+Name: haven/HavenPanel$2.class
+SHA-256-Digest: mmwBUpEl7ITuFnAeX+QfZtuHoeXev4za/HQRQFVmotw=
+
+Name: haven/Steam$Waiter.class
+SHA-256-Digest: jSDMWQfjC28l4KlW3lECahIbM0J20oHD6EF4IGTnLIs=
+
+Name: haven/Store$Cart.class
+SHA-256-Digest: T/kzd3FfHpns9r+DbctxfuNQHsZteDwM5sahaizpUas=
+
+Name: haven/Utils$1.class
+SHA-256-Digest: ZuYjObTVg6DArLklPjp5wvS2WTl/OFqC6l0HMXJaKBg=
+
+Name: haven/resutil/TerrainTile$Plane.class
+SHA-256-Digest: ys2x1U7Pc3PXfHVlBxHorZA9VoDo8n79JtiRwIMc+38=
+
+Name: haven/States$Coverage.class
+SHA-256-Digest: RRKgl6qq2cdvbBC6Q+Bpa3IX0NM6olCB5H5P8g56cxA=
+
+Name: haven/glsl/Tex2D$3.class
+SHA-256-Digest: pheJPjNBrBBEPK7L1AaZ9DHLoWiKRExnhI+3DDAWoIU=
+
+Name: haven/Store.class
+SHA-256-Digest: 3vRGHG5U9Ykrv62Ui5LzgWbIFDRk9Pbp6w6QIhl/fi0=
+
+Name: haven/BuddyWnd$12.class
+SHA-256-Digest: Y3SCXkHpd7sr5yTCCrV3LTHgf47EfZeox7tNXIRdd+c=
+
+Name: haven/glsl/ValBlock$Factory.class
+SHA-256-Digest: F2CFYS68fRtt4kPsoN7FdwVYAKRDGLPIG/X0Z/Qu9rI=
+
+Name: haven/GameUI$FKeyBelt.class
+SHA-256-Digest: LVK7uGq5a1epqez4XHlp1NP41th6xZmbWcJrOVF+hLE=
+
+Name: haven/TexR.class
+SHA-256-Digest: 8tJ6d6nME4xWszkmEULXqqLUmBwnUF0IoyN3pAzR37I=
+
+Name: haven/Steam$2.class
+SHA-256-Digest: M/fyldRdgN0ftC3ZkW7nNvOoGbtY4D6qOuGfTHOXq9s=
+
+Name: haven/Widget$$Cont.class
+SHA-256-Digest: XBZ1MTQ4Ps1vmq6GvBEbVoMZRJLjpTxavMo9dCNFS3g=
+
+Name: com/jcraft/jorbis/VorbisFile.class
+SHA-256-Digest: Q9jrIh/KM2mlfsnQJYlkaEHcJ1nV/tK2ZvhBBX8hGJM=
+
+Name: haven/GameUI$6.class
+SHA-256-Digest: EIQ91pZE8urKLUeMkPZoeLYwDoz6pHO1FP+ebLzfWLk=
+
+Name: haven/GameUI$MainMenu$7.class
+SHA-256-Digest: vd04fBinEkV1OhaEIwCJGI3S08u78cSlNfF2vvJYMyM=
+
+Name: haven/RichText$FormatException.class
+SHA-256-Digest: NN5G36UEyfXJdE91LNZyNLWhyvX2GA6HlSRpMRfK/5g=
+
+Name: haven/Skeleton$BoneOffset$1$1.class
+SHA-256-Digest: LeJKyqDTHiON/mfPL24HTuyyXnra5zWd5SvvYPrOdwE=
+
+Name: haven/Session$CachedRes$1.class
+SHA-256-Digest: 5WbQ4JBPmd8nF7H/K4dr2zhQvgWDhRF9BRqTkNMsRHc=
+
+Name: haven/Skeleton$ModFactory.class
+SHA-256-Digest: 1sIpl0m3asanZyBR1B0ivKbAY0jjl+EQljCUbGj5qhA=
+
+Name: haven/UI$AfterDraw.class
+SHA-256-Digest: 8+5BZTVIAYNLSJsR4Ae4HRuI9ggtQXIeZ3v5FJbqjfg=
+
+Name: haven/VMeter.class
+SHA-256-Digest: qV0mGHIEXKPZ/QMLnmkSd+B6s1fPM4aVpbxgXtgjr+U=
+
+Name: haven/MeshBuf$CLayerID.class
+SHA-256-Digest: m5yyAHCuiUrU/gTiHh91ie87xEF7QoLd42T8G+aJ3UY=
+
+Name: haven/glsl/Attribute$Def.class
+SHA-256-Digest: Z4pXKFhMHf9tryIosp4FN07wshjD7VR05Jl7xZJ3FM0=
+
+Name: haven/RenderedNormals$1$1.class
+SHA-256-Digest: 3kci7XTrejccZFaxihS9gFj00NP3zsC53S+tWjBCfHY=
+
+Name: haven/VertexBuf$ColorArray.class
+SHA-256-Digest: JS+M7ClW5uhGOLuo4Jhw3cQusBC/L33zTLw2SXN5nFM=
+
+Name: haven/resutil/WaterTile$BottomFog.class
+SHA-256-Digest: 2T9J/RRNfdr619mkZkACMON/vOfkFzqZv6IHi/mag8E=
+
+Name: haven/Session$SWorker.class
+SHA-256-Digest: /pOsl/JAS9sX8Snz6q3Hj5MJR43+Wi+qaydt7LNRdEg=
+
+Name: haven/ConsoleHost$1.class
+SHA-256-Digest: Vo8uRx2PR/XIBOaGSNCK0tWtPe5c2q7XJ7DrdnCxZXs=
+
+Name: haven/Window$1.class
+SHA-256-Digest: zimyP9QLJwBLLEYbXIwPbykg9cMmvdrA0IYMxlOlDbc=
+
+Name: haven/MCache$1.class
+SHA-256-Digest: tNMGYAiA3TK1Uh+NRJKe8xXdUtwzY7ZZCh/lnZmVrxE=
+
+Name: haven/glsl/BinOp$Sub.class
+SHA-256-Digest: voNgQDF2ryam6QaprgEBHczssbQwZcTwo7M6nJOBnKw=
+
+Name: haven/MapView$GrabXL$2.class
+SHA-256-Digest: U/yjGa5K9pW3l/s61nfEtHByrnGGA5OM5rKr4JL8dIs=
+
+Name: haven/glsl/MiscLib$2$2.class
+SHA-256-Digest: lejYwhc34ZzQ3rHkdFGprhRAyZ4GNFnU0MgMxrBN9Mc=
+
+Name: haven/Audio$CS.class
+SHA-256-Digest: z+7T4QCDjByc8i+ZbMxtooI+4nriW3o6kkhRwxSS4eU=
+
+Name: haven/Composited.class
+SHA-256-Digest: bpUffZoTevCWzjWQblniOO2piUiKBw1aVvO8QWr2ZvM=
+
+Name: haven/RemoteUI.class
+SHA-256-Digest: OhDYJls3PuzEpH9HdScMvkiEwQvIW+Fat9UEPM+z6Uc=
+
+Name: haven/test/BaseTest.class
+SHA-256-Digest: HzqDxdSWJ4wMKIngDgHSYCs+8a3B5tDgi4WdeO7dW1w=
+
+Name: haven/resutil/WaterTile$BetterSurface$1$3.class
+SHA-256-Digest: +pxxHGlW7TsKVaNGd7KHN8dCwsuLB764VUF7Zc8tAnY=
+
+Name: haven/PView$WidgetContext.class
+SHA-256-Digest: nqlHXWjBm41WvI21O9ryutvTx5iSqavNK4S2bKIgu00=
+
+Name: haven/CacheMap$1$1.class
+SHA-256-Digest: eVqOCqb7XzVH3IyLjmY98Cp01qrsP3yC4rVkWmWt+0k=
+
+Name: haven/Light$4.class
+SHA-256-Digest: cBVH9wLFl8ar1upEP3kk7id1R4NTNk+/wP8W2c6Kdzg=
+
+Name: haven/Chatwindow$$_.class
+SHA-256-Digest: Y1fjcMF123iXEf39rorJM1Zar7XdCRHzzJC0rUkJS8Y=
+
+Name: haven/error/ErrorGui$3.class
+SHA-256-Digest: 3MJ9bFl6JLhEEM+Ks5ysmCBddVFxvGBgmshXAfjrxtk=
+
+Name: haven/Makewindow$MakePrep.class
+SHA-256-Digest: 2WuUuj+wppgUmYpkioSQ3A7jew+yCeU9lg3+U1GTZEU=
+
+Name: haven/resutil/WaterTile$BottomFog$1.class
+SHA-256-Digest: QZ41kSuKQTQZuiPYN+6Cf+i7BQ8WF54kMkQW6lQcHH0=
+
+Name: haven/Sprite$ResourceException.class
+SHA-256-Digest: L+anhexiSUpsYguvXSc7MNGkKLG5ZgZEqZumiK5fFII=
+
+Name: haven/GameUI$Hidewnd.class
+SHA-256-Digest: OTjE8ksjtY/oDebzG8irWt5mZjLsJVj9wEAmeXxMNM4=
+
+Name: haven/Textlog$$_.class
+SHA-256-Digest: hN9Sjcc/6fejk9+DGNig+PsTmbLA/RXf7xsOjfMlkm8=
+
+Name: haven/OptWnd$PButton.class
+SHA-256-Digest: TCoVGREnlYJH5e5aIn67uzwTRzxOSKtay3FG2fL6bWg=
+
+Name: haven/SessWidget$$_.class
+SHA-256-Digest: g1yI3knZv2aWUNr8LBJDnNnmGMRi8klT/xdPIR+tQEk=
+
+Name: haven/ChatUI$EntryChannel.class
+SHA-256-Digest: MvliQs3GZoUrYvhfY3mxivPS4W5K6r4P4beUp/+MOZ0=
+
+Name: haven/MapMesh$3$1.class
+SHA-256-Digest: mOwurlIvghRbMD1/tmaOguF0UgEqoyqKIdKCRMAW2RI=
+
+Name: haven/ChatUI$Channel.class
+SHA-256-Digest: dDm16zPj5Wa6YDf3nVOsDBB1hHg9jzIRPEy+VN2JIMY=
+
+Name: haven/Composited$Equ.class
+SHA-256-Digest: 5mW1AdPiVHmZcqfLWWOiyaBqO2brpcdGicM4ndQVLBo=
+
+Name: haven/GLSettings$9.class
+SHA-256-Digest: 4aSyBKAX2WEogWaJGi92RbOZFl8F/OPJdjtdiRbWkOg=
+
+Name: haven/WebBrowser$BrowserException.class
+SHA-256-Digest: DZ0Dl4lrBSQc2BnKvMGjE0dzyxSlDhvazWi6JSp8uHc=
+
+Name: haven/resutil/WaterTile$BetterSurface$1$4.class
+SHA-256-Digest: NDo8GenQ7uHBSJUuUWQg/W5rdR042W31RIRPaJbyLAQ=
+
+Name: haven/CheckBox.class
+SHA-256-Digest: +qt5qTF3NdAHdVmHi4iBF7vNgW9e4OZ7roXLM1Wf3N8=
+
+Name: haven/HSlider.class
+SHA-256-Digest: FWpdn0/g6ZfM43IAh8xdv+lkuZv9V1+fEnAsbneDSNo=
+
+Name: haven/GameUI$12.class
+SHA-256-Digest: Zmv/THAVeJIaJBogb3h9qna9WULyjqEVG6NMPNlkyHw=
+
+Name: haven/glsl/BinOp$Ne.class
+SHA-256-Digest: MNuXRp/nAzWEsyb6giJkpxrIfeiZpfJrSmtzHA1+vzQ=
+
+Name: haven/error/ErrorGui$4.class
+SHA-256-Digest: E4mgOLu84ci5uWaej4684mvHrPbLX/L3U9mYvHmG95c=
+
+Name: haven/Tempers.class
+SHA-256-Digest: QngADCM7wcAP6Eyo7wy+smxXnGtxs0s+Xe1yfAC2qz0=
+
+Name: haven/MorphedMesh$Morpher$Factory.class
+SHA-256-Digest: AFJoN78mxfWBv0NW4d5T7E2N7g7QtynCUcX1OozIR9A=
+
+Name: haven/Sprite$Factory.class
+SHA-256-Digest: g07YZgaKimJK9EIvgZYNIQiFv3oQ5MH/R6PoOKbfogU=
+
+Name: haven/IntMap$1.class
+SHA-256-Digest: fZhdovf2jy3hPuLvmGUqcLIp9+KlP0SM/D3GUd/VmDs=
+
+Name: haven/Indir.class
+SHA-256-Digest: ex9r0XvCI8LFWddTLt7t7fSnuy+njgvySfslCwkmvcY=
+
+Name: haven/BuddyWnd$13.class
+SHA-256-Digest: 9lnIUpmE+/OzCK9fW8VLS1cN0iTpZp++HVuYPkTELps=
+
+Name: haven/FBConfig$Resolve1$1.class
+SHA-256-Digest: OerMG4p4DYRZp9Kp56lUWMrqYs5UGwVXLv7GJ+jkliQ=
+
+Name: haven/States$ColState.class
+SHA-256-Digest: YUP9cvD6YV7Go/I9QXFHaRVapDXyc5bVvi+BFi8KyGk=
+
+Name: haven/Light$BaseLights.class
+SHA-256-Digest: IY4wBFsllMsJ57Tyq3yq7duIQ0Oec4jHMn5s8+Y6S68=
+
+Name: dolda/xiphutil/FormatException.class
+SHA-256-Digest: AaTfJ2n66C9XX/u1JPYWzL77v10mmyYFb2X2H/Ma7Ks=
+
+Name: haven/glsl/BinOp$And.class
+SHA-256-Digest: 0PE9kYLyoK0xhWVxkeePM29cu4mghwnmBsYHUc9ta/Q=
+
+Name: com/jcraft/jorbis/Drft.class
+SHA-256-Digest: tR1KBPp4TUnOy0G7w81CkrK7/32rXQXJLsDgdikSz4c=
+
+Name: haven/RenderList$Slot.class
+SHA-256-Digest: azkOTqvj7Z8FrrfbtkL2HVrJuvG5DthEuERlO8tH/G4=
+
+Name: dolda/jglob/Loader.class
+SHA-256-Digest: pUf884crTh6nIt/cmKAZ7xajvlmWupCCGPaXgvz2iBs=
+
+Name: haven/Defer.class
+SHA-256-Digest: rwHJ2WfccHgq2IC2oPR+nXxZkkp/GRxWu8nIcb73Ops=
+
+Name: haven/Material$OldMat$1.class
+SHA-256-Digest: 18vdNa2fmyWjwcYLHYFVIj8e8fLmajcbVtygsap9Pjo=
+
+Name: haven/Text$Foundry.class
+SHA-256-Digest: /7u5fS3l+idFbkAanzO5t/0yOvd9wFtvAXHZx3ztl30=
+
+Name: haven/VertexBuf$TexelArray.class
+SHA-256-Digest: O8X9BEz1tmznyaSK69dvACs8TqTJxKXCltjPtpMF/a4=
+
+Name: com/jcraft/jorbis/Floor0$InfoFloor0.class
+SHA-256-Digest: X/6Jb0RXCciOcil25S7gO46Nallj96yUeSGY2SlsU1A=
+
+Name: haven/ShadowMap$1.class
+SHA-256-Digest: 7/T8K4hpdFyJfT2fbRIOzxfRUA5jds4kyPS/T3c6xAw=
+
+Name: haven/Store$Reloader.class
+SHA-256-Digest: wh6B0F9afuH3sqLl1V65AayDGY8dL8ZaIEP9Rr65rIo=
+
+Name: haven/GLSettings$5.class
+SHA-256-Digest: oiBYLb6l0oXiv8FAhJ3UukN9HqZDVr6PGWWwkqpV94k=
+
+Name: haven/DropTarget.class
+SHA-256-Digest: k5J/aMs7v6lDsz4cWRpg2wVNbUXo/G675/+XOE6ynb4=
+
+Name: haven/FastMesh$1.class
+SHA-256-Digest: Iek/IVgdPDJiJqaUyHRwn3OR5DGEECkoikur6MLtFgo=
+
+Name: haven/GLSettings$Setting.class
+SHA-256-Digest: I7BpyItLwr/iT/jz3Aarm26Zt89i62Wl3DG5T2agw3Q=
+
+Name: haven/glsl/Struct.class
+SHA-256-Digest: r+ZGS0sTsQH8CMhmtG9uqDKR9Fgcbr4ox3/l9KF9AQE=
+
+Name: META-INF/glob/haven.Widget$RName
+SHA-256-Digest: xPaqf2zWV8/2VV39E5Ub1hlS0FxTyVMZ51TShZGHr6o=
+
+Name: haven/HavenApplet$ErrorPanel$1.class
+SHA-256-Digest: bWxxuKdMS+zrQWZvYE542cLpuldZ9fCfEjj+8SsL2xs=
+
+Name: haven/Resource$JarSource.class
+SHA-256-Digest: GecemgxVUwYJ2JZ3hEyqo+6hShKIgtnAZI5yDLbr0vI=
+
+Name: haven/GameUI$MainMenu$8.class
+SHA-256-Digest: p7FU8AmpgFe9uv5/scFSwyreMVivTwqy6WT2meumtIo=
+
+Name: haven/Bufflist$$_.class
+SHA-256-Digest: dTE5RQdFBWaOHhhmfEu9fkb5J6FMA8bnanyGbiY9crA=
+
+Name: haven/Glob$Pagina$State$1.class
+SHA-256-Digest: o3GolPkZh8/sGwsjc+v1S+NaPkg2GNxjYyvFMaej5+A=
+
+Name: haven/ActAudio$Global.class
+SHA-256-Digest: dA36nyxpynx8bbgesKgt1hf3ELCUxTgNg+rIaMXbYCM=
+
+Name: haven/Rendered$Axes.class
+SHA-256-Digest: 50DbriimJIVSI9nB77KsyonInAcp1gjdb5TcVyjogIk=
+
+Name: haven/Resource$ResClassLoader.class
+SHA-256-Digest: 0a8I7LB5MvzJLAbLiUWPWefczZkl2QKS/RPlwEhAj9M=
+
+Name: haven/DropSky$1$1.class
+SHA-256-Digest: jkYWgpCls6EvIrwaXgqk7XHZqEY2AJ8do3CrvOPo6dI=
+
+Name: haven/CharWnd$3.class
+SHA-256-Digest: giMv1o8ykYBhbDxYIAAJbezFQ9gL44Vyi7MkYFHKX/8=
+
+Name: haven/IDSet$1.class
+SHA-256-Digest: 1TI2r+toWWiG2L8RIKnhUzaVcYD6Hc+jU4PFQ034/Ys=
+
+Name: haven/glsl/Uniform$1.class
+SHA-256-Digest: MVUi9vPPm7bMjEzUD91KtRQolZScdehWSL49dB+eGOc=
+
+Name: haven/resutil/WaterTile$BottomPlane.class
+SHA-256-Digest: JgE3gTuOwg6cCFCUa4AcaSFUW7uoPVr1HSwOx6AfgJg=
+
+Name: haven/ChatUI$Channel$SimpleMessage.class
+SHA-256-Digest: FqVtD68ylHXiaDjtOARWW5S2rs3apnrhWD4icPw1nzY=
+
+Name: haven/Utils$IOFunction.class
+SHA-256-Digest: KM9emX/tv70YdfXsuBY3ajGT25PzVUkeijSt1sJwuks=
+
+Name: haven/Console.class
+SHA-256-Digest: 7i5F+O71rnLV3+G8U1EJvxclGKOE2ze8aFov+ACHI7Q=
+
+Name: haven/resutil/BumpMap$1$3.class
+SHA-256-Digest: V9THBLdC1thk7SDU+a45JiCeiUlNaG0YtiWIwyj0Puo=
+
+Name: haven/resutil/WaterTile$1.class
+SHA-256-Digest: k4CRcMUzTmZYh7pUVomsRD+RfivUwURhiXZmrhNkHMI=
+
+Name: haven/ResCache.class
+SHA-256-Digest: lZpSRTj3pgm5HeUuHbQfknYE1FWKPG92d9d9vhi/Osc=
+
+Name: haven/VertexBuf$Vec1Array.class
+SHA-256-Digest: X1zD6gcvvHaz3ahjZECTIHCaYnGkvxvyhFJVCSd7pfc=
+
+Name: haven/Resource$Neg.class
+SHA-256-Digest: P4u5SqWXbXsykFsSL5gsFt3LnxD8kvfSJDSe2Kyeq0E=
+
+Name: haven/VertexBuf$MemBinding.class
+SHA-256-Digest: adKT6dpu+CxuZuq5tzYCoTsyLwr0wQYe2N8z5MgNAUo=
+
+Name: haven/GLState$TexUnit.class
+SHA-256-Digest: dcpqzZQY0AH2nHxIvGpuaG+vIFS3/6oNruos74cp53g=
+
+Name: haven/Resource$ResSource.class
+SHA-256-Digest: VmDZaZrGuPyrxsw0HriAgCqeS1HvL6ByOp9iDTRgEoU=
+
+Name: haven/Store$Catalog.class
+SHA-256-Digest: vvk0OiPekjmBaUPjIveFaEvR7uBT3L/9pmm/JXr60y4=
+
+Name: haven/Tiler$Factory.class
+SHA-256-Digest: pbAFDJ6WBcHWVHvWJuWxLtAqStpz4wYtrkTFEOe2p3U=
+
+Name: haven/glsl/BinOp$Or.class
+SHA-256-Digest: /wLqqb1LQqSjo48fV4/kRzmOyzneyGiO15ki7GJ3Xpw=
+
+Name: haven/GLState$Applier.class
+SHA-256-Digest: HrRm+L3cdR7ToaM3Uo8wcQ480KiwEkPKfA1UNnpiekk=
+
+Name: haven/Dropbox$Droplist.class
+SHA-256-Digest: XZSbC/D1cW9Co7JkASN8snnDNWLYFHimnbD8Xbd/Fa8=
+
+Name: haven/resutil/BumpMap$$bump$1.class
+SHA-256-Digest: d69nrvcO3oWijY/8gMdKBgVbBM6f19L3M5QOgKsAFj8=
+
+Name: haven/ItemInfo.class
+SHA-256-Digest: C1qEV/bTkezGdkvTAnI6P3mk3nIGI00UoPtXz3eS+bU=
+
+Name: haven/glsl/LBinOp$ADiv.class
+SHA-256-Digest: wBUzgFdw5/JiwaXkeEwqI6PGM2hu06dYpCHkxhEYReQ=
+
+Name: haven/GameUI$Belt.class
+SHA-256-Digest: 7a8QJTRaeFSDTqQB/H568RMu9j4eajhoa7rHiYPb9Io=
+
+Name: haven/Button.class
+SHA-256-Digest: BiKTjF+dbjK+HyU9+3IVVWN2sIaiZfceg5fZU09Qlx4=
+
+Name: haven/Fightview$Notfound.class
+SHA-256-Digest: KTRcG5PdcElLh3bFPfpXQuOSIJJ9q76iIs/tDOb6Upg=
+
+Name: haven/Partyview$2.class
+SHA-256-Digest: Fnko1L2THvaK5lvUKTprptheQl8+kr7ZgNG1KkqUp+g=
+
+Name: haven/resutil/TexPal$1.class
+SHA-256-Digest: 13F3zLgD7eLOocnmhTkYlAPeXPojX+fZOgJSVU1WHtQ=
+
+Name: haven/resutil/CaveTile.class
+SHA-256-Digest: r2sIrFW18Lxoc4lIDjGDPTRrUizHi1ViJOf4qrGa59A=
+
+Name: haven/rs/AvaRender$1.class
+SHA-256-Digest: LosfCdgmWHSiXTD4Z0VRgEY2jZFrxudZEd6UxP45Jrw=
+
+Name: haven/FastText.class
+SHA-256-Digest: yFjfXy+AWpbTMB3Afm6QCnvKbcO/zYN6x0xgEdROVfY=
+
+Name: haven/error/ErrorGui$1$3$2$1.class
+SHA-256-Digest: kv1e4BpMR1lxsU1nke1sCzqwYMNkrXryVMh7p+RRQqk=
+
+Name: com/jcraft/jorbis/Residue1.class
+SHA-256-Digest: RfK/0Qf4pftpPqS4lOs1CF4Q540+mqbuONtgpDanT8Q=
+
+Name: haven/Material$OldMat$2.class
+SHA-256-Digest: 3bRe3f1TT2HZcnT+wuQKJ3K+UhPr8Hki98LJafO3QT4=
+
+Name: haven/Glob$Pagina$State.class
+SHA-256-Digest: eFBmuE/tuqjrC2k43Skzp625aRWsRccIlzvNlAoWtxU=
+
+Name: haven/LoginScreen$WebCommon.class
+SHA-256-Digest: uGQtiMckfEMOdMIcH+7ev+7LENfTq84Y5wTqPF9wKCg=
+
+Name: haven/resutil/WaterTile$2.class
+SHA-256-Digest: 2y0W8oQuz5qaDdAOMagm1QKQ/o1L3MmjU36yqWdNzMw=
+
+Name: haven/MCache$Overlay.class
+SHA-256-Digest: Ihg4+38xFlj8rRnRRixbCFKTXbf6DO4UrvP+/bBnK9Q=
+
+Name: haven/Store$Browser$CategoryButton.class
+SHA-256-Digest: Ul3AsKRYCHmX+fsd2eo0AWQ3U+4UxX8y6np/xxb0+0k=
+
+Name: haven/HScrollport$$_.class
+SHA-256-Digest: wkUr/j/rA6I/mm/KsJcfAiy/N0GaUr1G+WWM56i8P84=
+
+Name: haven/Steam$SteamLibraryLoaderJogl.class
+SHA-256-Digest: 7XmagdPtZtdZkUfBN/mxHAlvRbvxvzBYiCga528mLWQ=
+
+Name: haven/glsl/Type.class
+SHA-256-Digest: 80A4s7CoT8/FRjp1IleDBgH3lI1TT6TBYlGY+bgKlp8=
+
+Name: haven/glsl/Mat3Cons.class
+SHA-256-Digest: L5CvWWN5m193OEf4LGRtJHpL+U+njNJdwhacnmadJR4=
+
+Name: haven/test/ScriptDebug$Server.class
+SHA-256-Digest: tqSlsRvzgt9CsYxwJa2nqwpdZHu8Ln8rb5DulHNO730=
+
+Name: haven/Skeleton$FxTrack$SpawnSprite.class
+SHA-256-Digest: rhkzVIrhj1xx6n/X7qI7sN9TRNaXB+TOyAaJ01PAaZw=
+
+Name: haven/Steam$3.class
+SHA-256-Digest: Qkni+7nArP3XE0iKhqw5S0TnUsR93C7jDSBBikMbvnc=
+
+Name: haven/Tabs$Tab.class
+SHA-256-Digest: 2S1Sk6N1iRE40QMSCyTyjupN9snfiny88EjUQ7Na1Xk=
+
+Name: haven/TexGL.class
+SHA-256-Digest: s++OoXmiWDBELjiRzyUJzXgknQAD6gM4joQEsL+bfxk=
+
+Name: haven/Utils$5.class
+SHA-256-Digest: zkKKquKHAx5t+3Wk6lo5LS2djlqzHqy1DhCZhoG3p0E=
+
+Name: haven/MapView$Maplist.class
+SHA-256-Digest: eAQENTDi1sRArii83a8PUt4xK1IaA1oX9ZnnwozwbJ0=
+
+Name: haven/DropSky$2.class
+SHA-256-Digest: QutBYtdc1WfY6FMKNWBewze6n7UDzBaCsgTpiPYFAVI=
+
+Name: haven/VertexBuf$VertexRes.class
+SHA-256-Digest: 635g/BZCrbesdkvhg2WIi09SScqkVnr/ITfeT4nTXzY=
+
+Name: haven/glsl/Phong$CelShade$2.class
+SHA-256-Digest: /aYhZFq+yJY9R/d1NGmq7I+nBUa2Ydzg29dPU8+p5vc=
+
+Name: haven/MiniMap$Loader.class
+SHA-256-Digest: yUSfvqXphVHbGvzLfMu0HyVXHHCjfCEtId1JkNSOpvw=
+
+Name: haven/Text.class
+SHA-256-Digest: 9WoOxNTReB8/o6zwvg+Yq5/11pnLRwscJRbvMShflY0=
+
+Name: haven/glsl/Phong$DoLight$1.class
+SHA-256-Digest: DR3ffTwtHle8/UNY9J0Wltw66H2tl9ECBzpLns3+Dgk=
+
+Name: haven/RenderedNormals$3.class
+SHA-256-Digest: FgAWrsv28QeS8SQvTtDchw37rExHL2newWTOwu8VnrU=
+
+Name: haven/MCache$Grid$Cut.class
+SHA-256-Digest: dk/2gjuGxYaVsTJr1it/gdDP/937ZAVMiDOgenvGuwU=
+
+Name: haven/CharWnd$4.class
+SHA-256-Digest: 6d6XbrRZOEh5MILP5HOMP9sN8oErwpKiQuEork2EKCk=
+
+Name: haven/glsl/IVec2Cons.class
+SHA-256-Digest: tnKSNG8YMui+I8RJaHR82r3nJDGpStUTRdigUQhWRVs=
+
+Name: haven/Audio$1.class
+SHA-256-Digest: o6k+2CLZ5u42rPi7Xf9cbGlloFHMZHvHcEDxZVhd6bE=
+
+Name: haven/BuddyWnd$5.class
+SHA-256-Digest: aeuoqyLaS6e9UVBve1+mbhXiWhlGPqIVf/3xGX6PFQw=
+
+Name: haven/GameUI.class
+SHA-256-Digest: CZMUzN/mhHX/5xMRTCJRIaLJUJMIUpqn5IbMFgMuR90=
+
+Name: haven/Composite$1.class
+SHA-256-Digest: Fzn8rE7BwFQo3dIJTczkL+C24HNoIlDecIXXkfCAKv4=
+
+Name: haven/glsl/Statement.class
+SHA-256-Digest: gUI4idsx+vskUhquQzMi40j7FdrV7U/hapFtkt+HngY=
+
+Name: haven/Screenshooter$6.class
+SHA-256-Digest: 74jLQGYiP1jbCozNKsfWDChDjsvaJjCvGVec4jFk51w=
+
+Name: haven/glsl/Phong$CelShade$1.class
+SHA-256-Digest: j+lfBHCJEq1SYuJtseWfmB3BjGObq+UKOzCnpaBSlSA=
+
+Name: haven/VMeter$$_.class
+SHA-256-Digest: K9AzpFzOgedbYqiHcJvctx7cwljrNr3+7xxTEALAblM=
+
+Name: haven/Resource$LayerFactory.class
+SHA-256-Digest: El14/bz1E/FQ5gd5hXvZWeMe949aun3AXAJMwmE3rvk=
+
+Name: haven/glsl/For.class
+SHA-256-Digest: h9U8P2AcEdOs7Cv8kxgns7LYAs6PDaXbF5RNNZFYZmA=
+
+Name: haven/Resource$Audio2.class
+SHA-256-Digest: 5lCA9nR73c0ptD2XPXwzVCAQQeSg+NVB87V8SHxpC0Q=
+
+Name: haven/resutil/BumpMap$1$2.class
+SHA-256-Digest: JExyc+MpRZeGbY59yOPsUXf1S+LYgAg+GDVd2i4dsdw=
+
+Name: haven/DropSky$1$2.class
+SHA-256-Digest: x2KINpcTgvuRNsGtSxkc+QK5V+HGkmwPOqtpiN3yo4w=
+
+Name: haven/CacheMap$RefType$1.class
+SHA-256-Digest: lMwtoe8PIAM3OJHFTLckX7iQiOWyhP8oBGSk8O2Lw3M=
+
+Name: haven/Composited$SpriteEqu.class
+SHA-256-Digest: kKJ6EmPK3Z0DI4qve4cNcC+8uelLmpiZKP5lEmtPCOk=
+
+Name: haven/MiniMap.class
+SHA-256-Digest: Lo86QT6whTjOXbjajtMHuwnX0XwErweJ88Rx0OiWt90=
+
+Name: haven/Light.class
+SHA-256-Digest: Gs4eCg2Mh5uISYUJyd+gyLq2GzGJESLAsG801E9EdvU=
+
+Name: haven/LoginScreen$Steambox.class
+SHA-256-Digest: yHF3pVhC6YQUQBMtpvrO1KnWn5kL7RWxDpicdlls78k=
+
+Name: haven/Resource$AButton.class
+SHA-256-Digest: SQkgqNs6J4l3ApujelwvoafNoRJlh/GUe8i//9Ie15A=
+
+Name: dolda/jglob/Loader$3.class
+SHA-256-Digest: o/4GT4FNzenPc+xoFkapcHh5K+1jfkLwkshNWmz+Dik=
+
+Name: haven/WebBrowser$1.class
+SHA-256-Digest: Agg5+CZ1xr2SUgILbMKM1xKepkMXBbz9qFYpI3UEOJU=
+
+Name: haven/Homing.class
+SHA-256-Digest: vP45Kq8S5RTGxQWtfsUfgw+LNOIFwzQpkIvUnE71MHI=
+
+Name: haven/AWidget.class
+SHA-256-Digest: jKwvnocDI96jcQbNKYwNWhlvBx3EP1LaFBWCa+d7LtQ=
+
+Name: haven/Store$IOError.class
+SHA-256-Digest: sJke3DC1XQkoBBl4J2dGbFU8FQmQ3+C4RBl8pZiseOs=
+
+Name: haven/GLState$Delegate.class
+SHA-256-Digest: Itv6XmxzUsFlkIoDy97iZ3uBmfCNV38mSxb4NixHNEg=
+
+Name: haven/Store$CartWidget.class
+SHA-256-Digest: 32i1YbOMiPXrJVy4yy7yve1tLZ+3D3fb5HWabfrG3Xw=
+
+Name: haven/error/Report.class
+SHA-256-Digest: e5sqmObLjm4gq9ieWSq+2dgikSNxmkOQo8GzbdaQ28Q=
+
+Name: haven/glsl/Block$Local.class
+SHA-256-Digest: Hu5KA36aDjjTkxukejFMhmATwMgkyC8RbS52dcW9T18=
+
+Name: haven/glsl/Function$Builtin.class
+SHA-256-Digest: btqv201KAQ6LOAc/v1mIQ5FgkdZ2B7bsvd50Ckm49Ec=
+
+Name: com/jcraft/jorbis/Floor1$Lsfit_acc.class
+SHA-256-Digest: LxnSuBAoI+edWtQsS1c+RQ6w2dGL2uh8RLd0e1SYtsI=
+
+Name: haven/glsl/BinOp$Div.class
+SHA-256-Digest: GU4P//rrB23WnxCj47bMxHJOVS6hgRai5yqf7OATMSg=
+
+Name: haven/StockBin.class
+SHA-256-Digest: J51dVSn72SSdfUWJtsK07KwuwD7CtmGtxA0d1CIRPiM=
+
+Name: haven/Outlines$1$1.class
+SHA-256-Digest: tbJwC+pGC5Aot+M7a+p1Pvz9RkXnfAekFBZzjVhVXPA=
+
+Name: haven/Resource$CodeEntry.class
+SHA-256-Digest: M7THH76SpuUdW/bRbTdO86A1zfkbMt9mWsog1PepnrU=
+
+Name: haven/FBView$RenderState.class
+SHA-256-Digest: JF4rvOL2lbffgkyFgurk36FrxQtNsXzEfdcDdb1zCco=
+
+Name: haven/SessWidget$1.class
+SHA-256-Digest: xCZ59+qLDVWwoGqiR1QXqe+gIBbMAgcvlKsoyUBVUZQ=
+
+Name: haven/Widget$RName.class
+SHA-256-Digest: nJqQF1VnndkiB28jbhFeZ9MZHVtYXNoJmHM65CVKqTg=
+
+Name: haven/GameUI$4$3.class
+SHA-256-Digest: lnp4Fw+yvG22VXFGUqAYZ+OqTKgZfnHKE+z6c2p9NBo=
+
+Name: haven/GLSettings$4.class
+SHA-256-Digest: tsM1cs6hwyY/0YxqqSuh8VVX8/lVByEdIBNAI6yrwj4=
+
+Name: haven/glsl/Index.class
+SHA-256-Digest: 8P3XO0bYe6n1otBCDkz/EQYo+hBWbsObEmGelipy4Ow=
+
+Name: haven/AudioSprite$1.class
+SHA-256-Digest: on1118Cx8mF2XIAX4hbeLIFRQYVOYAwlwEOIBSCGHjQ=
+
+Name: haven/FastMesh$VAOCompiler.class
+SHA-256-Digest: hmHzUvuOY/6/qzoLyE/yPqu6TUm/UTb/CTW9vGkxcgM=
+
+Name: haven/MorphedMesh$1$1.class
+SHA-256-Digest: BZHBaaOp8vU//9qweZtGb8RPrjIt79W1tjKV1DZYseY=
+
+Name: haven/HavenApplet.class
+SHA-256-Digest: TbUc457stNDWZ0Mmjm/qgEwBUqTks23dl2pUXv5Ht08=
+
+Name: haven/Resource$PublishedCode$Instancer.class
+SHA-256-Digest: oJAYULETLd4idjKkGvKO2fQeQVqDX7FobHTFYPLBqSE=
+
+Name: haven/Fightview$$_.class
+SHA-256-Digest: /X/Gte6gBZ6PdaGvClKcPjCBqPGMY/2qkW0E6IFrheY=
+
+Name: haven/BuddyWnd$7.class
+SHA-256-Digest: biHsdYWn1Tx+QVhubRLmUtI5P/d1aPT1CiDJLCvYBWo=
+
+Name: haven/error/ErrorGui$1$3$2.class
+SHA-256-Digest: iZsTvAQ44T3O17NY4Vn7ij6ovzHwYab6pIQ3kFPDU8k=
+
+Name: haven/glsl/Cons$1.class
+SHA-256-Digest: 4bs3ukMYkwXHkwc/QnraL027KFBsy772oON7JVIiMKU=
+
+Name: haven/glsl/Tex2D$4$1.class
+SHA-256-Digest: tmnc9dx8HOIA3l2qOKq+p9atjDi+AaYVJYbBVlrcMrI=
+
+Name: haven/GItem.class
+SHA-256-Digest: YScgC6Q0Pjvyup4w0qjw6F0LM/pyLuKulNOsAYCXKLU=
+
+Name: com/jcraft/jorbis/PsyInfo.class
+SHA-256-Digest: 09Ws4miD3aifcvuvJyWB3A/s8tKwrsKIohgVOpH7mig=
+
+Name: haven/BuddyWnd.class
+SHA-256-Digest: qBlghrX1hKMtFFaZqFUexamZ09sD8awrnX6aEt4EESg=
+
+Name: haven/LoginScreen$Pwbox$1.class
+SHA-256-Digest: 8EJvSndKQ4BhhRdAGC1MLEJ/P1vc7dW0F3Q7kYv2k+I=
+
+Name: haven/PUtils.class
+SHA-256-Digest: Wz1N6vRNuS/xFHe7nossuE+CIi5eV8VjaeToMHfu/wI=
+
+Name: haven/ChatUI$Selector.class
+SHA-256-Digest: eJ0GOlD5ZNZHbY9F9o0+Qs+2m81dHluFvjLBstVOmIM=
+
+Name: haven/FastMesh.class
+SHA-256-Digest: n/gRIKk0PQ/eSZtzrHSn1hefsdtxFl7Zd3UiMPlXt/g=
+
+Name: haven/TexCube.class
+SHA-256-Digest: iq1bZcjHWkkbSCTKVk6MAjulQsAFlps9BD3gA42IfvU=
+
+Name: haven/LineEdit$EmacsMode$UndoState.class
+SHA-256-Digest: +Y4XePQgNim12v1g4LJisbZLWMhoK+ba9W09/m5fOSY=
+
+Name: haven/WeightList.class
+SHA-256-Digest: z0R9Ac1/gjJTOgFJQt8+4oPjyKgbR2PWQuHqenq8cQ0=
+
+Name: haven/glsl/LBinOp.class
+SHA-256-Digest: CQdmdlKbW8auv54PtYTAnXS0rweP0sd/5yuQpjACmfw=
+
+Name: haven/MapView.class
+SHA-256-Digest: 0ebcXkvKbvXmYOuaAwaVc0hjha6QeAMbhQejpvqWdJE=
+
+Name: haven/glsl/Block.class
+SHA-256-Digest: cwJJoFTZjxIV5F0tMh/5kt3spMUIjbd5Ez8ynqgC1xM=
+
+Name: haven/GiveButton.class
+SHA-256-Digest: hSYj+glGpYb2iV0wXeNpWHLP47xwCV8stLSQkJZZtmw=
+
+Name: haven/resutil/AlphaTex$3$1.class
+SHA-256-Digest: YLjFkQd68Ec83l9MRh5VBCCaLiIt2rrnWuplzIJMRL0=
+
+Name: haven/Store$Currency$1.class
+SHA-256-Digest: suhzvDX2+ZCEJdCf9FOYPdWt9MVXuwDpITiimQYyxcM=
+
+Name: haven/Material$$order.class
+SHA-256-Digest: 1P4Qmh6+U6vdaZC/V3+x6X+sqSwHhwFqp5O8sIagzj8=
+
+Name: haven/resutil/RidgeTile$Ridges$Tile.class
+SHA-256-Digest: WN9F/oItJFN6oJO2Zrr8G1uhvkOHCZHdbiAr/r39BI0=
+
+Name: haven/Equipory$$_.class
+SHA-256-Digest: 1NxKotbsfj1UdF36iaG/g/9YZ/mF7PARYh05jvJpLvA=
+
+Name: haven/error/ErrorGui$1$3$1.class
+SHA-256-Digest: lXLYqMM3euW/6AnM56aFaCiOeCqOJu//gumkgd0/nZE=
+
+Name: haven/BuddyWnd$6.class
+SHA-256-Digest: Q12twbo4MwVcOH2PTYia6o7S+/rCx3CXsg6fXVam4kY=
+
+Name: haven/GLSettings$SettingException.class
+SHA-256-Digest: np2uvM2TnOcxkKDN1n012v/+J48Ara5PLAfE65H3NO0=
+
+Name: haven/MeshBuf$LayerMapper.class
+SHA-256-Digest: V0NGoHbb7gm7Ebr6GZlt8FexPw7WiV9i8C9hP+Tl2nM=
+
+Name: haven/ChatUI$Notification.class
+SHA-256-Digest: xO1P7JRpLdTd9hOi2W0xhMzrSXGqIplrsawEfuPkum4=
+
+Name: haven/VertexBuf$Vec4Array.class
+SHA-256-Digest: VR7gZZ1dViTTdv1nr1IMPygJbe+esmoQuV/nmscR5/4=
+
+Name: haven/Screenshooter$5.class
+SHA-256-Digest: icMCw3o7BIefipN/I0bHl840SCl3kMXf2Li6WRGZlGw=
+
+Name: haven/MeshBuf$Vec4Layer.class
+SHA-256-Digest: 52qShU9TgDq2mv0WksJYYCsisRn7/u6mS6EqVi4M3Ks=
+
+Name: haven/glsl/BinOp$Eq.class
+SHA-256-Digest: aTj1BF2e8WnAZUWLG9YAhPP3Zf+MkCfnlhwF9AirFrE=
+
+Name: haven/GLSettings$11.class
+SHA-256-Digest: c/yF0wCT5aHtFzAEVFhqKtELW/nCVFtqoe/BzE07eaI=
+
+Name: haven/glsl/Context.class
+SHA-256-Digest: q40d3bcesTloqSF2uZxBFmO1xIlTC3B2Qcw4ga1mvTM=
+
+Name: haven/HavenPanel$6.class
+SHA-256-Digest: 591lCcAZKEm03wyq39nOPTuxRxX1JTE88lzP+fffVQ4=
+
+Name: haven/MorphedMesh$1.class
+SHA-256-Digest: xf9t/UQAwGuGEqgYvPi5iNW10XJZjzfVGOfTZsmLHis=
+
+Name: haven/Material$Res.class
+SHA-256-Digest: 3mWJQzD0SJlTxq4t8MrObb3IL6mWazBbo9W27VhocS4=
+
+Name: haven/WireMesh.class
+SHA-256-Digest: 8zytdN4uO5738hqbRICEPLL9qiqYUZFHE15WgvFVxl8=
+
+Name: haven/ActAudio$Ambience.class
+SHA-256-Digest: YQPMU6PUZq+4K/C9jKJla9ojzmbN+Kun1eXxwQufqF8=
+
+Name: haven/ResCache$StupidJavaCodeContainer.class
+SHA-256-Digest: yNBLhS1u9qXKYktDNP8tUDPFoz1J9tUg3srrRPPMvrQ=
+
+Name: haven/HavenPanel.class
+SHA-256-Digest: AZJPPo19DbesF2qkXJQm/rDk+nhQBFh18i+5v6VWMHM=
+
+Name: com/jcraft/jorbis/Floor1$LookFloor1.class
+SHA-256-Digest: FGnQvxYx1oLolXFR+vsQqsYNOZ+8t+iACfvXu8CHL1s=
+
+Name: haven/rs/AvaRender.class
+SHA-256-Digest: BmPPlGwvnHZjC4PoMg+iMaK39p4V3ZIn2K/HEQgtwhc=
+
+Name: haven/Composited$ED.class
+SHA-256-Digest: bH18xZmT4XsHzBCJV+GOCmOdoAuHxDQ7H8Nnp+ScXek=
+
+Name: dolda/jglob/Loader$2.class
+SHA-256-Digest: SgpbYTsedjgFJQ83mBYuruwUIBsO3rbpLJ8dpuQ4Y2A=
+
+Name: haven/MainFrame$5.class
+SHA-256-Digest: p6nQMQtL5yTQdXadDflYThEwXNL3pK1S7B8AWSMMxO0=
+
+Name: haven/Store$Category.class
+SHA-256-Digest: VyJMCtxLrNP/9knia2JfxQGzQ1i7KHSlqNaweqVtc2U=
+
+Name: haven/glsl/VertexContext$6$1.class
+SHA-256-Digest: n868o/AXhjNMZfcLt0El64pd0GeXQvmnESYEvEIP1Jk=
+
+Name: haven/GameUI$7.class
+SHA-256-Digest: PHLWyqT8o8/yT8zyTepXsySmOxGdFCdCBTy+O/8bib8=
+
+Name: haven/Coord3f.class
+SHA-256-Digest: 6I5eEhuk5Apj6dnVFozF2XdFxn6jbQfuGpErs6j4Brs=
+
+Name: haven/Composited$Poses.class
+SHA-256-Digest: tIoEXYL0tFC5hDiPv1RHXj96CCjAagwd11UdMUPcpKs=
+
+Name: haven/Drawable.class
+SHA-256-Digest: GZ3PfR4Pgy80WsEqDD1ZKEZmTcLX0efDSJWhGCNf4/0=
+
+Name: haven/AnimSprite$1.class
+SHA-256-Digest: hkXYtRKHRvnsP++71gYNVbPJvW4OfkFhqHRYMsxR71k=
+
+Name: haven/AudioSprite$Ambience.class
+SHA-256-Digest: 5vRSVKLVspBL2pdpsGuUtGFUjHkeUnCSxe1p9afRJrs=
+
+Name: haven/glsl/Discard.class
+SHA-256-Digest: CTgoIv2JAyrNdftkCRsavmaG17q05rXWLkdaK0KB8BU=
+
+Name: haven/resutil/BumpMap$MapTangents.class
+SHA-256-Digest: V9pmfEAbkNZaUtUyWQJAvLfgv1P4/lcdF5rQok1Zlns=
+
+Name: haven/DesktopBrowser.class
+SHA-256-Digest: VJ15UT1zdX/UEZyQWromE+JwWWrrsOKbOh3pBTXYNVM=
+
+Name: haven/Gob$GobLocation.class
+SHA-256-Digest: sCvmFeYDsAvrwnE4Qz3HOCVQ1z6dkKqi87JaPm8Wu08=
+
+Name: haven/Resource$FileSource.class
+SHA-256-Digest: cAupUtGToDlBotIFxi19f4dvRNxEwLO6ve2W1JW0a0Q=
+
+Name: com/jcraft/jorbis/Floor0$LookFloor0.class
+SHA-256-Digest: D19gIYe4/vBuGOgDZOM2T7luAj+AJZyjLBMuxaed/8Q=
+
+Name: haven/CloudShadow$1.class
+SHA-256-Digest: uuqpM6umJxPaj+B7plJKAea8BvnIUMrlxGpb2hffVII=
+
+Name: haven/Rendered$Order$Default.class
+SHA-256-Digest: 0HFMhPcaJS1+JXjqvom1QUd4PRq3gah3i4P7P4nwPeM=
+
+Name: haven/resutil/AlphaTex$2$1.class
+SHA-256-Digest: +Yo0N4iPYaI7bmKGp84DVB29Z3IRcp+IOzdKS1SXRLE=
+
+Name: haven/Fightview$1.class
+SHA-256-Digest: /zU+z9CwG3Sx6xX0ArSEpkEAZz67+5SO7LUrFMVcN/4=
+
+Name: haven/Scrollport$2.class
+SHA-256-Digest: NPt5k3ADW/OpOfXbVFqF4W2Z51RbTY31KOUbVNeouT8=
+
+Name: haven/Rendered$TCube.class
+SHA-256-Digest: OtiDTBkYCI3UIb4NndN8Sefd0UvdX9LYQg5nF7dNedY=
+
+Name: haven/Bufflist.class
+SHA-256-Digest: AlGTp8239PFNCD8M9aS+m0EdwqUZZceBjIDlg78G41w=
+
+Name: haven/Material$NewMat.class
+SHA-256-Digest: uopnx9k2hofOQSyYmVWiciIO+i9zrEKqK3jfrG3J6Xs=
+
+Name: haven/rs/GBuffer$Context$2.class
+SHA-256-Digest: 2JBKDLInWIv5JjJauWWpT5/upGR8wpDGf3j0bZG8vjM=
+
+Name: haven/resutil/TerrainTile$TransPlane.class
+SHA-256-Digest: 9pF5TDpM94mKcZmzQnaU/r71/bc+6IVX9IMxQEiC+oU=
+
+Name: dolda/jglob/TypeMap$1.class
+SHA-256-Digest: sgf87fukkugUjHqSkvNBwzzz+v3lmW0qgOeL3Km8oEY=
+
+Name: haven/ISBox$$_.class
+SHA-256-Digest: VbiEWvRq9IZJN/4YsNwM90ZnC68ydmDC6hVU+qZiaf8=
+
+Name: haven/Img.class
+SHA-256-Digest: UXVYOSVHmmMLkLU4yBtQF0REsQ4HZeB39RC0oOAJP44=
+
+Name: haven/Skeleton$BoneOffset$3$1.class
+SHA-256-Digest: R8TpBlfxAszCn6nWOqSqoEzLf2gyYcm9a73mDyxMMFE=
+
+Name: haven/Glob$CAttr.class
+SHA-256-Digest: TiyfaeRaWebogjIb29rSD60G/apRYmyq+AloBasToRY=
+
+Name: haven/resutil/BumpMap.class
+SHA-256-Digest: 8lFx51bIsdSCusAG/5RqPNxvNZxugilTxG6S/6kcXrs=
+
+Name: haven/Profiler$2.class
+SHA-256-Digest: vXFYTPzlGiXZfBZW0X+dDALGDw2TXIMRGKM/Phv+UFI=
+
+Name: haven/Avaview.class
+SHA-256-Digest: ER2l4CgmnRgfRtEjxnUOJVRJOR8E29ia3w3on1wtm2U=
+
+Name: haven/Screenshooter$Uploader$2.class
+SHA-256-Digest: c30VsE+dwpMjFkIISMVmztCEvz0JIRCZtnl54SyszOQ=
+
+Name: haven/RichText$Foundry.class
+SHA-256-Digest: GSS+tMc+jSCrrphJQhLufDE2pFgk6Wwp8o6ya5tuHcc=
+
+Name: haven/MeshBuf$Tex.class
+SHA-256-Digest: p0hVvVoIwyq0SxFEJfkrObiDscFGCpu55iA21Libtbo=
+
+Name: haven/glsl/Tex2D$4.class
+SHA-256-Digest: 1MkZNf77zEL+Kj1xjwIVe7021N80+ZuLP5A9XfDHoK4=
+
+Name: haven/RenderList.class
+SHA-256-Digest: 3gvq57/NiumU1kfuWGzplcHKVmWP+u7rJKzFGKOjWOs=
+
+Name: haven/OldGobble$TypeMod.class
+SHA-256-Digest: heInoW1baONyuujJp84OOwaYBY2fqBypEpMxB+rfHpA=
+
+Name: haven/Store$Browser$OfferButton.class
+SHA-256-Digest: L/FFeP4TV/elvhZGY1lUvAFIvzKJ3d0DWUAajdAycoQ=
+
+Name: haven/glsl/Varying.class
+SHA-256-Digest: 3+xfbmFMG5xP0ITjZRI5EUke1BoRxYQ+wHWFZJWez5k=
+
+Name: haven/States$Fog.class
+SHA-256-Digest: qFiUYtXwl70QtHzDdjo/J5YACfyDPWALEfdhAJBhV8g=
+
+Name: haven/ChatUI$PartyChat.class
+SHA-256-Digest: aMhtlZqTaxyL9TqgrsS7g8Tmcj9AYSMND1IbUHKjxTc=
+
+Name: haven/ItemInfo$ResOwner.class
+SHA-256-Digest: P7QBwuOYZJs86MJ0IQfrRF6tNIeowKmvvIKCns64x04=
+
+Name: haven/WeakList$Entry.class
+SHA-256-Digest: sV1vldiT2cdCzw+Uv52uhFkWvte5spvtJ5OZbb+XvHI=
+
+Name: haven/BuddyWnd$11.class
+SHA-256-Digest: r2b5EPhztTFzlchHbHLiMNAtr41H6y0dXT0M73PhRRI=
+
+Name: haven/ItemDrag.class
+SHA-256-Digest: 5Az262yMCSmSrdDnUqZTwq8bk0Tbkuw9T22hAGnTm+w=
+
+Name: haven/DrawOffset.class
+SHA-256-Digest: iK4hS94TB0hbbMVCQMGXMa0Dv6H0OTnchZmHIHjmTI8=
+
+Name: haven/GLState$Slot$Type.class
+SHA-256-Digest: lbFr3zvbLgxzjLoqDiRD/1d15AUwTxhDKPWW81JmrZE=
+
+Name: haven/rs/Server$Command.class
+SHA-256-Digest: GQx6DD3EeBEhQJDdxXhIusogUFOnmoy0AqsotXIQN/U=
+
+Name: haven/MapMesh$DataID.class
+SHA-256-Digest: 1LIdDQKKqU+G7PTYL5tZwjDaPsSUYZ2WflU7GZmwW7U=
+
+Name: haven/GLShader$FragmentShader$1FSplitter.class
+SHA-256-Digest: ShoNMH2iI4mpXw0/RFPNGiGIU/nTf7FXe4xfJTfzNFE=
+
+Name: haven/MapMesh$3.class
+SHA-256-Digest: kU5mWZ9MTKuc2JGwdUPTCKLICUDv4nwSoHj73yAmhAg=
+
+Name: haven/Resource$Anim.class
+SHA-256-Digest: rigIU5Fvj9mQBS0O4UMskHio+lGQXZPTw2TvNf/Tki4=
+
+Name: dolda/jglob/Loader$2$1.class
+SHA-256-Digest: 2Da0Bx67KEd9e+6JTgd85DReUzUTZj419Ysf1Y4PKZQ=
+
+Name: haven/FBConfig$4.class
+SHA-256-Digest: zCElhHsLuCvYZzNHw+Yh8J8G6NZ2Dsf+3X2WLQL7//w=
+
+Name: haven/glsl/IVec3Cons.class
+SHA-256-Digest: 2bRol4m2sVYggt6crJTzCWzIH+8dJcMbmvH+MgDtOfo=
+
+Name: haven/RenderedNormals$2.class
+SHA-256-Digest: ug4BbfsqiXbE4d4UWPL9geGGhuCaI/I8j6Bja0vLvqA=
+
+Name: haven/error/HtmlReporter$ErrorIdentity.class
+SHA-256-Digest: jFfKFUM0zVtr0U+3yA8ePEbkqGSuJ1sDSxGuEcRD8fE=
+
+Name: haven/ChatUI$$SChan.class
+SHA-256-Digest: RPg5OdpQDiotAJzWrVy5q2AU4wHzjm1ztnLBifFI8mM=
+
+Name: haven/GameUI$2.class
+SHA-256-Digest: Qg4A151t1qhsMK1Af42LGeUVVtYh7Pwndq3hfQNvmKY=
+
+Name: haven/Composited$LightEqu.class
+SHA-256-Digest: SVCyltAe9eA5YRmhgjtaJ6k987usuJVBHgX6T1OMCRE=
+
+Name: haven/glsl/BinOp$Le.class
+SHA-256-Digest: ssQZI0O0tzDzcSKSimM1GTGs5DLm72HwL+A1pZHcgd8=
+
+Name: haven/Screenshooter$2.class
+SHA-256-Digest: nZYcLLfWRdKGx+bEnxzLs8hJLfGmGZwnr9fd+aVvhw0=
+
+Name: haven/StaticSprite$1.class
+SHA-256-Digest: npHIrH1r3UBUHykM+sMNZSp974W3TigqWICObTstCY0=
+
+Name: haven/HavenApplet$1.class
+SHA-256-Digest: rNfpZLUvObAOblMPStQDQPBwp10kV9XXFZSAPqa4F2I=
+
+Name: haven/MainFrame.class
+SHA-256-Digest: 68jAcUnTuSV578w3aWGqwmkWnJ2BeL2l4rMCkwqfEVI=
+
+Name: haven/Resource$LibClassLoader.class
+SHA-256-Digest: sC+V+SXbnvr+2NhsE1GU+zMC74d2VBJN1SP5bmFwVTU=
+
+Name: haven/Composited$MD.class
+SHA-256-Digest: bUFnpzA+lIMmTAdjnsu6GMWvdpKMmrvHTjjto5YZjqg=
+
+Name: haven/glsl/Function$Def.class
+SHA-256-Digest: 9+hqFDGu4YNq60SWH1xWvGtZm3lkUeaF1wxZtVppzmI=
+
+Name: com/jcraft/jorbis/Floor0$EchstateFloor0.class
+SHA-256-Digest: 64uN4eziLTbX1bs5orfVmn3LukZWe0days9Na3SFBus=
+
+Name: haven/ResDrawable.class
+SHA-256-Digest: PnaoCKqQK1AYg0vWwUvSKE2ujzdkeZ1xyzT5KoBzAKg=
+
+Name: haven/Defer$Callable.class
+SHA-256-Digest: jNTzc3fVG0Vt92Z/DllT2bVDRPG4OI/jRgPL/WPfgUE=
+
+Name: haven/MapMesh$Scan.class
+SHA-256-Digest: L356Ni8HKEQN/focYwl2FrOOPcoRPgDL62NEzXxEVuM=
+
+Name: haven/Resource$Pagina.class
+SHA-256-Digest: FaO02nb/6KJCeNZzixAP6zuXXgRVVZeDFvrEw2qIsHA=
+
+Name: haven/Session$CachedRes.class
+SHA-256-Digest: P07LZS7H7roSvwV7rRbKh6cbzAo0OFloMfqrBWY9ttc=
+
+Name: haven/GLFrameBuffer$Attach2D.class
+SHA-256-Digest: U3dJEgEf1vB+Cd8kSN4aIEu/wqHq7xc+m6HUYZ+EzE4=
+
+Name: haven/OptWnd$1.class
+SHA-256-Digest: L38bARp8XmY8lqalY+QdYHY31nq3qRQka92PCjrQDf4=
+
+Name: com/jcraft/jogg/Page.class
+SHA-256-Digest: A4IZH2zJTaDLIpEiWwuKkUjpnSufjXdKAp7ihuEZRuk=
+
+Name: haven/Partyview$1.class
+SHA-256-Digest: X1kiJBsXMz56EWbHmEa4ie3Fw6UajpK1qZE43YBMqig=
+
+Name: haven/ChatUI$MultiChat$MyMessage.class
+SHA-256-Digest: Alr5XHgc3sRPLPB2AVGFP77aXzdP32InjKIM/n11XDY=
+
+Name: haven/TexGL$$tex.class
+SHA-256-Digest: CrSK9L/nJzDbIJTAhU9TMXPodtgk3hfLz46zGHnzhng=
+
+Name: haven/IMeter$Meter.class
+SHA-256-Digest: jactUUZXHtZvy+c7mhZNV4kPmSopql6wymQE0kn0xxA=
+
+Name: haven/Text$UText.class
+SHA-256-Digest: iel5ZvTeSQ5KN7n6Hl4b9xpIoEare/Eenpza70nhzMM=
+
+Name: haven/Gob$Overlay$CUpd.class
+SHA-256-Digest: QZCV/fAH1DId4MzdLGVW957pDSKyaJ/H9n/cqvksKx0=
+
+Name: haven/glsl/Tex2D$3$1.class
+SHA-256-Digest: FCBASiRcjZoOXtFsyQaOiVpcN8sZjRDFB4BSLFk73o0=
+
+Name: haven/Skeleton$Pose$BoneAlign.class
+SHA-256-Digest: 7/yjFexvnQO9o1ugtga7DZQDg1MaRcMpbPi209KRK5I=
+
+Name: haven/BuddyWnd$BuddyList.class
+SHA-256-Digest: c1bI7KELg7bpQtbHiEPJpj70zKkkBogpEpSRA/4nmF8=
+
+Name: haven/ChatUI$MultiChat.class
+SHA-256-Digest: Y0pXjXy6PcRUojxQKaaFL5S9/g30+DPJKcm9uuHJF7Y=
+
+Name: haven/Tiler$FactMaker.class
+SHA-256-Digest: j+DKFiV7s+KruKaxKRxdAWaw7frrua/MQQQec9aTOpI=
+
+Name: haven/error/ErrorGui$1$4$2.class
+SHA-256-Digest: mWUREDt4fRoHUbVmjtj3pNHE+4IRM7SAnSshQ+wIV5A=
+
+Name: haven/resutil/WaterTile$TWaterTile.class
+SHA-256-Digest: BUYt49uxEYPyDYi8vSrla1h2ltmvN3m1RaJTEANF+I8=
+
+Name: haven/ChatUI$EntryChannel$1.class
+SHA-256-Digest: F5WLX2lr+dKj/vs28UGveWZKsqV+AN4LACwLBXXd+os=
+
+Name: haven/Audio$4.class
+SHA-256-Digest: RW9G3qYjT6AC+M9qdOFxXrOBAZaNGnMcbrPL8z+Lr5c=
+
+Name: haven/glsl/VertexContext$7.class
+SHA-256-Digest: pBPEpt33phMvnL6v2jwkIsHVSUnpWHhCBDtCLo8Ce34=
+
+Name: haven/GOut$GLInvalidValueException.class
+SHA-256-Digest: mW6SL4J2rMTI9TxmdyUBec+sPUzHhC/bdRGJke++/0I=
+
+Name: haven/TexL$1.class
+SHA-256-Digest: CORchqRz9iZ6NkKakNV8y8hqfqx08j4lWBgnhjOe1N4=
+
+Name: haven/glsl/LFieldRef.class
+SHA-256-Digest: 62t7Bgu+GeG3/7jX7xSeGf6KBHtZkdC+k1p6CA9Ynd8=
+
+Name: haven/GLShader$ShaderOb.class
+SHA-256-Digest: LuX9lqY0WvCXulQQx08wP0ALgaOPhACD7fjiYBHNIKI=
+
+Name: haven/Profiler$4.class
+SHA-256-Digest: jU1/SfbYoWHnR0TJunIizoKXbX1oduSSxkl5YtBCtjw=
+
+Name: haven/FBConfig$ResolveMS$1.class
+SHA-256-Digest: FBqbNadsk0i5g9Lg0JYthFiyJRMhRxqtxsfB+64Fcp0=
+
+Name: haven/Utils$4.class
+SHA-256-Digest: F0Y8TKX4dc82VStVA+OrD+jIfR2UXiEF1r09PwzMJUg=
+
+Name: haven/resutil/AlphaTex.class
+SHA-256-Digest: o/ylF3XasAhwR3kaEEGV+lLZpIU4I+ZSUoaMSjRJ8Y4=
+
+Name: haven/Light$$light.class
+SHA-256-Digest: WkLrNGW0mJKmEjK8Omxwz7B24OA4Kr8gLftm+cKxQ4Q=
+
+Name: haven/resutil/WaterTile$BetterSurface$1$2.class
+SHA-256-Digest: MnqWvwbTFT5/H6PlgF0LgJ0IZowctvy1EH5Zz96CXoY=
+
+Name: haven/SkelSprite.class
+SHA-256-Digest: z2YfyXC6dUY3cqnSYAfbgxPBQiPnPwIm43hKOKQpx3M=
+
+Name: haven/Resource$LayerConstructor.class
+SHA-256-Digest: 69A6uSh7n/ufU+LrNX85wS3ZYVbXTPQzznHmDa/2sW0=
+
+Name: haven/GameUI$NKeyBelt.class
+SHA-256-Digest: 3iVk6Vd1Mp+4XMQSuyvgujLPhFBr+y8grSzNScugieI=
+
+Name: haven/FBConfig$1.class
+SHA-256-Digest: cq9nm44eMxXuGToPqHFgMQba4nNWsG3VWhk5rJ3/MAU=
+
+Name: haven/BuddyWnd$14.class
+SHA-256-Digest: SzaEou405o0E7iaLYRUTkHV8tkQD6sWaO45l08QhT+c=
+
+Name: haven/Skeleton$Pose$1.class
+SHA-256-Digest: EMxN2I7aHJyOcbW3aeSkuV4IMO4xIkOIRYSflSUB55Q=
+
+Name: haven/Store$Offer.class
+SHA-256-Digest: Y2lDG2ho2EoGOeYiaD1gkg6qUmiqMobmP9bvIY0SecQ=
+
+Name: haven/glsl/Array.class
+SHA-256-Digest: Dlk7CfpcoHE3gkLNpV8bnMi1j4ab6mOT1Kgu+9Ss1o4=
+
+Name: haven/ActAudio$Ambience$Glob.class
+SHA-256-Digest: p0ZJLWHbL0YoFU9eCJZykqLzl8YrKb3+sztYjQ5OqjU=
+
+Name: haven/Sprite$2.class
+SHA-256-Digest: /vR08uOJCitGMI0gusasj3YJ3/NbbzqM+h8RytinHBI=
+
+Name: haven/SNoise3.class
+SHA-256-Digest: 0bxWngQfalZFsHz+B8MULT0VJ/h/TWCnGDDFJEFaZhU=
+
+Name: haven/MCache$Grid$1.class
+SHA-256-Digest: Vpd3+9QCvAz/d85jy9+ShZ/IkB3gt/rdz+i7ssXEHF0=
+
+Name: haven/Skeleton$BoneOffset$HatingJava.class
+SHA-256-Digest: f9XG3bcWfK6z0fbFVwvEJuC7Ray/G8Xf2ZDYCBSMSjM=
+
+Name: haven/MeshBuf$Vec1Layer.class
+SHA-256-Digest: QhLn6SkHtTx5Cd/m0eAoxo1akwzqfer7zXMyfLSabqc=
+
+Name: haven/CharWnd.class
+SHA-256-Digest: HSkjIWotjmxEs6CRJdutSaO6VLGN7kiUpKUZUmPm0vk=
+
+Name: haven/Tabs$1.class
+SHA-256-Digest: 9jQp9LunzQgIJPADoq1tat5E4eW9UJT5YFff2wfniVw=
+
+Name: haven/MapView$Hittest.class
+SHA-256-Digest: NU345XU6fQR35z34poGsWZHN3OdmEzEETVS5DSKx0To=
+
+Name: haven/Resource$LayerName.class
+SHA-256-Digest: +R7KXeozqwjYggl3Ah9cBStdTQxscIth9Hd9KQUhKRw=
+
+Name: haven/MapMesh$Shape.class
+SHA-256-Digest: Xcywirlf5JCYNZbM1ngxhS/EXTeMd1kaHY1hqol0NiE=
+
+Name: haven/Session$ObjAck.class
+SHA-256-Digest: tcCSJeP1jixFCgZz4vWI0FztuutT1x1lmJtlRTttSm8=
+
+Name: haven/glsl/Varying$Interpol.class
+SHA-256-Digest: iCPGFKHOME6CCJzU6ICpSFAh69KUM67YGKQ2GaY1ljE=
+
+Name: haven/res-preload
+SHA-256-Digest: Y6YBsz0ytRklAMIQo8Kq1vegxjKo9Ehef/QYw7G2T7A=
+
+Name: haven/resutil/TexPal$1$1.class
+SHA-256-Digest: Nw/u7egPxwXyWrIUkTB36g2uATiTvv/945HiUTvy/hw=
+
+Name: com/jcraft/jorbis/CodeBook$DecodeAux.class
+SHA-256-Digest: sYjnPr4lwRPVY/cO1QLZSjQWtKOtTJvD1wlYE41BU3E=
+
+Name: haven/MapView$FollowCam.class
+SHA-256-Digest: 2xKhcdatecWPOg+574dx7gcjIcDMvJ4L+rjq78aEK1Q=
+
+Name: haven/GameUI$MainMenu$4.class
+SHA-256-Digest: k9LdNAwlGF2LLUN2AssIH19Dl+9qfs+dO6+fFNAJ/Aw=
+
+Name: haven/GameUI$MainMenu.class
+SHA-256-Digest: 6lDSjhs3T14EhiGUYYWQmv3ld5P147r4J6BJFOuyqIw=
+
+Name: haven/GLSettings$BoolSetting.class
+SHA-256-Digest: ZPC1w3u6hf8bMmz7BONNoq/HwHA7rMRzLsIIfmj2N/g=
+
+Name: haven/MeshBuf$Vec3Layer.class
+SHA-256-Digest: PzU1PbNvXVjwMAeaxS4bA8DiXkk4FqCKGpkgSL5NOa0=
+
+Name: haven/Material.class
+SHA-256-Digest: 86EwdkwlJXmV4hhmnFAWwQIKSfFVAsdegDVWhl8AXG8=
+
+Name: haven/GameUI$MainMenu$6.class
+SHA-256-Digest: qgQj7VjT3hifkljKWeZjg3Rp4WAXo+h3VIftJsYS3DU=
+
+Name: haven/ChatUI$$PMChat.class
+SHA-256-Digest: 99eXp2DB0Ww/Kdd+eQPA6lJ9vXVpY/SY0e4mQ4OyfQE=
+
+Name: haven/Utils$2.class
+SHA-256-Digest: LLEdHuKaO2Ak7NTW5x1s6qd9r5wBEDxTncv+nzoSVrM=
+
+Name: haven/test/ScriptDebug.class
+SHA-256-Digest: ihJejVfZduA4HBG6knjsvPIoZ7B2Hw57i1JlWCd5plk=
+
+Name: haven/GameUI$5.class
+SHA-256-Digest: eahSfIhhOz4qYBnM6Bpa849YFLjvvBimQULGy2b46u8=
+
+Name: haven/MeshBuf$LayerID.class
+SHA-256-Digest: yMkOQ0/CTRRViJjl+GmZCoZsWn7a0qseDWR1PzOMKKA=
+
+Name: haven/Mipmapper.class
+SHA-256-Digest: J69byY7CK61PoNZdmp00x5peZySdKiZvSQrmkbaGukY=
+
+Name: haven/ItemInfo$Tip.class
+SHA-256-Digest: zyjNI/Ngjqe4SNxz5iFzlm6JmnIQQ2N5Kmcm54S8SP4=
+
+Name: haven/PView$1.class
+SHA-256-Digest: IUM4mIkyvgUerbJcRbDwlFApHrMTxcY25MonSf8VQ94=
+
+Name: haven/Skeleton$Pose$3.class
+SHA-256-Digest: 1M2RTG0iUIYgHAe6+DWhQQJiTJdglGBa5Idz0YeCvGs=
+
+Name: haven/LoginScreen$Tokenbox.class
+SHA-256-Digest: O/XP1wmhw/kEk0iNyP4CIS7He737Tps0irV4bSLsQHk=
+
+Name: haven/CloudShadow$1$2.class
+SHA-256-Digest: uY2x6EKTBxCMLzzI1sZZa9HbH01IUMuOvO4HBkmm3pU=
+
+Name: haven/MapMesh$Hooks.class
+SHA-256-Digest: xapkcxmaFUbvRaNUsho9LcMjgL9O3DZC/9fPg9hl3uQ=
+
+Name: haven/Steam$1.class
+SHA-256-Digest: qeXIgLzHuZcVpBG7XND6bVFvSehYhSYGrpB7kitcmKw=
+
+Name: haven/PView.class
+SHA-256-Digest: i0uPDyj71EB17v71iC6WXXI+5cFADtksTW/y4CV01Jg=
+
+Name: haven/glsl/Tex2D$1.class
+SHA-256-Digest: Q1WQsJ5b4Sm3bAMX671RAoAfGXumPP6yaNpSzivxuJo=
+
+Name: haven/VertexBuf$Vec3Array.class
+SHA-256-Digest: YUMPf/4/RfAUCleeL89C4VoZ95DS0P+Yui1272FL0PQ=
+
+Name: haven/Loading.class
+SHA-256-Digest: GlnQLACiTVEyvQAZDH+D8BHYwG4wasg/FCCAQPwmFdo=
+
+Name: haven/LineEdit$EmacsMode.class
+SHA-256-Digest: 3fkelESG9TiOaKseeAEqc+aiit430hQkILIAgp3S4pc=
+
+Name: haven/ChatUI$PrivChat.class
+SHA-256-Digest: PWmujG65FQCY6wH6f9plJCVxfnG9UVO21aNt4pNfngk=
+
+Name: haven/GameUI$4.class
+SHA-256-Digest: c5oShSE1wzrLRafxVzd2pH7CptDIF+syNluLDUajsEo=
+
+Name: haven/Utils$AddressFormatException.class
+SHA-256-Digest: H23ZhG5BuODpzB/cedrJqENIzj2b7IU13XEWNG9ZZA0=
+
+Name: haven/RenderLink$Res.class
+SHA-256-Digest: yC9TCraF+olV75mYHaN4bxsllg8wM/pnxAUmYIbpfh0=
+
+Name: haven/Skeleton$BoneOffset$2.class
+SHA-256-Digest: Sx6Hh4nOha0mz2klDEvZEL4t2Kug3Ydht9NoFXgcm5k=
+
+Name: haven/glsl/Tex2D$2.class
+SHA-256-Digest: Fu4RLX1qKsgGXDNLECvxtz2nm/JXy9yZ/euyrTEZYTc=
+
+Name: haven/Gobble.class
+SHA-256-Digest: 4NK8j4wepNLBBvEQL139N4nYkvEQn+g+4Qd6Tib33W0=
+
+Name: haven/MapView$SFreeCam.class
+SHA-256-Digest: NQOr0mzuCZm7mQSv7DosVtHrDtys6GI+7A/nGCWWkkM=
+
+Name: com/jcraft/jorbis/StaticCodeBook.class
+SHA-256-Digest: ZXGFz6b+lDpFwj0xN29zpk4DPhgQL9RBlQWSeUlt5sA=
+
+Name: haven/JnlpCache$2.class
+SHA-256-Digest: CrsbNwlwbP/7OHNIm7iJOTjzKO27ISEBOv1w57BqPXM=
+
+Name: haven/resutil/WaterTile$TWaterTile$BottomPlane.class
+SHA-256-Digest: ZpU19ljcPMFNnHNX99vLGXbum0QiesXv8/V1fYTl7bE=
+
+Name: com/jcraft/jogg/Buffer.class
+SHA-256-Digest: Q6nJPkIcfNQm9rTK7B0NKDbgIQcAsJO/6m3r1fGeFeE=
+
+Name: haven/GLFrameBuffer$RenderBuffer.class
+SHA-256-Digest: 4dCgthT5D+De6Mpa8UoAduiu1s9n96iTrAAnN4GCWKc=
+
+Name: haven/VertexBuf$NamedFloatArray.class
+SHA-256-Digest: z41wYlxJGwR1QF2E1vP0bnTeYxEAF9SDl37/GMFqvPU=
+
+Name: haven/PosLight.class
+SHA-256-Digest: F/TaB4onfd0l5EvP4NAI3acU3mbY/TgTaHgljcIMnnU=
+
+Name: haven/PeekReader.class
+SHA-256-Digest: OmT5vhywnxHdtclAIhO/Jo8eK5hLqH2Yfd2j2xXh/Ko=
+
+Name: haven/Resource$4.class
+SHA-256-Digest: FqAsPfVB7SlTq0QPqVIZSwpfuEr/UB6mWdH/OBLnNiE=
+
+Name: haven/GLState$2.class
+SHA-256-Digest: ecQmh1giUDbhuqH48IHc4qtWr9PJ6ZLrC9Zp9hgnfgQ=
+
+Name: haven/glsl/FragmentContext.class
+SHA-256-Digest: ADFMsN/P46tGMdshWDHX5hj9hiAkCAnl6xHLaEYoNYw=
+
+Name: haven/Tempers$2$1.class
+SHA-256-Digest: NuKC/W9H2r0w9a3QGFdYF6OnuP0SbNt3d4V88d/3L0s=
+
+Name: haven/TexGL$TexOb.class
+SHA-256-Digest: JWtsOU3QJLzrPX2QPEQ8g8DbRpWGMalmQnRPtSv5gHk=
+
+Name: haven/glsl/LPostOp$Dec.class
+SHA-256-Digest: 711IvONtyQ9BExbkPKaM9PUIt6hjReWIXF4Vyasw1tI=
+
+Name: com/jcraft/jorbis/Mdct.class
+SHA-256-Digest: leHdp8CmUshYMk3S5kScNKxtxZeM3kz+V1UQvGeWKKc=
+
+Name: haven/glsl/Struct$Field.class
+SHA-256-Digest: ftXwWch+wQls8UOrtzjI/N9MB8HtpPclSWfuTFgVt8E=
+
+Name: haven/ChatUI$Selector$DarkChannel.class
+SHA-256-Digest: hczCitdCYpfeRPcajvbh/LHLgumIEMK2+RRCIn1/npc=
+
+Name: haven/HScrollport$1.class
+SHA-256-Digest: urldtG0F5RME4b0p4Zk7gWWoptAiiETPfbU6UFb2WEI=
+
+Name: haven/Widget$Factory.class
+SHA-256-Digest: un0zGP4WMqQBLUXBrVDLfrQylr0vsCcWex8uAvppN3o=
+
+Name: haven/glsl/LValue.class
+SHA-256-Digest: k4KjQCfc24LUIsh6CfYXxur7M0/s0CiSeqiFJOjPKos=
+
+Name: haven/MapMesh$Surface.class
+SHA-256-Digest: 5MTv2mVsTdJnFIdP4PTUAK0jKZN5l8n48wqyGnrUBF0=
+
+Name: haven/MainFrame$2.class
+SHA-256-Digest: VeW2t/l78kdLkkRihkDGYLKdIWG6SSN/VWbjFmgpxes=
+
+Name: haven/MapView$FreeCam.class
+SHA-256-Digest: 5SLwb8RCdMnjjjY/uXPHYpnyeOigx+awtxKKH4cHZ10=
+
+Name: haven/OptWnd$VideoPanel.class
+SHA-256-Digest: 0eImMTEvab5lZNTeLB5cpZS9j/gI//er/eLAuyuYN1g=
+
+Name: haven/DropSky.class
+SHA-256-Digest: 7e+NbgVPYfPlQOE2wTOE1m9zvgckezj5/BzJzoqRmr4=
+
+Name: haven/GameUI$InvWindow$$_.class
+SHA-256-Digest: BlZQwzTcvkXZb+ey4DHA24n0Rr5behN9o5FsfqmX57Y=
+
+Name: haven/glsl/VertexContext$6.class
+SHA-256-Digest: Xo94PiqdoCNtl6ikBjSLb1zX1ar/L0emA9IAmFbCCVE=
+
+Name: haven/Disposable.class
+SHA-256-Digest: okZcpTXqcZUqBWLvsEZq+aMPWLhEEwD6ggebEaae+Es=
+
+Name: haven/glsl/GLColorVary$2.class
+SHA-256-Digest: QZSj262l6qsP4W4VCnVPdA0gwZq1HXrMvLxbyca9rCo=
+
+Name: haven/glsl/ShaderContext.class
+SHA-256-Digest: 0R+AWqv8PtySvYJZyDzs4+EZRcTrQYEodDR+0P5CZI0=
+
+Name: haven/rs/GBuffer.class
+SHA-256-Digest: qLL599mU2M5UlzewMlMPWQD6WOWzsSGkS/hG6bWqj0w=
+
+Name: haven/GameUI$MainMenu$11.class
+SHA-256-Digest: +ua303og7Qw7BCGEV/r9Rts9GFjLccmG3hbmkAS7qbo=
+
+Name: haven/GiveButton$$_.class
+SHA-256-Digest: aG6e07Q3Eubv29pI4TNx/75oqItFRW5o3VQ8NLi0NYE=
+
+Name: haven/OptWnd$3.class
+SHA-256-Digest: VKJXdpWG80HuUvo6O3kOmM4LUh5MSjp324lkJI4CVKs=
+
+Name: haven/Button$$LTBtn.class
+SHA-256-Digest: bwlIzWpFQNUJoIaMKv3+1ZMWxMJ3eie6sqsteHs2WKs=
+
+Name: dolda/jglob/GlobAccessException.class
+SHA-256-Digest: Xk++IiLV/PcqQ4en5frmYgcA3Pw0kASwlPJhJVjas2g=
+
+Name: haven/Rendered$Order.class
+SHA-256-Digest: C7CzzE91P6EPEybanpeB4dxSUp5SnbfNUu4TQ539jA4=
+
+Name: haven/Screenshooter$6$1.class
+SHA-256-Digest: oywKu0X5nHK392zzRmZd5cF03UBZxK5p/ldAXXfp8BI=
+
+Name: haven/Skeleton$BoneOffset$4.class
+SHA-256-Digest: qQ/nVf3gba9N8zZ8sYM21NI/YVIA87yGCv4oCRKvPhE=
+
+Name: haven/GobIcon.class
+SHA-256-Digest: SN4PQBi16LBMS/uWd0U3gIE51tlRnfyVQvosk5ZRXqc=
+
+Name: haven/Makewindow.class
+SHA-256-Digest: hYG5IQWtETuB2N8wJqIsHWwyjRtpTK3rDJlIWxgMkzw=
+
+Name: haven/GLConfig$1.class
+SHA-256-Digest: EW4YeKBskJBplXZfeXkoaxBP1qKD5gDU3YyHLzpDZlo=
+
+Name: haven/LoginScreen$PwCommon.class
+SHA-256-Digest: qz5+e5GwaBF71fFm7yNwRA0fAAUv8Idg9JnAEzCaIYI=
+
+Name: com/jcraft/jorbis/JOrbisException.class
+SHA-256-Digest: bQGq0kOlGwNLzkrz705Z9cWRQgB+w3G9AsXpSZAyIfk=
+
+Name: haven/glsl/LPick.class
+SHA-256-Digest: akL1Mqd+EVbY6y1Dgzf2FvRrporms+J4DmAHnA3IVeI=
+
+Name: haven/FBConfig$2.class
+SHA-256-Digest: 775WmHlBwAwE2iho+4oXYj3rcEes3gfe+cg9wH/rCqM=
+
+Name: haven/Sprite$1.class
+SHA-256-Digest: HwiPsyszgdpPn97SZUAb/4ymEGObXii1O0ra/Bi5wFw=
+
+Name: haven/AudioSprite$ClipSprite.class
+SHA-256-Digest: GqTjfgBcB3rwiHcgcRr9xDpVinqCSwv16VJeNOuSTWo=
+
+Name: haven/glsl/OrderList.class
+SHA-256-Digest: 97TqFcpq3Gv8XaDpvq1tQ3x+jejdzdsl71vk1TrS8p8=
+
+Name: haven/MCache$LoadingMap.class
+SHA-256-Digest: iGiWIUpUC6EX9ibyLMau1u+jLs0OazhOM9dnRKMCCt8=
+
+Name: haven/ActAudio$PosClip.class
+SHA-256-Digest: rHm59q0HNjEQwECVGZKQLCw40buF2MbdTL8+8bfX+Fo=
+
+Name: haven/FlowerMenu$Opening.class
+SHA-256-Digest: fnx54ooftD7aprGvVyXlnydwNXsydge+76rZ8bXTevM=
+
+Name: haven/glsl/Uniform$Def.class
+SHA-256-Digest: pPWKv5dielGbNz7XY9JZkiL8JHC0VFZ7xPUJzl+qYG8=
+
+Name: haven/Tiler$ResName.class
+SHA-256-Digest: KYDk14Oz7tk30Zg51HPCDvauKdtdjDQTUTWQ/ryIEso=
+
+Name: haven/Store$Viewer.class
+SHA-256-Digest: jye6I9T4sKCFRSwZcyJAfC/ci6uNmRXaW26MN7X5X5k=
+
+Name: haven/MapMesh$SPoint.class
+SHA-256-Digest: DL2U2NH/rrjOTRfdnkMCSH+Ni77vaCE8IIKpqiA64rk=
+
+Name: haven/Skeleton$Bone.class
+SHA-256-Digest: RGPwco856UFKBjQhUGXwfG+j55C+Oa+R5BMnvLFZaQs=
+
+Name: haven/ChatUI$PrivChat$OutMessage.class
+SHA-256-Digest: nCOBXLqd8CQizHY/4X3IqYVN4/YgUs/+YFOsJDNdJvw=
+
+Name: haven/Alchemy.class
+SHA-256-Digest: ZEWAf1KmEBzRi8whqc6OjcbGMnQdXezBSegLsqUywmQ=
+
+Name: haven/glsl/Varying$1.class
+SHA-256-Digest: zbMAdSRdk6QPMeU/UILBfNTCjg0An3r2us6PMBBVUdg=
+
+Name: haven/Makewindow$$_.class
+SHA-256-Digest: MrwPUPNlVcYk0akbAd01V5Q4OG6yNhUDRbHNglwUJqY=
+
+Name: haven/Rendered$Line.class
+SHA-256-Digest: RnbUOKmrSjCkWaoNoha23FFCVBhCxNqkLE6KRDwmrII=
+
+Name: haven/error/HtmlReporter.class
+SHA-256-Digest: wXIyE/w8ztJ29nVEmBZnZyP2yE8py/9/CBz3hbVFME0=
+
+Name: haven/OptWnd$Panel.class
+SHA-256-Digest: 6bcHBF+3LLiJV/jdcOfHEo1sV8dscYjR9FimXozCQug=
+
+Name: haven/error/ErrorHandler$Reporter.class
+SHA-256-Digest: Hb8xAe5rb3JRpTxjUld3MkpwYASRVTw1oI0nt1F6q5I=
+
+Name: haven/CharWnd$Attr.class
+SHA-256-Digest: 2n1d53gUZVEFO/UrkT+veNOmMIEsLM1j3OOm0I6dMgU=
+
+Name: haven/GameUI$MainMenu$3.class
+SHA-256-Digest: 7+bHJQQGVdxjT2xYHXaoP2mLavo15VYtCbsDe0SznTA=
+
+Name: haven/Profile.class
+SHA-256-Digest: SRaMI9kBiJ5ao4UmOolsg4ooZECgXkgJuFJxT0lWW9g=
+
+Name: haven/ShadowMap.class
+SHA-256-Digest: fU6hFn/HYD4UJmTCwo8CzVnJkeCMPykP5d5jAHiNc0Q=
+
+Name: haven/Material$Colors.class
+SHA-256-Digest: pSW+W9KX9P6UKjawmZOfLPLG2pz/Aj4LSWPCZ5N7BJM=
+
+Name: haven/Material$ResCons2.class
+SHA-256-Digest: gKGliHdRtpFqF75YIj6JkaBH4mSGOBd1bLcFimXO0ok=
+
+Name: haven/MapView$Maptest.class
+SHA-256-Digest: FVgYYnFjUFOhbbyzGXAwRIm4YrC9ZCY/GbgW7XIHvaI=
+
+Name: haven/VertexBuf$GLArray.class
+SHA-256-Digest: F0pxsb0L2eUiv3D0BdHY6qnGGf/fewz6tqxwjhIm4SA=
+
+Name: haven/icon.gif
+SHA-256-Digest: tnoE7xI/wtltcSvRrCGeSZtCEuYTpUcWyYkFQ1XDF1k=
+
+Name: haven/test/CharSelector.class
+SHA-256-Digest: 18rrMq93WeTC4mxAN45PhKgsHIlz0ot1Ni394nvlIFQ=
+
+Name: haven/glsl/Expression.class
+SHA-256-Digest: 8vbnYuTBjrYN+3EY9vnSVSFd3YrDeed2eQL6ey5wmbc=
+
+Name: haven/IButton.class
+SHA-256-Digest: JZf6CyZjfAHT+DsDcHHRK7Nsk/B14+j8ZlcphNx3GoY=
+
+Name: haven/glsl/VertexContext$1.class
+SHA-256-Digest: wXo3zz1WjNf6kyE5Xqha7TPHbMFP/fcNzLTbGP2Y9QA=
+
+Name: haven/MainFrame$7.class
+SHA-256-Digest: SccgbemFLm2MeZB9w0jnPxCAqLJOves3s/rmFbUC6p4=
+
+Name: haven/MeshAnim$Anim.class
+SHA-256-Digest: XhKpoxz+JTyHchRxkqJvXToodJcp2HHxzprgG2bCADk=
+
+Name: haven/Sprite$Owner.class
+SHA-256-Digest: Wl+FeXft/tVCIyczXbkTECGC6WePef5nNvGff2HXdxA=
+
+Name: haven/States$2.class
+SHA-256-Digest: RBdHHBCuqfvCDdae2ROVN8F4qXtXyDJV2aQlgKO1qWk=
+
+Name: haven/Profwnd.class
+SHA-256-Digest: UHAD0cQLpAKCbi6bcpD0Oo0sT5wHYLMX/zBr9l06N/8=
+
+Name: haven/PView$RenderContext.class
+SHA-256-Digest: TXwiQJ2/oXWV8J0sz4Mmn87yLVgfOF9EDmJYRUy6ckM=
+
+Name: haven/Polity$MemberWidget.class
+SHA-256-Digest: o30RE2dC2GYW0Bq61FiXs/vcg/msH9OsU7ltkY7CKYc=
+
+Name: haven/glsl/Uniform$AutoApply.class
+SHA-256-Digest: qLbMHffYABuuBTq3l9w6TbhNQI4Xh14zdyuvDZmaiCM=
+
+Name: haven/Progress.class
+SHA-256-Digest: f60ADsIm7E8OL7+fP0g1bogj/RHR0pQM4yc6K5RR9jA=
+
+Name: haven/GLState$3.class
+SHA-256-Digest: emZUkiBz+GxH0v4pH2iKWXSZDH0FjeCXN9n6YmsmvCw=
+
+Name: haven/Composited$Model.class
+SHA-256-Digest: 6wOoA0vYIzaHOTC7TpYbpAQjNdOX6uJkcTGJMuOasZE=
+
+Name: haven/glsl/ValBlock$Value.class
+SHA-256-Digest: otMKidqFa+YQeBL/PWloruKogJLsjeeRxu4+j+r3AJ4=
+
+Name: haven/ItemInfo$Name.class
+SHA-256-Digest: +lsVWQFZBKQQbMz6y7v8ERGpqjGj6dGJt3xvpHwWEE4=
+
+Name: haven/HRuler.class
+SHA-256-Digest: nQufRVuO1AAv2DU+uM5MJn2nszUMvsLA+6QRZ7X8RGQ=
+
+Name: haven/FBConfig$3.class
+SHA-256-Digest: JpDv3wq42S6jMwEN6vcqaYz7NpDMOJuCXSNR8dj4kHo=
+
+Name: haven/ItemInfo$Owner.class
+SHA-256-Digest: tU/BkScCHKpEbDpHlSbnlA8JUfnTdrVSwx4UfbNW0iA=
+
+Name: haven/GameUI$MainMenu$2.class
+SHA-256-Digest: HS14JptC5tDk8nvqohGNaEb0fXHfxCxhjzqFt4OcAQM=
+
+Name: com/jcraft/jorbis/DecodeExample.class
+SHA-256-Digest: 5xgpc8x3dwS1kObrGjsjHRHW86eUpdtObosAkG6CuDg=
+
+Name: haven/BaseFileCache.class
+SHA-256-Digest: kn17wM+t/Bh9gqIkMgBAjdMpMjBQfemK9rWq55eObyI=
+
+Name: haven/FlatnessTool.class
+SHA-256-Digest: jQNKkrmNmpJELOciXUvIrvHseHpC/MoUJkhJM5PaRu4=
+
+Name: haven/MeshBuf$V2LayerID.class
+SHA-256-Digest: DjHysgYHCCawEAmhgWzBeAgcK9GfoS4ZJ4nQGWoJE4E=
+
+Name: haven/States$1.class
+SHA-256-Digest: t9YG+D5RpzIbmzXZPPQ28jqFDcf4+edIa/LYy2s6Bdg=
+
+Name: haven/GLProgram$ProgramException.class
+SHA-256-Digest: 3+J8ZIodapWzqWKp4/Zlgzyl9vbF9KRm0WFdMk9ihMA=
+
+Name: haven/IntMap$1$1.class
+SHA-256-Digest: ReNC+W7IcBKaQidYZNA9/hawEBR/TUSLiITpLhsygbE=
+
+Name: haven/rs/Server.class
+SHA-256-Digest: O6jDTExkBTrzZYtVzs62aEePn7y0Uvu44vPnEoK4OYQ=
+
+Name: haven/TexGL$TexClip.class
+SHA-256-Digest: XN8lmaf72YJmZVDlx8AAYIDNlvUjjy3GOyBCovxJeew=
+
+Name: haven/GameUI$MainMenu$10.class
+SHA-256-Digest: QCq+O6l/5ad4ClQj2GsiC+0hmVkabH3yW0hNJj+JBGU=
+
+Name: haven/AttributedStringBuffer.class
+SHA-256-Digest: 0G9ndkCKp/t2fhS/KeYOKTyigrLChDg198CBMt2we8A=
+
+Name: haven/FlowerMenu$$_.class
+SHA-256-Digest: Sq3srOOjotvfM9/zQuGIucTy/1T/fwG/D0xrWqvVfZk=
+
+Name: haven/Gobble$1.class
+SHA-256-Digest: TTSELxUDr76W/bPiGgqLl+QPevxO4cC5FaRapxTQ57U=
+
+Name: haven/IDSet.class
+SHA-256-Digest: dcAPT6aPyMUoDeYD3/dcRTks9HoJPPDxyZchCyVYKj8=
+
+Name: haven/Fightview$Relation.class
+SHA-256-Digest: dC0hB0tPgkm7355z3ADGQgd6BDxxnrtYJDQ7Ay04wlw=
+
+Name: haven/States$3.class
+SHA-256-Digest: 0G6ToIlgZdlRsYjawZCr7vZaAw4XFWjnVJJJcrSL5j8=
+
+Name: haven/glsl/Symbol$Shared.class
+SHA-256-Digest: kX1kB/p0LsuK96f5q+xIxHIAEI9GEBx5xQzRijoSnV4=
+
+Name: haven/TestView$Cube.class
+SHA-256-Digest: GigLvErqeLt1y7qkTkTOkbqA1mQh3wndnJxD/Xazgxw=
+
+Name: haven/GameUI$MainMenu$12.class
+SHA-256-Digest: NbLTgy3re1iP2gmzyB/7aCctbm9rAzaYIbMpS0Jw+2s=
+
+Name: haven/OptWnd$2.class
+SHA-256-Digest: mH0a7Nh256jenmGLhluhBzCdPMM2VFx5aTnpAZKLwcE=
+
+Name: haven/glsl/Function$PDir.class
+SHA-256-Digest: 2OQmWHKdHAL2tJcncVSujafJgfaYOooyFpcylQ/C++4=
+
+Name: haven/FBConfig$Resolve1.class
+SHA-256-Digest: vDQd8hEEgisjHC/R03QJp/6IWaJL9lyy/9oO+se5z/U=
+
+Name: haven/Screenshooter$6$2.class
+SHA-256-Digest: FxCuNmgwNiCTwxRYroxK1eN8rRA4pp3a/A/1GJAZiLE=
+
+Name: haven/Store$Browser.class
+SHA-256-Digest: duZ/2TNF6GFpgS0evfyYzV+V4uikBu8hcXZSAVWU8Ic=
+
+Name: haven/GameUI$MainMenu$1.class
+SHA-256-Digest: Rc843kPPCv4AHlpqZs055jN3dlwxX7kAC4JZ9v/m3uk=
+
+Name: haven/GLSettings$FloatSetting.class
+SHA-256-Digest: 0845KDjk/vhybyhO+Zla1Axf8RKwJIkYDK9ApvcDr3w=
+
+Name: haven/glsl/AutoVarying$Value.class
+SHA-256-Digest: OE4/4R8D2icF68LtcKZGLd5ou3SmTEb7SLwWwsRt0Z0=
+
+Name: haven/resutil/GroundTile$Fac.class
+SHA-256-Digest: b0FVqdjV6N6t7M3ChrUHKBZmKSUI+b0tGlmZ6TWygjg=
+
+Name: haven/glsl/Variable$Global$Definition.class
+SHA-256-Digest: aLkutWLT6+kzefRCl9cRnmIm5H3TBuH/+CYCPyNfmSI=
+
+Name: haven/Tex$1.class
+SHA-256-Digest: H9ayIFQjHpnAiKXnMaJHB65gHxWghsRNSfuXyYUvpGQ=
+
+Name: com/jcraft/jorbis/Floor1$EchstateFloor1.class
+SHA-256-Digest: T8jkpZXJ3nPOVeAU+KUKUANaD+qGmysZNw4PXbfW4Vs=
+
+Name: haven/OptWnd$5.class
+SHA-256-Digest: vduUUFm2e7jRqNr/yNeOS58TX4jHoC2aCoavm/B+QMg=
+
+Name: haven/glsl/Uniform.class
+SHA-256-Digest: hH0c4bqKNnKvnpqOd6bUBTPmuL04t4eXYyd7jtbdxkQ=
+
+Name: haven/IDSet$WRef.class
+SHA-256-Digest: 22nLx9eQSY+26fsdfhdnKCW0bDP7gKyripJ6pXpyEsY=
+
+Name: haven/Projection$Modification.class
+SHA-256-Digest: KwiSfnz1sqc6BATl39p1tzbzevq7TlZ8qHtvmXmAFaI=
+
+Name: haven/glsl/VertexContext.class
+SHA-256-Digest: 6n2yMrCtEgvT0vJXxvUDDxspssLaTstfKKz589EyUaA=
+
+Name: haven/Partyview$$_.class
+SHA-256-Digest: WcCjEdx/em+auuhDn6n+QYg7hgbf6bpyniPGatJB/B8=
+
+Name: haven/RadioGroup$RadioButton.class
+SHA-256-Digest: /zX3QCW5mkQxA5wkxbcdyjCghXmmVa1HDbGM/xFkiAM=
+
+Name: haven/HackThread.class
+SHA-256-Digest: i0jWGspMI+5lE5/cj470+RTxgx2BBoiyPuPCTLKy4hY=
+
+Name: haven/MainFrame$4.class
+SHA-256-Digest: /Z+jiL2wFpL53ievvRJCXBLAblFvKgvFq5zdloUbrEw=
+
+Name: haven/MCache$Request.class
+SHA-256-Digest: Yhx7l47jrfHayq6uE2A2fSkBawPLUNcKYmwWMVe14uw=
+
+Name: haven/Screenshooter$Uploader$3.class
+SHA-256-Digest: nKO9KGg+GDXV02aj7pn+jgKc53VjkI6YuUVGDhvZ0mo=
+
+Name: haven/CacheMap$RefType.class
+SHA-256-Digest: O/BJRaVM4oJOfjXQt+iEvFOfc2tdH+p4JfCiYJ7zLSs=
+
+Name: haven/Widget.class
+SHA-256-Digest: lVZORj1p4UzixyOFPJX+EcmElDW/96Yp//LgA00kTb0=
+
+Name: haven/MainFrame$1.class
+SHA-256-Digest: CyxUZlvKu9J6Cg2LBs+Uk2U85HX/NhWi+SnwI95AgdY=
+
+Name: haven/Music.class
+SHA-256-Digest: ds/+NRXHByt+iDmyofJMhDEmaDoAdXvKiRA1kxJbsZk=
+
+Name: haven/Location$Chain.class
+SHA-256-Digest: 0uEOfynYUprxIDNRDyb4k69Crs5UVKPs/VUJANhh26E=
+
+Name: haven/States$6.class
+SHA-256-Digest: LZqbQdpnUHraxn86mKejWQTjroPcVsytMy/d+DPuNe4=
+
+Name: haven/glsl/VertexContext$2.class
+SHA-256-Digest: pcRsZrDM+qBJ2D1il2ep9xtpK6kcsiHAC86uMXv/ciU=
+
+Name: haven/AnimSprite.class
+SHA-256-Digest: KgpPWtOezujpL9yhBrFkyZUMsx+wqSPd5GZ8qyGKcZc=
+
+Name: haven/Text$Line.class
+SHA-256-Digest: wzmyQChoE22fowPfrR4bmnmZQ14Euen1aQpRGtfRe2M=
+
+Name: haven/PView$Render2D.class
+SHA-256-Digest: jcxciQZqo9VU00eIkuSDg6QODsofv04zFu2RT0OIvWE=
+
+Name: haven/CharWnd$SkillList$1.class
+SHA-256-Digest: 58rn2sETM0wn/MpQMawX5vqWi0dX7KpUfHcyW7u9uX8=
+
+Name: haven/GLSettings$ProgMode.class
+SHA-256-Digest: 4jsIaySHopc+WCZS/CusVp5g4KRlsa/5XWAHLF0eP1A=
+
+Name: haven/GLState$1.class
+SHA-256-Digest: zj5tR8Ji0Oz0EYKBXVNticfgZoAlAuh5FRf7LLV0cBI=
+
+Name: haven/Store$SteamCheckouter$Authorizer.class
+SHA-256-Digest: pPXQnmId2Hv9XmQ55dDuZDYFl8q2MijudVcL+TE+tWA=
+
+Name: haven/Scrollport$$_.class
+SHA-256-Digest: /9Cxi2jibW8rm4RWvXJQrFqGuD+wNcUb9NBXeT5dy8g=
+
+Name: haven/HScrollport$2.class
+SHA-256-Digest: 2fvcvsbfDj1h/Gilcs7YfBP99UmyBjucIvbYpZZdlhA=
+
+Name: haven/Gob$Overlay.class
+SHA-256-Digest: CUWAFta9ZZg9S8PQYfmmAoc1tObRDJdwbBFEM2ljkmY=
+
+Name: haven/RichText$RState.class
+SHA-256-Digest: GTH8gTDuTo24AKifDiMwE1JlM+eU5fxk9jYK89NQ/00=
+
+Name: haven/Session$RWorker.class
+SHA-256-Digest: gmXdkMQyNzGexD9tE0l9vSpJZSmOKOP4VabjwjbMFGo=
+
+Name: haven/Resource$3.class
+SHA-256-Digest: Gdj0GVUEXcN8zEI4v0Bhop55vd1AYOTJAacHQvFUSFE=
+
+Name: haven/BuddyWnd$$_.class
+SHA-256-Digest: RZ4Saw/qTIczfNQ8NbSu5gleSK7Xfm1JuFOY4qdKoyE=
+
+Name: haven/GLState$StandAlone.class
+SHA-256-Digest: cHrdzvwHmlrqyQghjTOpcXbntdTjrGv7izvIJLsJtnE=
+
+Name: haven/OptWnd$4.class
+SHA-256-Digest: wGRnd1eOfFRt9vOfqJtzRmfpwDHsmBa31MFrHvqzbWI=
+
+Name: haven/test/RobotException.class
+SHA-256-Digest: RH4Fj6JBx9hCvD6LYhsOW38s5Ke28zvlEQupdx4H9w4=
+
+Name: haven/MeshBuf$AttribLayer.class
+SHA-256-Digest: babLn+rmnnAFZJr0kWOZUHIXPn0rbLd9Ny87Wea2wgY=
+
+Name: haven/glsl/VertexContext$5.class
+SHA-256-Digest: 5qYT2QpHgJO/cpkMAGYpQfBk3ukH9eRaDvOI58kCmUg=
+
+Name: haven/MapView$Plob.class
+SHA-256-Digest: 1MewU7hyYdJdGrmt4enuRi0Fp9Mcxsv2U/m9bHBIgO8=
+
+Name: haven/Resource$2.class
+SHA-256-Digest: YjlYtFcJymkHprw8EzbxNXHni5hxsp8e99SAAcn1eSo=
+
+Name: haven/GLConfig$2.class
+SHA-256-Digest: 9DEyINK3LNCr1HX8LmUVZCXip22tlnNWyLszw/Cu5Ws=
+
+Name: haven/States$5.class
+SHA-256-Digest: JcYPL9k08uQUTJpSBOcSqvOAkmtex5HyIyiHQkmAS2M=
+
+Name: haven/OptWnd.class
+SHA-256-Digest: YGw6tm4dWDhITpIgt1oPhl8m6lYyzs//cYak1gh4x/I=
+
+Name: haven/Tex.class
+SHA-256-Digest: BYax3Kk8YKTvf5jMVc/r9rEimukJyGFnOAo4hJTveRk=
+
+Name: haven/Light$$cel.class
+SHA-256-Digest: Y4QYESrd8JSjZ+BbIMMXkmZTok9vtipijOOdLtpXxb4=
+
+Name: haven/LocalMiniMap$1.class
+SHA-256-Digest: UHv0uM7/+Cdaqs2kSpGzRxFFaYJbPBCzcv2IGnWBIkI=
+
+Name: com/jcraft/jorbis/Info.class
+SHA-256-Digest: hSW8z3x05GiZn0ObggcAexHnAuZq87/k8UXRUI6Qw+Y=
+
+Name: haven/glsl/MiscLib$6$1.class
+SHA-256-Digest: T/qgVrVdb6jK2zCgfY6idGJqVhD9lZCl0tESYp9Br38=
+
+Name: haven/resutil/CompilerClassLoader.class
+SHA-256-Digest: ZDbiDjOtzRz6lwTyPoWwevC2xnUwWwyFViuaum9e7as=
+
+Name: META-INF/glob/haven.Resource$LayerName
+SHA-256-Digest: 4yYxQxZbN89u+AsrwrhU60lAyk7ctgV7qPX9YgI7PP0=
+
+Name: haven/GLFrameBuffer$AttachRBO.class
+SHA-256-Digest: 8i4dqwlYNMgjpT/5+wEHfYlWQRmNKdXFKd2nvqCoO1g=
+
+Name: haven/RenderLink$Res$2.class
+SHA-256-Digest: mzjfUsBI53H+6WTF8HPnuVeq3M467dWcB09hO6etQGs=
+
+Name: haven/Steam$Listener.class
+SHA-256-Digest: t9LbHdDSPaGum9JurkcoH1RbmAQH8aKU36XZ3LXF4IU=
+
+Name: haven/Skeleton$ResPose.class
+SHA-256-Digest: u6vLxcBMWpzl2p/QBeUjMkntv4yuIJNbuJ/BVxngDMU=
+
+Name: haven/GLShader$Splitter.class
+SHA-256-Digest: tBp5+GllBEJSpI8FPjh9IPZN/jE6tX4fKH6VLVjzOIA=
+
+Name: haven/Speaking$1.class
+SHA-256-Digest: dInazih5VUz2u1YsH2Emo7wP4V+M7hsbY1i8f5IdPGk=
+
+Name: haven/error/ErrorStatus$Simple.class
+SHA-256-Digest: 4puVBnn/k3uvgcblK4KSwOxs4zBu+7WJ186vu+BAX6A=
+
+Name: haven/TexMS.class
+SHA-256-Digest: 3ElkdsU1gqbzZj+sVqsF0XrIC+gnV5qn2IVgHF07tDg=
+
+Name: haven/MapMesh$Layer.class
+SHA-256-Digest: o5gxqO98doKC1yHIK2N13PgHZC+bjchZlQCmD35juFo=
+
+Name: haven/PUtils$Convolution.class
+SHA-256-Digest: xSvV92aOuPQQFKeZYX7liekNAp3OAebTfPof3btQ6k4=
+
+Name: haven/test/MultiClient$1.class
+SHA-256-Digest: aItp7gKrr0YoixlxO5+ANwM55tpUhZ2yOi/g+Pf0nHc=
+
+Name: haven/RenderLink$Res$1.class
+SHA-256-Digest: O2mrgQKoTTmtnYBiKP/1JtEJIll/dueyExJE6jtquZE=
+
+Name: haven/Resource$Loading.class
+SHA-256-Digest: eKF+g0UaPP31ZzUzegnu1FxAg0dXCFj4ZqgzWlESVp0=
+
+Name: haven/glsl/VertexContext$4.class
+SHA-256-Digest: BUi8Ch66oaTQxGIF3Y2Dy7qVG/AOTBIxCT4pBNQHSeI=
+
+Name: haven/HavenPanel$OrthoState.class
+SHA-256-Digest: qIAfa8ndgtkuItzbWFASDyIgb0RoupehnOI8yR+wH1E=
+
+Name: haven/Material$$nofacecull.class
+SHA-256-Digest: enyvw71l08Pn/AharqykqGRHBbDNxYnjxU8B1gx1a9A=
+
+Name: haven/States$4.class
+SHA-256-Digest: qIhteiywJTQb5yfxJV+6ZfhPMk9miCSkdMmRelP7C30=
+
+Name: haven/FastMesh$VAOState.class
+SHA-256-Digest: D/FPl9ZbbANcJ7WoB7Sk/XZatNT6UPA1sOmuFn/1aQw=
+
+Name: haven/Resource$1.class
+SHA-256-Digest: DCjqHvMOWDxG50Qso8M1b2h1t3oZXUZYx4TB1Bs1Oas=
+
+Name: haven/Skeleton$PoseMod.class
+SHA-256-Digest: IeMUzHY34TsVgPhrU2fSkFkgGY4Me9Z0emwKVVYBOf4=
+
+Name: haven/Profile$Frame.class
+SHA-256-Digest: b/E+vlyOhWUGmtEuetKjdTfS4N4TXGQb1O0mXxieL/M=
+
+Name: haven/test/BaseTest$1.class
+SHA-256-Digest: Wvbr4VGZD8AQowtnGed64eucuzxj6hxlDjdsITpHDQY=
+
+Name: haven/OldGobble.class
+SHA-256-Digest: eRnMUkQ8TnliCYvrXYyFbfk8l7hOzRSlMparumoHGi4=
+
+Name: haven/TexRT.class
+SHA-256-Digest: PMouI073VS7w0arG5AgWdRthJzO92Jh9gjCm5MTYkhA=
+
+Name: haven/MainFrame$3.class
+SHA-256-Digest: 4a/++qVLqGApcPzVCiRxZuD0DVUiGOLKOa8iixT8o2M=
+
+Name: haven/MapView$Grabber.class
+SHA-256-Digest: q38BZyqeazhZrY0a5miQ9CtB/i6t+kXsgZyQJF5qWmg=
+
+Name: haven/Skeleton$FxTrack$Event.class
+SHA-256-Digest: jcAQ0X0zhOpwVCuVNggokmIkhEMhe5fxlYlV9NoNSog=
+
+Name: haven/Gobble$TypeList.class
+SHA-256-Digest: 5KWPj3Mmt+WtN9csLrh+2WFWped6usZxwwZSMnODlRI=
+
+Name: haven/GLSettings$MeshMode.class
+SHA-256-Digest: a25Sxm/zC1KrAvbZ59Wd5Us63G9UmuhnCk0gTdXJyt8=
+
+Name: haven/Resource$LoadException.class
+SHA-256-Digest: HSnlzeKUV4qU6tQML3JKxHYaS/PYth1xZ0pqLqx8ZDk=
+
+Name: haven/CacheMap$WRef.class
+SHA-256-Digest: XaKIjGCxgGNMRzRcfu/o2lXs9OKVfG0BJHFivE0jqCA=
+
+Name: haven/GLShader$FragmentShader$1.class
+SHA-256-Digest: X7niNGmvZPyadGwY4HjDvds5IVwZAiImv9FCn+gRYxw=
+
+Name: haven/VertexBuf$VertexArray.class
+SHA-256-Digest: 11XWJHL+XYV9z9stEu6VbtwznL3qPksMj9strRLaG6s=
+
+Name: haven/PView$RenderState.class
+SHA-256-Digest: xXAMkPkKAyS+VaIfspuM3NBsADVzVBgIZPSLulZf/vo=
+
+Name: haven/Utils.class
+SHA-256-Digest: 5l04uROAvBP8ldphoOK+lN5ITW21ASKTkKGspnuo7HY=
+
+Name: haven/IntMap.class
+SHA-256-Digest: W0M3IplQmjLmE6HERMSFVYJaj45MsT7ciij6t+F+cUc=
+
+Name: com/jcraft/jorbis/PsyLook.class
+SHA-256-Digest: a4eUrtRcACOP3aBgaeGjzBAonzoTTyCOPnKfdy6IJGw=
+
+Name: dolda/xiphutil/OggException.class
+SHA-256-Digest: K7oLSaWEAMgDFe3xFfS9Dv9M5GDURe/Aq76rJl2Mkhk=
+
+Name: haven/glsl/BinOp$Gt.class
+SHA-256-Digest: j146AqIh+xz3XC8icmiyp6yesvY5RxkhwL/JNSBEUHA=
+
+Name: haven/GameUI$4$1.class
+SHA-256-Digest: I5M1+zcR7rnJS8V8uX/kVg1lk3QK6YeUE8k0Y15Y8SM=
+
+Name: haven/HackSocket$HackInputStream.class
+SHA-256-Digest: OsT7mzEzwf6fb9xwcS69v7temeEpIVrIcAlBp9fz4yc=
+
+Name: haven/Resource$Tile.class
+SHA-256-Digest: lJXFN3FCisL36iakCLXC6sByxDOvMWWZ7A1Kv3djibg=
+
+Name: haven/glsl/MiscLib$10.class
+SHA-256-Digest: kuHg4W6vP73qISX0PPoz9/l2+VTM0aFQplrlyAtdl8A=
+
+Name: haven/GLState$Slot.class
+SHA-256-Digest: 2lPt9G5EexCdnFP540Lm0+Rx+4siIffVtTq0AbQYiII=
+
+Name: haven/Screenshooter$Shot.class
+SHA-256-Digest: BKYKLTZ3v1pNJEVmml8IYRw66vLYyuAgEmyFiDNUbGk=
+
+Name: haven/FileCache$1.class
+SHA-256-Digest: 4ipFIhlgl//J3WAi01kd+q/D3LfwJBPBwDgcWaYqE8A=
+
+Name: haven/Skeleton$2.class
+SHA-256-Digest: VN1YbhoA6eIY7HgdEc3AghYcdba83uWsW+ohl2afZFY=
+
+Name: com/jcraft/jorbis/Block.class
+SHA-256-Digest: ipyVE9xvc/Tt3otR3fWJWKfcek7oBhoqBxe93ES0YEw=
+
+Name: haven/Equipory$2.class
+SHA-256-Digest: k+wu9EZJ4JxJ9m9FWC97+QY/1g7rozp8ksjzqA4HHFw=
+
+Name: haven/MeshBuf$Vec2Layer.class
+SHA-256-Digest: vsy0GU7dHS60EpqErQGygy5ceoCPYhfVzjRhqRQhty8=
+
+Name: haven/Mipmapper$3.class
+SHA-256-Digest: TtR2XhzDp134CMKlshmQBOwo6yjW5VP8Yq7TPYaXPrM=
+
+Name: haven/Store$CartWidget$1.class
+SHA-256-Digest: jiX2Q/665wLEev4Tt8gdBJzT53YxLioqjsu0MEesybo=
+
+Name: haven/glsl/ValBlock$Group$GValue.class
+SHA-256-Digest: veuT7VaXO6Ed4VWycXg1ag6zqK+VACz9MHG5wjIY+24=
+
+Name: haven/glsl/ValBlock.class
+SHA-256-Digest: FxE6xvqW6XWA7b64/kZIbQLqx3Z0TxoTwYdX188KBfc=
+
+Name: haven/Skeleton$BoneOffset$Command.class
+SHA-256-Digest: jcoHrtds2cYN4zeUPNNV0wtrYJJQ/VfpMed9hjUgR/8=
+
+Name: haven/resutil/WaterTile$BottomFog$3.class
+SHA-256-Digest: vKIixFHSKRlpCO1PCGLyprCWghtLrguTNYKqK94UQcE=
+
+Name: haven/Coord.class
+SHA-256-Digest: B6cV9vHjSe3cq3Rh8N75vVhZb2qRBfyUuXgypl6QWr4=
+
+Name: haven/error/ErrorGui$1.class
+SHA-256-Digest: TaqmIpgVWb3qRQLf1DaoRVDgt0wC7b6iNLhMcl8rFoQ=
+
+Name: haven/Inventory.class
+SHA-256-Digest: VS3uwiUpYL+a+7iq5d8tMXL0z8Y4PwuxtcuzOwEWw44=
+
+Name: haven/glsl/OrderList$Element.class
+SHA-256-Digest: KwhcKJjCl44oMlmBA0rsgn0zGQhxMdHvByjSrsJ17YA=
+
+Name: haven/FoodInfo.class
+SHA-256-Digest: IPt7vy2Lfzto1j48Eo9fpziPgk4jZO+Lo+NufQKeLBY=
+
+Name: haven/Resource$Audio.class
+SHA-256-Digest: EZOU6WIUnUTcMRsGWDH9PhdIXpr1EZt4SfmLBRip6QM=
+
+Name: haven/GLProgram.class
+SHA-256-Digest: 9zgFwpk2DdWbeMqLYReH2uHT0xO/3+k9kMX1FCHI7Tc=
+
+Name: haven/error/ErrorGui$1$3$1$1.class
+SHA-256-Digest: gVesEqus7+trIvMYfn3lKoddzuJ8qD1YTnqBvecOZ/Q=
+
+Name: haven/error/ErrorGui$1$4$1.class
+SHA-256-Digest: Ogh1XCafPVB0SFfbwtanrR18FRohJ4Cl9UeQoqLbmzY=
+
+Name: haven/error/ErrorHandler.class
+SHA-256-Digest: +9eOCktzDnEy8ZMYHq/0d74PrVtysWcSOcQl86Blnhw=
+
+Name: haven/glsl/Tex2D.class
+SHA-256-Digest: tMBMC1RTMKB0w2PPuuPA01N0VcivcTU+p8VnhL4esQs=
+
+Name: haven/LocalMiniMap$2.class
+SHA-256-Digest: kpSVHYcZMgio2JNyDxv9LdqVHLQePmbu4FX1SVdGuWo=
+
+Name: com/jcraft/jorbis/DspState.class
+SHA-256-Digest: hGTPjkFCwJplsYq07KYpcAFpfk/zNbvEIAQQZYR7tyc=
+
+Name: haven/Utils$3.class
+SHA-256-Digest: uZx2gnjU1XFMvADzI5n7IeXDvFmhQ7ifKhGLRL5hbNE=
+
+Name: haven/States$AdHoc.class
+SHA-256-Digest: oHthK6KFEqjuSS1+Xb2YlX2P+eCF9gaEG+amI0okKYE=
+
+Name: haven/ChatUI$ChatAttribute.class
+SHA-256-Digest: pJj9VIURbvDwRFO8GKqCHJ3Cv38A3w+RBl+rSJfTssk=
+
+Name: haven/LoginScreen$Amazonbox$1.class
+SHA-256-Digest: G5keh5MTd3Sia0i5w4R1OimKko5b1oW1whtdh0tOKSo=
+
+Name: haven/MCache.class
+SHA-256-Digest: OnQ2MJwFDAdHKXr01J0glLS37NJ2xJhUiyDFEgX48OE=
+
+Name: haven/test/TestClient.class
+SHA-256-Digest: kspVQMeiii6KIfyJihqHN1f9tYGHpQ6xD3HBxQ8DKMQ=
+
+Name: haven/Outlines$2.class
+SHA-256-Digest: zsmSF4w8myZXJqIb5Lm62phHdvCG9X0Ub+ZQFeECyxk=
+
+Name: haven/glsl/IVec4Cons.class
+SHA-256-Digest: TzXq+LNg1ty2webx+P3MwaJp7uaAsB/LxulKcssulGo=
+
+Name: haven/Prioritized.class
+SHA-256-Digest: /RrSMzfU4BnaGmO8PPfMdfdxr8fQxoRXntGjD1TJ5uU=
+
+Name: haven/glsl/Output.class
+SHA-256-Digest: 7ku4QXF7qLpJEKRPqcb1GEPuHpUcVsT//jCi+NIsYEo=
+
+Name: haven/FBConfig.class
+SHA-256-Digest: sBnHHasC7wzMSvKH6/1Q9e75mwpQemoeBAJ4q61u2WM=
+
+Name: haven/TestView.class
+SHA-256-Digest: vOUXLEZe4gN3T9SyoJ/+/Xdqv2k2MwUXPGM+0YWEFCI=
+
+Name: com/jcraft/jorbis/Lsp.class
+SHA-256-Digest: oWR97/jTvM/MTxmG7cYgn//nVqEn6RsFC2JiF26xcqk=
+
+Name: haven/PoseMorph$1.class
+SHA-256-Digest: Ibp6QIfiTOu6Q1OwfCwD4Du0OOpBu6emQxRIXOhN/SA=
+
+Name: haven/Composited$Model$Layer.class
+SHA-256-Digest: 0v/xZvJ53NWMYbgq+D/35Kdgj+CFUgl9V//U7oSyFzE=
+
+Name: haven/glsl/ProgramContext.class
+SHA-256-Digest: 4117IFEOCo8HgWFjGyuDyLSEJEQ+j/xWm5pDh3Nd/n4=
+
+Name: haven/glsl/LBinOp$AMul.class
+SHA-256-Digest: M6IEx6ucj2SKMRoCNRNhDfcD0SK4zyX4sKBNCKU38/c=
+
+Name: haven/MeshAnim.class
+SHA-256-Digest: WUx+VKhHbggiMTGCf4q3BXDWQ6UDgqT2+3fKjmK+KGE=
+
+Name: META-INF/glob/haven.Tiler$ResName
+SHA-256-Digest: hBCSDFzzCRXmymGwyU27Q4zzedpr+oqhSwWO4R0S7c0=
+
+Name: haven/Defer$1.class
+SHA-256-Digest: cQsBo5HrX/Cpi5wgDBr/8FaftJMhfK4kC/WlgiVWmzw=
+
+Name: haven/Glob$Pagina$Image.class
+SHA-256-Digest: GzPd9qZwRMy0zj3/lElBxaPwhCyiRt1MPAoTvsWKhlg=
+
+Name: haven/Rendered$ScreenQuad$1.class
+SHA-256-Digest: gnZeqzR0vHJ8rwQ5qhjGYNF0mEuu+vH4BxfO1s3xL3w=
+
+Name: haven/FlowerMenu.class
+SHA-256-Digest: Lt2LocreyotnXbxce54Va1zGLOa8BIpYh6U8kkLJe0I=
+
+Name: haven/LineEdit$PCMode.class
+SHA-256-Digest: rweq6oVZTBRCzruNuusZxwoyO/kj4MTGON61nZwNkZA=
+
+Name: haven/Matrix4f.class
+SHA-256-Digest: FeMyFxK/aVf3Kroki0m/Z92cg+uvdngDe1YxKpmydRk=
+
+Name: haven/LocalMiniMap.class
+SHA-256-Digest: hys1nqb2UKRNajF0o+a6sritDYPrPshvypyvAdaKhjY=
+
+Name: haven/RenderList$1$1.class
+SHA-256-Digest: RvgB8LLdk8v3P6SKo1qknzavHRvMktk+QvtOYEcQ4ig=
+
+Name: haven/GLVertexArray.class
+SHA-256-Digest: 1TzVZTcFzBuLBIJy/+KxAgNe2Lf4VgqMODU3v0pxtaI=
+
+Name: haven/Console$Command.class
+SHA-256-Digest: QPF+5+FzlyK4+1jE0kWE3XIFpIjqpd8aNG9k0mIhjZs=
+
+Name: haven/HavenApplet$2.class
+SHA-256-Digest: BVaLWD+6DQghiIVhU7fZTymBKGQ83BOhfEl+LR8g8GA=
+
+Name: haven/Party.class
+SHA-256-Digest: okZWBDaWQ7uznyYWJejpTXxrYPuXPWFGZi510r8qYzE=
+
+Name: haven/error/ErrorGui$6.class
+SHA-256-Digest: WmtsnqTLqXzHjXiwGDC3y1GLbDA6G1N4kEg0QS2Vvhw=
+
+Name: haven/Resource$Layer.class
+SHA-256-Digest: JHeHJ68AYZZSruRyKCmcLKIrjEXNc7dhNHDIDSBikLw=
+
+Name: haven/ILM.class
+SHA-256-Digest: YCnCEyFfDDmD+3Hh6QLJK9cIOVzzae4/o5QXPGAZQKo=
+
+Name: haven/MapView$SOrthoCam.class
+SHA-256-Digest: G0O633JkLVRjaAVcsMmUFjYl8PkSLfNfh4YyDYShvXc=
+
+Name: haven/ArrayIdentity.class
+SHA-256-Digest: az4s3K4Z8BzhAqpRWPaC6iKnTAi5bnh/f0aBvry56Ok=
+
+Name: haven/RenderLink.class
+SHA-256-Digest: 3fcsfGqSum+NQFt19r1jT60EVjlRrepLBGzeZiyGQlw=
+
+Name: haven/glsl/Placeholder.class
+SHA-256-Digest: 7xOGysYAT12gcD+lQWl/X5cXeOtAhSGc13pXCaZMtJY=
+
+Name: haven/LocationCam.class
+SHA-256-Digest: ZDwlK/2twb8GLcZn790LQipxtGuqpgsFGiyEfcKuLBA=
+
+Name: haven/Fightview.class
+SHA-256-Digest: wTIm1PcKJKnwpleszKhVFY3xPdcu1N9/V3Nx5NUR++U=
+
+Name: haven/FastMesh$ResourceMesh.class
+SHA-256-Digest: ll311aiwPkWEULf98BPFsLe5B9lEEOSKrYoDVe3Qsuc=
+
+Name: haven/Gob$Overlay$SetupMod.class
+SHA-256-Digest: w9nYzQUdL3R0VTgWrrobJP99e9J+YGtFDA6SqYY1684=
+
+Name: haven/HelpWnd$1.class
+SHA-256-Digest: 8xkO7WpI5Jm9qEMiZSf63HnUskGv/+H2AmR3d45ghhM=
+
+Name: haven/MeshBuf$1.class
+SHA-256-Digest: sPldGnSZ/jY+GwQnSIdUmQRtYx1I3tqABXSW6W0tAO8=
+
+Name: haven/I2.class
+SHA-256-Digest: dXZclD1Vsc5S+g7WbaER5crKm7O2GewBgvDEILyqB0E=
+
+Name: haven/glsl/If.class
+SHA-256-Digest: kjrHlhlNZ84kUrA28wMaPkzy8tIqagDDbILBT1nlBYc=
+
+Name: haven/GameUI$8.class
+SHA-256-Digest: L5dySEIb6dgLyFwnDhqsY1MS1lZdIkBdQkJ9AHgR5Ss=
+
+Name: haven/RenderedNormals$1.class
+SHA-256-Digest: 0EKmVSH6noZfLS0+AHNQbLoGbVc/8JUJd6tY9T5F5Ao=
+
+Name: haven/error/ErrorGui$1$1$1.class
+SHA-256-Digest: Rd50Db5wNp7cwOQGmAaAcZO048ZisTRIK10SeZCY/7Y=
+
+Name: haven/glsl/CodeMacro.class
+SHA-256-Digest: g3DbizvQW8TA3wtiBz94wpqps2kROQJr69g1CkHzrqw=
+
+Name: haven/resutil/WaterTile$BetterSurface.class
+SHA-256-Digest: fBECNYMboeOiPGBAkuD21h1HaPEVTVs2Tn1fg1/z2Uw=
+
+Name: haven/BuddyWnd$10.class
+SHA-256-Digest: AQEaOuzGdPztSXmckhWzQ4val6Ak690hQVBZOlDMua8=
+
+Name: haven/resutil/WaterTile$BetterSurface$1$1.class
+SHA-256-Digest: p8ahpojc036WXZohKjzaSiQw/ahlNVlZShIHtJAFVyA=
+
+Name: haven/UI$1.class
+SHA-256-Digest: 8e6eDye530lvuwFeHdH8jac8KsvmDPpyazfCUhQN0X4=
+
+Name: haven/LineEdit$1.class
+SHA-256-Digest: 9Xg+VdfuibdAwzs66iKDNF3jrJfkejw+17SsYR8T2RU=
+
+Name: haven/error/ErrorGui$1$3.class
+SHA-256-Digest: eeHnldfobZ+ldGRXg9QnStNyDgKncSeGADLkT31GSuw=
+
+Name: haven/GameUI$3.class
+SHA-256-Digest: eUAyTaGbf5BbkLWjiQv0vhbFV9LbEgNPdM0PIXuNbXo=
+
+Name: haven/Label.class
+SHA-256-Digest: 6BLFXZPwcDtsm4YUs5TLXJ2sl/n83y3Vmo+EU2gleJw=
+
+Name: haven/Composite.class
+SHA-256-Digest: w0ipltFGgM3olbR/TKUW4y1p+fx1Kf0c29SmK8H1Ef8=
+
+Name: haven/MapView$$_.class
+SHA-256-Digest: Yy0nZwmnABVWrBkyy1HZ+SHQQpcySeVMBVZMkjfqgmY=
+
+Name: haven/OptWnd$VideoPanel$CPanel$4.class
+SHA-256-Digest: wQoOcHlOFYHYjSW2TGySOGsdVsNjAVl//S2SgSMq6lY=
+
+Name: haven/TexGL$1.class
+SHA-256-Digest: QjCvzBemfKzMZ7yl8YjP3XCXj3G/5CzvecGvJLnFxL4=
+
+Name: haven/Fightview$2.class
+SHA-256-Digest: d9BAGhP0LL3/SHxRwaw2WaXTRdBGCkvJdNa6swnudLU=
+
+Name: haven/CharWnd$1.class
+SHA-256-Digest: +VkoWe892b6H107myIf87H3YwK7yWEBYgCmXkZdU49Q=
+
+Name: haven/ChatUI$Channel$2.class
+SHA-256-Digest: OUNiM4l6bcXrh0gFub/55FEc3np12oaJPLXlMdhG06g=
+
+Name: haven/JnlpBrowser.class
+SHA-256-Digest: 27FNTulp7xBcEmgqSZy+IVyazlKng/pfHLaVfE7Uuq4=
+
+Name: haven/Scrollport$Scrollcont.class
+SHA-256-Digest: 01Q0UtRrp47ebk6HJlpjcQ5Ox81tRuG0/cn6w30MhkM=
+
+Name: haven/Skeleton$Res$1.class
+SHA-256-Digest: Zc0IsC6Rlq80LUu8nIu0uMHOCxMYW7z72bqSdnkc4Xo=
+
+Name: haven/Sprite.class
+SHA-256-Digest: bCodqbGgj7YQ2dWapNoJYVUMdViMNN07SLjME/0vjoM=
+
+Name: haven/WItem$ShortTip.class
+SHA-256-Digest: OYNrgNFsbKAsUsmQmi5ZIfw/JCIQNcMtKtxJGy1spGU=
+
+Name: haven/PUtils$BlurFurn.class
+SHA-256-Digest: RiDr3WUoK9guBefg+wHgviOvIl+ty2Tam+STDd8nBjM=
+
+Name: haven/PosixArgs.class
+SHA-256-Digest: f9uBrVU3TEH4iqz/xcM82fXaNpQtUo/XHw8KppSELf0=
+
+Name: haven/AuthClient$TokenCred.class
+SHA-256-Digest: GKAuJ3aJxY6fgBup8X8sXwzCn+KOxy07vgHypNIYQpQ=
+
+Name: haven/GLSettings$7.class
+SHA-256-Digest: NhV7ZYyjbkDs0FnXgzp1XVh5bg7/TDSxoadf2veicqo=
+
+Name: haven/Tempers$2$2.class
+SHA-256-Digest: knJ4m0rArdlL3JjGjPPkE76/fUl8pEoaMQrXXMFXSd4=
+
+Name: haven/GLProgram$ProgOb.class
+SHA-256-Digest: O97VF4/3ADEy5LwAwbC7LT4zG6joamIjuosi8fIUKVQ=
+
+Name: haven/resutil/TerrainTile.class
+SHA-256-Digest: JCAPHJxqLtwmtHkOYSJo7WZx7Q8hRJXMRqCyvRDX81A=
+
+Name: dolda/xiphutil/VorbisStream$1.class
+SHA-256-Digest: wxs/fIoD8ErpEMcPiFqfDqAZL/tD7rxhPAAfJ2AkMwU=
+
+Name: haven/MapView$2.class
+SHA-256-Digest: B2fSiSRUOb+jhom3yKxhzmvOHLZ2e2/YSxUqkdgcXq0=
+
+Name: haven/glsl/LBinOp$ASub.class
+SHA-256-Digest: o9UINctW9321MJQME0zizv4IV65M16lo2H+OD2kIOrI=
+
+Name: haven/glsl/VertexContext$8$1.class
+SHA-256-Digest: A3je//9mPcvqPDP8GkgzUpCfafmW/lHYiUbkcUA5ZHw=
+
+Name: haven/ShadowMap$Shader$3.class
+SHA-256-Digest: Z9QOaftoQDlw9ODYEX0R5H4zFvSqCnjI9K5vkiMFYGM=
+
+Name: haven/glsl/OrderList$1.class
+SHA-256-Digest: VdLBDujUgJddORkJKRaSKRj0GBuPMQLOKrm2Q4BrPTQ=
+
+Name: haven/test/TestClient$TestUI.class
+SHA-256-Digest: aVge91nFV9+Sn4L7aQ0JMs+6MaIzWdlj8Uv8HR8qhmA=
+
+Name: haven/glsl/AutoVarying$2.class
+SHA-256-Digest: wD7ixnFMk64xzIGaGM2BE9Ce/mMB5MTwAZx5rWMFuU8=
+
+Name: haven/Defer$Future.class
+SHA-256-Digest: jVnC53MSMr24ztLaY90RiR5QvAEIc3x0W5PNqjNw3oo=
+
+Name: haven/glsl/MiscLib$2.class
+SHA-256-Digest: LCciZOxClWgrbRCMDg6gOyAynXInVciGosHGqtSsAHA=
+
+Name: haven/resutil/AlphaTex$4$1.class
+SHA-256-Digest: P9CJa2CepWALdFqnTI36IbVrO1Q01RUQMaHznPDW9Hk=
+
+Name: haven/GLState$Applier$SavedProg.class
+SHA-256-Digest: kZnyXg/ORhWELdlW+/Zw3H4dGFox3JdPk+P4AyNTcig=
+
+Name: haven/MapMesh$2.class
+SHA-256-Digest: fa28VHAZeGM8NzDwhAuB6GTX3n59SkaAtn2wCRoeQls=
+
+Name: haven/glsl/Variable$Implicit.class
+SHA-256-Digest: lTRC0Ki1FJOqMTB4/W7ltKUQYmcD5j2Sh9gm4kA2j6Y=
+
+Name: haven/Profiler$Function.class
+SHA-256-Digest: eQ3O/bENRZYMnZzeyV26yeJo4qPSTaHEGVOsMJPQLeU=
+
+Name: haven/GLBuffer.class
+SHA-256-Digest: ab6yADawUr6kGJfHwth9s7nzVWEiK3PAWZfM2gRKYnA=
+
+Name: haven/MapView$ClickInfo.class
+SHA-256-Digest: 93uIzjedaiZYet7mM6TMQ3F7FroB2qPK64PPiCk6g5c=
+
+Name: haven/CharWnd$SkillList.class
+SHA-256-Digest: Fk1Hp3of/uK+2E8aNphlNxEt0xu1z0VuYRI3uUVbMxo=
+
+Name: haven/HavenApplet$ErrorPanel.class
+SHA-256-Digest: +Dx5GHEKts990KyolcmFqCZ7K6vIv5XM8I7hgx64VOY=
+
+Name: haven/ChatUI$FuckMeGentlyWithAChainsaw.class
+SHA-256-Digest: QfEKOrvaG1Tpp+wL38bEXznexB/8WWPVPIDtn2POlBc=
+
+Name: haven/resutil/RidgeTile.class
+SHA-256-Digest: iD7MD5wY5febYoX267yeaNoo//iISYanXJRWSM9eLBM=
+
+Name: com/jcraft/jorbis/Residue0$InfoResidue0.class
+SHA-256-Digest: pZ696m10sXCYYasjmx30X8WUyr2fq9OLv/icjmJgBwg=
+
+Name: haven/HackSocket.class
+SHA-256-Digest: +h6Prk50cL2BEaadnCuEybpA9WbFxMJUaiXnNwTihkw=
+
+Name: haven/glsl/LPreOp$Dec.class
+SHA-256-Digest: rMZuZ9lLHsaqD8swmzjLgTTvqgbTdHQeN0oE5kRS9us=
+
+Name: haven/RepeatStream.class
+SHA-256-Digest: KnatfnwhHjezFYIWMykmoJsZNGjGbyDUf2/b8w6n7yk=
+
+Name: haven/BuddyWnd$BuddyList$1.class
+SHA-256-Digest: +8UuJkjlXO7d4A799OFiYBBd2of6/Zdsha8Rfm+C200=
+
+Name: haven/resutil/AlphaTex$1.class
+SHA-256-Digest: Hv9hRXX25te2E6aXdiOfEaw+1DIor8dZTShS8vvJ9Wk=
+
+Name: haven/glsl/Variable$Ref.class
+SHA-256-Digest: dZ1eUk0lenhBbD83k7oHhmq48zAxOOLVhGKvCPDKglM=
+
+Name: haven/JnlpCache$1.class
+SHA-256-Digest: 896eDfO9X5E0Zi8flbugHw0TfmYJfQ7eTQRwvAc6m6A=
+
+Name: haven/GLState$Global.class
+SHA-256-Digest: OpVbsdfjz/hewlYAbr1hkx3nqIoCA3puAJLZtfFDmIc=
+
+Name: haven/StockBin$$_.class
+SHA-256-Digest: NNtZYOMg4uRwCH4iKpcigr8Vk7crqNkAtrqdZkQcL84=
+
+Name: com/jcraft/jorbis/FuncResidue.class
+SHA-256-Digest: fFdHPU6fZiDH7yeXQYE9lbcxuEcPZP+JuCzuJs3juTQ=
+
+Name: haven/Glob$Pagina.class
+SHA-256-Digest: JCaXg7RWgGm2qCMx8LbE+zm+52rf/ysJ95p+yxTeD9c=
+
+Name: haven/Scrollbar.class
+SHA-256-Digest: kH+kfjpuG5cDbKatqRdoAgVSWUZuXOHGNUT1QGd+pAk=
+
+Name: haven/Skeleton$BoneOffset$3.class
+SHA-256-Digest: KQCdWciXYbrT9UyDhrw4mYk8atm9NCJMlQs9HGcoDqs=
+
+Name: haven/Screenshooter$ImageFormat.class
+SHA-256-Digest: OtA2T1pyKh2laTuXWaGGx8tABIcI6Jec3CoWT/LNYAY=
+
+Name: haven/Scrollport$1.class
+SHA-256-Digest: MbGr9W+Q775erc/F+0gfHBrtcE3ujuKdvMm8JtbcoOo=
+
+Name: haven/resutil/RidgeTile$Ridges.class
+SHA-256-Digest: MOwEITViXyj/Vuuye6nYwnZjlq6qjkfXUf/3ZhrBomY=
+
+Name: haven/ResPart.class
+SHA-256-Digest: 6t+GdUfOdk2/l39VLNBA+OYvn7xh3Zx6xovcpbVOrvU=
+
+Name: haven/Resource$PublishedCode.class
+SHA-256-Digest: K0CtkmaEzQVp/MetFh9u1WpxytNGr1bsqDc/mcXwC14=
+
+Name: haven/rs/BufView$1.class
+SHA-256-Digest: nQjXD7yv6AnZVcWowCo94bHKlqDyqGzgnuZABYeCyGQ=
+
+Name: haven/MapView$OrthoCam.class
+SHA-256-Digest: ngXAVOlbAU/768tM0/t6nj+3SOiItfZcxR9qNn2L+yI=
+
+Name: haven/error/ErrorGui.class
+SHA-256-Digest: IqyZ6ShrnWilmMviDJrf8zTugQRpUd/yciittJbpRHY=
+
+Name: haven/BuddyWnd$Buddy.class
+SHA-256-Digest: KAsMOAe1CbGb7ZSKPy53SJEPpfMNp3UatpyHvcvTjsg=
+
+Name: haven/LoginScreen$Login.class
+SHA-256-Digest: RIUhcbfnWv3sZNdNHyW9zqCVBEaaaE524XBTFO+Bix8=
+
+Name: haven/RichText$Image.class
+SHA-256-Digest: Mb10HIbMEeoiaxlSpbD3p8MD4J81xKlkSbc7jgyOP30=
+
+Name: haven/ArrayIdentity$1.class
+SHA-256-Digest: onXCcb1TNIBfdjwsbUBMez7T+PVLhAq7UsQqgPEYwx0=
+
+Name: haven/IButton$$_.class
+SHA-256-Digest: 9ayr2423dsReuxbZ87XtzH8GlicwFqhsDixllxGPerM=
+
+Name: haven/MapView$Delayed.class
+SHA-256-Digest: aIqZYIfSLZzCYHz3Rxf/Gvk8lI3CCk/OIcT5zbe4pD0=
+
+Name: haven/RichText$TextPart.class
+SHA-256-Digest: rpBrniSy5EL9k2hHHR+MgduDO3DDSh2uyh63W0XXAk4=
+
+Name: haven/AuthClient$Credentials.class
+SHA-256-Digest: n422fTrAMLwk8PmwXFqgUUEQuGfrqu+4i6cv6CUAYL0=
+
+Name: haven/Partyview.class
+SHA-256-Digest: dVugETQkXLY9/T3BScdNgBzfYqdu4f/LRQXw7kvyi5E=
+
+Name: haven/Charlist.class
+SHA-256-Digest: fvgz/ebgqSf+CBk3mfTMhVDXeYscTsZyF/Owk2u6QgM=
+
+Name: haven/glsl/PreOp$Neg.class
+SHA-256-Digest: YbQIFZjxK2nrjaMSOp0OyvfH0aC5syOpFiBu0dbSf9U=
+
+Name: haven/Gob$ANotif.class
+SHA-256-Digest: M3syflebhQ4MYRFHmVxBd+lQZgXLLgT3KLE3s53GgTU=
+
+Name: haven/GameUI$MainMenu$5.class
+SHA-256-Digest: RkXnbaal+Up25G9SqMVJmuwhqAPMAHTmCllQ0D1Ulo0=
+
+Name: haven/GItem$Amount.class
+SHA-256-Digest: +nG9oUkQjkj5+YWgWzxCVgDyJXyeJNWfm00mhHRM83k=
+
+Name: haven/HashBMap.class
+SHA-256-Digest: E1ukI7UDJxoO4A+lqCsUe7slUV630QuuuNREBIqpzGg=
+
+Name: haven/resutil/TexPal$$res.class
+SHA-256-Digest: NHQkJKndQ40W9gtM3P3uORE2ntZDqEISRbdm+T4dWhU=
+
+Name: haven/rs/Server$Client.class
+SHA-256-Digest: 2nUHFaxemgnkhJySHd2uvizPOMF+v/oevSfULvAK+oY=
+
+Name: haven/glsl/Vec3Cons.class
+SHA-256-Digest: EKC8fhx9hddV6zkJm6cYoVpjlDoPorx4aYJDCOh3rPw=
+
+Name: haven/WeakList.class
+SHA-256-Digest: su9x/t34OBI+RS7KMMrn70jUzN2lYgPX/Ls774FCAT4=
+
+Name: haven/Skeleton$Track$Frame.class
+SHA-256-Digest: erXfcnoTwhkJOZjlFSJV9qilt5fJrYsk+eIvGSyqZCs=
+
+Name: haven/Store$Loader.class
+SHA-256-Digest: +6nWK30X2Ry3jwXE8KZdmJfetIYUTXB8sU+E4dSDJ+k=
+
+Name: haven/glsl/Phong.class
+SHA-256-Digest: 68/8TAXwzwxLiHpaenvL8VmsI5wA4RDJxImC05a7A5Q=
+
+Name: dolda/xiphutil/PacketStream.class
+SHA-256-Digest: Z62ccJrl+e23ApWLpM1V5JJ+z04QDRqly/AZTIDj83o=
+
+Name: haven/CloudShadow$1$1.class
+SHA-256-Digest: FNcAxyxoYYFVmX/H8OqehP48vXuHfNReF8xny+Ghhx0=
+
+Name: haven/TexL$Prepared.class
+SHA-256-Digest: 972SjkBzMXNeCO/K8EhRUKC/j88caWys09Fr8LryQZ0=
+
+Name: haven/GLConfig.class
+SHA-256-Digest: cSoa1F/ddMZ3W9QCwnrK+lYpGt4lTjqVsW9jXhLLZsM=
+
+Name: haven/GLShader$FragmentShader.class
+SHA-256-Digest: JFs/XjIUK78yEXzZTOE6mpgSHAJi6MHMY6FOMYk93o0=
+
+Name: haven/MeshBuf$V3LayerID.class
+SHA-256-Digest: Q4OSRSAymVBoRpevGa0AuYqA9pgPmZ4rl3lLGFlQzhs=
+
+Name: haven/OptWnd$VideoPanel$CPanel.class
+SHA-256-Digest: sjBsm528Ui/HpSNAfW/l5sFDfRBSwa6ipsfuujN86pE=
+
+Name: haven/FlatnessTool$1.class
+SHA-256-Digest: nCO6KJakOHl8l+FbKEr6zBJwyDTjW4Dmxd4YGb/+URI=
+
+Name: haven/MapMesh$1OL.class
+SHA-256-Digest: fdmy79y/xw64MmdjZehD4LHBgzQLEslMMHkfVLNfKPY=
+
+Name: haven/Profiler$Loop.class
+SHA-256-Digest: dXYGmzWVbZAvLrRx81VSN5AceGTPbWWOCjbqtkpuJfU=
+
+Name: haven/FramedAva.class
+SHA-256-Digest: lZ2+nrjF6vhFqolGbTAqNKr1/cLyH3lnmRvGcZqVa0Q=
+
+Name: haven/Rendered.class
+SHA-256-Digest: rRejAXrC/aPulpw0BmECho7JaatffcbiE/Yu7pHP7Is=
+
+Name: haven/States$DepthOffset.class
+SHA-256-Digest: WWrCJXRA17DhM4OX9+jbadEsNOoqLmDRDBC+tMsxavs=
+
+Name: haven/VertexBuf$IntArray.class
+SHA-256-Digest: x9o8to9MaQjosJ0rc7R0Mbi6NDYjPc9heaSeK5ffdXA=
+
+Name: haven/glsl/AutoVarying$1.class
+SHA-256-Digest: qZIf66llJ4IV/bY6U7MDQiWdbMlUU9jXgJq1YtgmVqc=
+
+Name: haven/glsl/Toplevel.class
+SHA-256-Digest: lSTz40nS63OgTGHEuCnB60L3lR6GANC2M6r8DqZcHyI=
+
+Name: com/jcraft/jorbis/Residue2.class
+SHA-256-Digest: fwXSXeulhDHzw/jyItASxazrpQ1HbcvF+4ZSIJCB9cc=
+
+Name: haven/Steam.class
+SHA-256-Digest: M/8xwnqyV0OJQYWU6s11A3RsVmhXS4O1iB/8mUF1Kpw=
+
+Name: haven/MCache$Grid$Flavobj.class
+SHA-256-Digest: S5tQgGz6CwFNmQ5nhAi9Q5QU3Wt7ghbfBLZBaCLukeU=
+
+Name: haven/Text$1.class
+SHA-256-Digest: L6/N0d/5untdzUer9MPfz8O1m+BgLiR1LcfSKaoCpyE=
+
+Name: haven/CharWnd$SkillInfo.class
+SHA-256-Digest: t1+qsiYL2s/XUt/z1NtEVb28yX5gLewkqOCv23Rn0Jk=
+
+Name: haven/ConsoleHost$CommandLine.class
+SHA-256-Digest: bMydNNElrNOmd+FDBmuEthZMIbnlge3nb+u5WdGo+Xk=
+
+Name: haven/Lumin.class
+SHA-256-Digest: i6G5TU3vWXNe7zebGhvh4LpNg+uQDa2UAa1aE840Pn4=
+
+Name: haven/LoginScreen$Pdxbox.class
+SHA-256-Digest: tqi7gerriJrZ+c5TZdRi1xhyOFnHbb8SWblpO3+CyF8=
+
+Name: haven/MeshBuf$Col.class
+SHA-256-Digest: OfcaRPzcRkXrIk/zkIFdGYR8T4wPkaeTROQMB0Ppr5M=
+
+Name: haven/glsl/FloatLiteral.class
+SHA-256-Digest: Yo5rQN72FEgKETFUAnoI5d5Ek+bVRN+lGedifYNggew=
+
+Name: haven/BuddyWnd$9.class
+SHA-256-Digest: SipxbQ2Recv6x9ZjH0UxmjWOK1ulmKLThkU9fBTYavM=
+
+Name: haven/MapMesh$1.class
+SHA-256-Digest: Q/nPn9aYKXS6NWJwEmCIpBhJhpdw9fyb4juOPndibG4=
+
+Name: haven/FastMesh$VAOCompiler$VAOCompiled.class
+SHA-256-Digest: vkRFJp0wSDQAhes2atVyoCyF6T69fkMRd3nasp/dgKo=
+
+Name: haven/Gob$Overlay$CDel.class
+SHA-256-Digest: t0+/WTfRTcyVRH1m04QRxoJNWOhGOH2BAH10ua3x1kM=
+
+Name: haven/LocalMiniMap$MapTile.class
+SHA-256-Digest: BGrXBb6YjIft07r2vRPRb9JoUD1wETkG9YOTiYcrpa0=
+
+Name: dolda/jglob/Loader$1$1.class
+SHA-256-Digest: udhRa1eKMpp9lYw7vZMYI/NzMdcL5ZZrAB53twL5yzE=
+
+Name: haven/test/MultiClient.class
+SHA-256-Digest: 1gnfMg687W2GxcV8EIQ/CouJxbIOL/pC4B11lNIwEY0=
+
+Name: haven/MapView$1.class
+SHA-256-Digest: SPhNCPeqnm0hu57wOyGfJ2QSlQ9NiLtWdGOksFgmrGs=
+
+Name: haven/ChatUI$QuickLine.class
+SHA-256-Digest: VXmqMqBthP/QjQr5xW13u0O/JEtPECItUBgNpDjB1nQ=
+
+Name: haven/Camera.class
+SHA-256-Digest: 0UegUzbjR5Kx7n6WNcGJFM27Uud8DP4gU6XvGFAbblw=
+
+Name: haven/GLSettings$10.class
+SHA-256-Digest: HWo1TnbfzdTLccbtpeRokvoEY2w1jt8HfXWTjT20PRk=
+
+Name: haven/StaticSprite.class
+SHA-256-Digest: DOHz2+CIVE3HE2ynzKkJTBexods5J57s9ApfGr9gWdI=
+
+Name: com/jcraft/jorbis/Floor1$InfoFloor1.class
+SHA-256-Digest: VBR3b8gleYjaBcY/HpyO33zp+FGZHp/gycZd8HgsAxY=
+
+Name: haven/TextEntry$$_.class
+SHA-256-Digest: ID5ry8iWY48dTJNRoWu8MyqgDzEeec0+aW3BRgXw4fs=
+
+Name: haven/resutil/TerrainTile$Factory.class
+SHA-256-Digest: EVo9LC500A9IGq94xpV+z3L+o1K64+T0PRBMB4JwUOc=
+
+Name: haven/Screenshooter$4.class
+SHA-256-Digest: R0fDkn+SD2jz7wzNFo089Z6Ug8hxooxJXnmFskrp4K0=
+
+Name: haven/glsl/Phong$DoLight$2.class
+SHA-256-Digest: PNp726JFUJaLYe+wkJGNypReq/y+O1xhhlIkZJwpUtw=
+
+Name: haven/error/ReportException.class
+SHA-256-Digest: YnDX5d4rWDdIcNeg7b0X2MrQt1yJSdKDwuex8b5E46Q=
+
+Name: haven/ISBox.class
+SHA-256-Digest: jfe81kgOtsDsxCLI2ito468KgMr5q2ZWhOsNuoZ2BPk=
+
+Name: haven/Store$Checkouter$1.class
+SHA-256-Digest: EleJsZAFevGoarFO2H21qSqKxuDiK9mm0gD4tbKuiSc=
+
+Name: haven/Audio$2.class
+SHA-256-Digest: Vt3YecREp5ZPDZomsW/efG6Vly2VAbmcJwN5ye3It1I=
+
+Name: haven/MeshAnim$Anim$1.class
+SHA-256-Digest: i2p14wal8QHJOkQXtgu+89LcxuhIFFy5wUbNIu3Q7+E=
+
+Name: haven/CheckBox$$_.class
+SHA-256-Digest: b19k9fcw7h1bQsUErINBZJt7EcnpQJy7ECU7gH8NNKM=
+
+Name: haven/glsl/LBinOp$AAdd.class
+SHA-256-Digest: opjEqwKEopwh4oMq9NMqhSFBvhtX4xiRw2KAQ90l9AI=
+
+Name: haven/WeakList$1.class
+SHA-256-Digest: +/jMu0L23so3m+cU3AuS2DSG/8oGlLPyipo+foqRNJI=
+
+Name: haven/resutil/BumpMap$1$4.class
+SHA-256-Digest: RUIkYoir8+/t4S1dp4bTJzXAf4+0dSUZAm3/nUZIogA=
+
+Name: haven/CharWnd$2.class
+SHA-256-Digest: y6dWN9hVEz9Uhzsh/t4juUW157AY9bklq2Xm9zsJ7IU=
+
+Name: haven/IDRef$1.class
+SHA-256-Digest: or6zcKWwtUUt4U4/26SGDVVZP+YW6oQc9B63fysaBSU=
+
+Name: haven/IDRef$WRef.class
+SHA-256-Digest: mmLv2ZO5WqGOv7FQ4/j0KfUeqdVKc2aEm68fbwrvfYM=
+
+Name: haven/GLSettings$6.class
+SHA-256-Digest: Hy6sKnWYBl3tmmScuTXvI3/T1sOKiYYk/W3yOxDlV7M=
+
+Name: haven/Outlines$1$2.class
+SHA-256-Digest: fjuNixojfQTkAjuh/nIk/1yQbrg39k3hajJ6IhwtlXM=
+
+Name: haven/RepeatStream$Repeater.class
+SHA-256-Digest: 9JHDX/eLmp3u5U1hwncWmqdV24KNGuJJNuuIOyKW8a4=
+
+Name: haven/Equipory$Boxen.class
+SHA-256-Digest: w6vvWa+5+T1kO0GuhQkHGaDlsDy8YStwjaYrP/CmGt4=
+
+Name: haven/BuddyWnd$4.class
+SHA-256-Digest: VPijsjG4fhSjGnUy9ATLzfwxhqxBeAWSAD/aQV9GHHU=
+
+Name: haven/WItem$AttrCache.class
+SHA-256-Digest: yzMyG2bCUPW7bZvfcLY5NH5YInUmDHAosGaSX4X+PIk=
+
+Name: haven/Light$1.class
+SHA-256-Digest: aLsoBIPJ0x8QrtQ6xxouLlSbmqr8h/KQ72umdQsWVwM=
+
+Name: haven/glsl/VertexContext$5$1.class
+SHA-256-Digest: J6cAHz6LHKsVJW1LqEq2xfBGdHqus2fzTm1Tiwu8104=
+
+Name: haven/PUtils$Hamming.class
+SHA-256-Digest: Ga/54FlesogXc9Wn1ja4ck4g8xVkMnxaRByuyAUQ5zo=
+
+Name: haven/Console$Directory.class
+SHA-256-Digest: ilDTY+veco/zpwbhnDdJf/kGlxmiXhCzOs1TdOVIT3M=
+
+Name: haven/MapMod.class
+SHA-256-Digest: lbOoRPX5g0Rj8x78Kwe2LTb7wpENQyFzML66ck15DIU=
+
+Name: haven/MorphedMesh$Morpher.class
+SHA-256-Digest: J7R+M+LXQ7ozH5b3aByBMZLmSEs3VdkgKE7tpnjn5RY=
+
+Name: haven/Gob.class
+SHA-256-Digest: xSoBw3Fpcm/Kb+7sLa/mfa4e5BcUTjk+ng43aCMnDmM=
+
+Name: haven/Resource$HttpSource.class
+SHA-256-Digest: C1JP8dCIvQxu4t5i24c90zhT3kxkaqpiW+uJLRp2ehs=
+
+Name: haven/AudioSprite$RepeatSprite.class
+SHA-256-Digest: tlw0X424Ggrrn0f900o6VwQArLYrBrd/oDdBzYnZpr8=
+
+Name: haven/CPButton$$_.class
+SHA-256-Digest: JmnIr/pRyzSCuSLspkIfI7PMl6hQOSJIGzc327ZJaqY=
+
+Name: haven/KinInfo.class
+SHA-256-Digest: WTkNLge8NjKp8lRO5KkRyz60y30UAFbRVMlLaoHqVxw=
+
+Name: com/jcraft/jorbis/Lpc.class
+SHA-256-Digest: m1QfAW9itKp0qCS87dfPSHKF+MR88SmDLBcuu/7Y9mw=
+
+Name: haven/Audio$3.class
+SHA-256-Digest: PEP7WMIhBgqcypOrimKnvgEQipwWyOcG3/tVU6M/1D8=
+
+Name: haven/GLShader.class
+SHA-256-Digest: oUDLvaPrjU3R4aWiTogISwmOSFI1S7ZSbDKGBLrI0U8=
+
+Name: haven/Outlines$1$3.class
+SHA-256-Digest: zsLjyCCJjZtC75mnPuLJpl0N4TYpEdrkwW6qv8eywWU=
+
+Name: haven/FastMesh$MeshRes.class
+SHA-256-Digest: MO9Zo2XP1tY73qV479vsyDHt/VEKBkfICCo8/9TbwuU=
+
+Name: haven/ShadowMap$Shader.class
+SHA-256-Digest: UqCxE2UzrOrPjE/cgRdzfcKuxWOYemslcVkrczByHIo=
+
+Name: haven/glsl/Phong$CelShade.class
+SHA-256-Digest: ruE5Iec4iJSe/gbIvkra797L13ufz5QKe+KSXXYQszI=
+
+Name: haven/GLState$GlobalState.class
+SHA-256-Digest: D7Ka8DyDkrv+pSIGqNBFjbU/Cja5KH436P4JSv9pW2M=
+
+Name: haven/ResData.class
+SHA-256-Digest: 0tXS0iVoVaielWpdGJuobyWCgOebOJG9R7izwY+8rOk=
+
+Name: haven/glsl/AutoVarying.class
+SHA-256-Digest: 6HU9vYUwtDNeJrMmj6rsB8V5zj9QWW4pyQl5kkDjcfQ=
+
+Name: haven/GameUI$MainMenu$9.class
+SHA-256-Digest: V+6o1HrXjdiVjVDSQS37SSqI6DxB2dfN+24KSwI9ULA=
+
+Name: haven/ResCache$TestCache$1.class
+SHA-256-Digest: N36ReqM4gFIdiLz2PJVxzdmrq+ubfWiItWe7oG0f5LE=
+
+Name: haven/Store$Price.class
+SHA-256-Digest: kb5f0ikoS/Gig/PY3TSFnGYuPlamXS73Aqv1zKvaR+g=
+
+Name: haven/Skeleton$BoneOffset$2$1.class
+SHA-256-Digest: HwR0/TVSZsIYIHspgVayRRPoOiuOJpW93HXcKVm4UTM=
+
+Name: haven/FBConfig$ResolveMS.class
+SHA-256-Digest: xPb4wYEz8q/Hcr2BcE27TzFs60dNLJkdTxM60147CRs=
+
+Name: haven/MeshBuf$Face.class
+SHA-256-Digest: fr5ZmsIiQTeSA78KOhCrxXUW9Dp4/7lrTw7CaaRNBQQ=
+
+Name: haven/MeshBuf$V4LayerID.class
+SHA-256-Digest: r3jE/Z8/8sSeV06goU6w/KHGreo9/53adEjJOsWZNOU=
+
+Name: haven/Widget$$FCont$1.class
+SHA-256-Digest: yJ19a6eqnn3WADEJkiaI0qh4Vhw2+xzmujQ1xtLy9dg=
+
+Name: haven/Light$2.class
+SHA-256-Digest: b6jCRUufqhZhu83FHrP4X75teIzORUy8wKQ73RsS6k8=
+
+Name: haven/glsl/Phong$DoLight.class
+SHA-256-Digest: rPPJr0S6gXabME70GqTSWgYWt8fCB9SJ9YqXLXicse4=
+
+Name: haven/BuddyWnd$3.class
+SHA-256-Digest: EPSBQrtot+jSn1ZMH+vVSYc4tWdJtoQR/T0gE+rMOR8=
+
+Name: haven/Material$ResName.class
+SHA-256-Digest: 8tx++LaT1JzWBHxohdf/Rd4mdBptkOSwvUkQjagtUqE=
+
+Name: haven/glsl/IntLiteral.class
+SHA-256-Digest: udrU+5ty5YK+KPJcr4h+nPP3JRsatZONYuFzQlUY98I=
+
+Name: com/jcraft/jorbis/Mapping0$InfoMapping0.class
+SHA-256-Digest: g0sm4pXgrHWtXjNh+eqxGQyLTNS6526trp43ED309QQ=
+
+Name: com/jcraft/jorbis/Util.class
+SHA-256-Digest: xmUGmLThtoPrCmY6Efkeq/oZwIL3/x2tRc1iyShLwQ8=
+
+Name: haven/NpcChat.class
+SHA-256-Digest: Zwp/M+zQBZXqSZMPAxxrZpWOHfvOfG9ZmjiMyVGnYh4=
+
+Name: haven/Store$BrowserCheckouter.class
+SHA-256-Digest: kdk1+A91wGsz0JgwUys3kxs1dChAmMqgyXJ64SpF+zM=
+
+Name: haven/AuthClient$NativeCred.class
+SHA-256-Digest: ROJjJt0bHkArG5v8hiEo8EV/zqMvrSIVbz94QeZScNo=
+
+Name: haven/BrowserAuth.class
+SHA-256-Digest: KaXyVMVWXMxh57+WpEfhbsGzY8gfxxgjCrP3UNoiHZ0=
+
+Name: haven/ResCache$TestCache.class
+SHA-256-Digest: 5IC63Xut1PwJ4YL5XuZBw4yuPSnXLPvE+GcRzo0k45k=
+
+Name: haven/MorphedMesh.class
+SHA-256-Digest: ou3PROYrXJVVo9eZ0VyeKmnxlYdQbytV+nAu8ITYqRA=
+
+Name: haven/Screenshooter$3.class
+SHA-256-Digest: ty6hByOKKl6eIY6T8ligdlZ2O6IpvLb7Rm/hDglU9PU=
+
+Name: haven/CharWnd$$_.class
+SHA-256-Digest: YmC9XYGbJBMhp1la729vKPRoD7Bn+ZtVKkjrN8h/ALA=
+
+Name: haven/RadioGroup.class
+SHA-256-Digest: LYN3mu+wchjPTI54Ejkq0VZLeAlBtoKsOO/EHr0Ic4s=
+
+Name: haven/ChatUI$PrivChat$InMessage.class
+SHA-256-Digest: 2ytDNMgcBfmcCx0ccyFef4fazUk7j+TWsZ4CGzTHaCc=
+
+Name: haven/MapView$Plob$Adjust.class
+SHA-256-Digest: Rlw2bzTGo0DldF8XheUxOebetrEE4ZpILFBiDY0Sc7k=
+
+Name: haven/Profiler$1.class
+SHA-256-Digest: kP3QYTimYONWvsMTCagOyV9zzrOwTER5HQUoP7q1mAc=
+
+Name: haven/Rendered$RComparator.class
+SHA-256-Digest: Cygd9hGSSm5L5Zgwm2WP4ra+lIqfm4+gEmq7+TMrs3w=
+
+Name: haven/RichText$1.class
+SHA-256-Digest: OaV4kqgKmgjPCviEsxwM5+bdjdsyw2nr9sX91Wi3L/A=
+
+Name: haven/resutil/TerrainTile$1.class
+SHA-256-Digest: TWFZoXQX0CHpMYmrbzb3JaVbWaAsf2z5MTiZcfJSGfo=
+
+Name: haven/CharWnd$Attr$1.class
+SHA-256-Digest: fmiI5jkX/4tQKnqbFro1J4e4WOpO0okXBUU0B1uAtbs=
+
+Name: haven/GLSettings$1.class
+SHA-256-Digest: s43wgp6eUqTiNKJP60yynI6YY/E0WOVgADddCPP7rg0=
+
+Name: haven/HashBMap$1.class
+SHA-256-Digest: snqy4b7G7txUbJoLMDCB5qfaQCos8zcZYr1xV1DhOOg=
+
+Name: haven/Skeleton.class
+SHA-256-Digest: aFiAJSLUFt4MLMyc6cZoh4xBBfVxlScit6hZdYrP+Q4=
+
+Name: haven/CacheMap$1.class
+SHA-256-Digest: sZJvR4NHfzaXu0CxaFbbTEWQZE8US6bcppFYS6h7ppY=
+
+Name: haven/DropSky$1.class
+SHA-256-Digest: Y7w/6Dy2UoDkmW/Umx2VlgxuWu51Z7Ekh7/9YwE1gCU=
+
+Name: haven/ItemInfo$Contents.class
+SHA-256-Digest: Ygyy0HPnNGMmri7ZGnLvSn5Z33/zK7E2TrsYALHMWGk=
+
+Name: com/jcraft/jogg/SyncState.class
+SHA-256-Digest: 1rE55JhOn4jIgK7APK1OLU8t44yuMEiKg/P+XlomPcI=
+
+Name: haven/Widget$$FCont.class
+SHA-256-Digest: WWdMqU27B63W47ufdBVF1oTH52UXitnKEb9mWL6iN9k=
+
+Name: haven/Text$UText$2.class
+SHA-256-Digest: e4Z8jLIt1yT5SwGG/rZlQM9l6vb0XCMXRHO99cOUjRM=
+
+Name: haven/AudioSprite$ClipSprite$1.class
+SHA-256-Digest: DLashlfEHHveTxyHalwCLHeRC8opUwcWBMcGhdvOZEo=
+
+Name: haven/Charlist$1.class
+SHA-256-Digest: U0cRvdLOR/Hf0CPl+9qJv1HckKCfkal3b9Jm/YnrdW4=
+
+Name: haven/CloudShadow.class
+SHA-256-Digest: ppuzSCJt4mB7JWjzdMefIfVntooXL6rSb4dGXx3s35E=
+
+Name: haven/SimpleSprite.class
+SHA-256-Digest: 3fe5iBSOp4YhCK6oeWVR4bmJ9pfp+4i3wO7YGHY3ACI=
+
+Name: haven/glsl/Function$Parameter.class
+SHA-256-Digest: q9lydoSLNOwhz1f3HS9whZsT3lsxo/TXtJqIKaaAAkw=
+
+Name: haven/GameUI$9.class
+SHA-256-Digest: uTELRCjP/48VlDFMJf4oVIhntxGUaXXN4EEVCv18YLI=
+
+Name: haven/Glob$1.class
+SHA-256-Digest: 7ndJ5FJKdJ7X8asVrwfgrhGJYwVnpBCK9llDUrSpPM8=
+
+Name: haven/Music$Jukebox.class
+SHA-256-Digest: 0vNFDHf+Luw9f/SFXJhrdBhxeIUfopMctUz63NYgGFw=
+
+Name: haven/SessWidget.class
+SHA-256-Digest: zX8gvE9zKnkI4c/DFCYUZ345SXaiK7utOVIVn1Rfxgc=
+
+Name: haven/HavenPanel$4.class
+SHA-256-Digest: x3nm/89Ei2pKogSJCmQOaH5y6rahv0pK8GEbmp8RiSs=
+
+Name: haven/glsl/BinOp$Ge.class
+SHA-256-Digest: DkNoWiFGrr1i5+/vJt9YaPMIOyaKw1AkxdbU5rl/gy8=
+
+Name: haven/Music$1.class
+SHA-256-Digest: 5rc/YnHuHaDvLPmy8PZy0Dn2jb1UYZnfUZTqe/cnAqo=
+
+Name: haven/Resource$Image$1.class
+SHA-256-Digest: mClifwRe1WTWisG8VrFtyK15QRnWqUiPWZNGqGjeP0w=
+
+Name: com/jcraft/jorbis/CodeBook.class
+SHA-256-Digest: 6s+LmtgYOdh/3gwkeHsLsZeSWEq1vy3nRJaJJ12w6pw=
+
+Name: haven/PView$ConfContext$1.class
+SHA-256-Digest: h8pufFB9x/CU7HBuEFNliCZsJqcu2t8ENQitdSR15mM=
+
+Name: haven/Resource$IDLayer.class
+SHA-256-Digest: DHO0UC8YulpxM2S14orsRU+baTG5nS96z9fCfR9jXNo=
+
+Name: haven/Store$Viewer$2.class
+SHA-256-Digest: IR90EaxHz5XuZovyuitZhhojIaES3bgbWepg1yPyD2U=
+
+Name: haven/Glob$Pagina$State$2.class
+SHA-256-Digest: Y1LLlZ/xf3ScLJ2TFMiyTWNz49e0sHMO2e7n0guWWms=
+
+Name: haven/Gobble$TypeMod.class
+SHA-256-Digest: 3XCfrErB6lvLRPrFDlPi4ncSEU1yC27Fvlin/isfBsg=
+
+Name: haven/BuddyWnd$8.class
+SHA-256-Digest: 9Hf/6ObLjaswfZUU6D60A+KUvj3QdKAYqdDsLDDapLs=
+
+Name: haven/RichTextBox.class
+SHA-256-Digest: CYxRh3QvYkevmBvvM23bDKtG4ROvSu5imS4u5oSCEF8=
+
+Name: haven/GLState$Slot$1.class
+SHA-256-Digest: i2LpBzMRJoqAuoJO97Zi6JbfDep7q5w1D/LDSgVHb8Q=
+
+Name: haven/ItemInfo$InfoFactory.class
+SHA-256-Digest: 0VVMG3twOYV5rB0b179fVVnV/wbVWSB1bwRg1Cbj+fs=
+
+Name: haven/Bootstrap.class
+SHA-256-Digest: f00cu5aX22UfmSWZQBnVdW5a6SccenPbwYv7AVhEpJU=
+
+Name: haven/Store$OButton.class
+SHA-256-Digest: Ff13S+pfecA/I/XoISsrSN0suaPyR6f2J2oG3su11wQ=
+
+Name: haven/HackSocket$HackOutputStream.class
+SHA-256-Digest: hDeeSfnn6fmcfZSb1GY6k3AdR59vBHpTksf56BLr0Zo=
+
+Name: haven/Resource$CodeEntry$1.class
+SHA-256-Digest: xPIScc2xWw3rRycnL+Cqt8k4XNZrRIzyovw4Xkf6tok=
+
+Name: haven/SslHelper.class
+SHA-256-Digest: zd/vI61R4IhU1gIQGZXlwxGQJOW5RJ0/ZGRY3HeAzhU=
+
+Name: haven/Outlines.class
+SHA-256-Digest: zVnN8sM3gm2q1VeaHSQglwQEx1F8XgOcAEJ13exOAvw=
+
+Name: haven/FRendered.class
+SHA-256-Digest: qKcsEOws82Qq1H68SwnvBBxJPOt0mOUchgqT74Mso2w=
+
+Name: haven/IDRef.class
+SHA-256-Digest: JDeR6oK3lW8aABv3YwkDNgBGhQPzNGX8TGIkubWfhNQ=
+
+Name: com/jcraft/jorbis/FuncMapping.class
+SHA-256-Digest: GDtl8WyzF8wx5Ib67POqmhFkm4lx3U585hr3cNaM82w=
+
+Name: haven/Skeleton$Res.class
+SHA-256-Digest: rt/uINyM2lEpX19tLmjxBvIeBDtFRn5VZkoJ1QsbKsE=
+
+Name: haven/AuthClient$1.class
+SHA-256-Digest: GqJgs7vKReXHxr/9DnURTMx5CCoomDOYTSggx+uIoQA=
+
+Name: haven/Store$Checkouter.class
+SHA-256-Digest: 6SL3pp20gAbqAyAAekCJaO61M9SFomimqnShj3rZZbY=
+
+Name: haven/CacheMap$RefType$2.class
+SHA-256-Digest: 7YzQHWpLVP5tnm59xLMBauYRK56YSjvXp3MTdlvHyTg=
+
+Name: haven/GobHealth.class
+SHA-256-Digest: /SOvzieJYaPiZQYbN2mphbed7hEt5rh/J69JdRCf0jI=
+
+Name: haven/HavenPanel$5.class
+SHA-256-Digest: 2fyiyEE4x76Z8/6vNofD4YDTuBw3faYoHftMowau8zg=
+
+Name: haven/Resource$OrigTileset.class
+SHA-256-Digest: oyx4NM04RIkV7GZfNZ+dxbdgJh7Bh4FlBk5aRfTHvJw=
+
+Name: haven/GameUI$4$2.class
+SHA-256-Digest: zKeaZ+ZiMbQxUp6iuI4+jowAyUVkzs/jkFgi8XjabI0=
+
+Name: haven/MiniMap$1.class
+SHA-256-Digest: 7LaQxFyxivYsl3BgLq66LzXjMLbST43RcYRdz0GiGX8=
+
+Name: haven/WItem$LongTip.class
+SHA-256-Digest: d3OQcGKGMLUjLz8bohp53w0+/J0DroYxwKSHig2nnm0=
+
+Name: haven/Rendered$1.class
+SHA-256-Digest: ibw+fdBy7lAC8WsRsmf9n5d+ExFAF/jJ+6WyerKiMPY=
+
+Name: haven/test/ScriptDebug$Client.class
+SHA-256-Digest: h69e9IcKddtmsoKTAY8FbWSqFXwdYJWgD7FE11bpppM=
+
+Name: haven/Skeleton$FxTrack.class
+SHA-256-Digest: zQtsZYW/ZHhTtAXlg0T4ULMONEOxs1iEEGMSuFmX7R8=
+
+Name: haven/CharWnd$6.class
+SHA-256-Digest: UW1S06hg9F4B250kVOvVUWGIauWgWjs7zqTGTXy76tY=
+
+Name: haven/GLSettings$3.class
+SHA-256-Digest: vagme1cDKDqJHgOKnBe8mHeJxc3VqlsjLebPiFH5jog=
+
+Name: haven/glsl/Phong$DoLight$3.class
+SHA-256-Digest: 2fTxsh7lTQ3w29zTHHQ9Q00iL/3xUNMB5z4GJAw9Fi0=
+
+Name: haven/Defer$Worker.class
+SHA-256-Digest: TbRGdZnknUoAVHtkBN9a6uj7DqOr/vuftj6kfR7Fxjw=
+
+Name: haven/Rendered$Cube.class
+SHA-256-Digest: BjSeug36EPNvGQ6gbtDzv6x4xy2hZD3JrigkVqg5jbY=
+
+Name: haven/Music$2.class
+SHA-256-Digest: ZG0WbjOzOG01WMAWzIdgNgYIZ+APVLshr1y9GHJpxIc=
+
+Name: haven/Store$BrowserCheckouter$1.class
+SHA-256-Digest: b2Uq5yBscL4erdeHgLDUtRNrh9CGqn4oNCAPF8m8uok=
+
+Name: haven/CacheMap.class
+SHA-256-Digest: D0x9hdg7sH/UNIzw9aaajVzdlvR0CHoTpVs+tYVPQjw=
+
+Name: haven/Session.class
+SHA-256-Digest: G2mbVrpxgaBbVEkm6vQXA/WE6DTrv/0qAsDQnrYRtYw=
+
+Name: haven/Sprite$FactMaker.class
+SHA-256-Digest: K/UofWfkd2FkOfdeIdiw9Y2bWMOAHHBfjNT+K1Ze/B0=
+
+Name: haven/GLSettings$2.class
+SHA-256-Digest: shL22iVhuiKroMTll5ocAXP/MYA/M1CysPnOyrd9hnc=
+
+Name: haven/GLSettings.class
+SHA-256-Digest: AroTngKx4HQzbSdDMJUV0YRZgfu28Fe7upVM2EuCEZg=
+
+Name: haven/MapView$GrabXL.class
+SHA-256-Digest: ueMJpRPANAbHvzKXJCDtmQV20juE1GjSIKmmWp77OdA=
+
+Name: haven/Speaking.class
+SHA-256-Digest: tbsRbt9swH2Avm5MAB/+GdLUlBIvSSMudlWzY2ttBJY=
+
+Name: haven/Store$Viewer$1.class
+SHA-256-Digest: S02PnKwnYCzsk+ThiKbR8sn1v+eIXZLbTCBKAH877cc=
+
+Name: dolda/jglob/Loader$1.class
+SHA-256-Digest: GEFlXWnrX/gHpEDEpTOKr3Wo0RYfI9VDdk+pfXRWS/Q=
+
+Name: haven/Rendered$ScreenQuad.class
+SHA-256-Digest: jJROe/cifrU7woRc3Z1vlvx8KPk+f4/Xqq0nAePGJrE=
+
+Name: haven/Material$$vcol.class
+SHA-256-Digest: kMRicRSTMt3RXGD2lB5FoQd8ipZkdW2MzSVzpssbGbE=
+
+Name: haven/Polity$MemberList.class
+SHA-256-Digest: W/Mg3XUEpPyoXkwumJvRDLeJqjcpcr8eCD1Ika3a82Y=
+
+Name: haven/GameUI$$_.class
+SHA-256-Digest: Svh3wNiWi1IYgGTF+Ybn+Wv45/3zQeDwc664+atqetg=
+
+Name: haven/WrapMode.class
+SHA-256-Digest: Kq4wDvrxy2oLVZ9OeOEnTotCL1AA+beoiwdkJ7tR5cs=
+
+Name: haven/Rendered$2.class
+SHA-256-Digest: WD97E39n31V8ECoifryGBT1oGrKMuDqPpnUYul4pwBE=
+
+Name: haven/Tiler$1.class
+SHA-256-Digest: kRYR26lfH628S3aLjX6TDZW3p4WBztQQvjsVxwo+bBM=
+
+Name: haven/resutil/WaterTile$BetterSurface$1.class
+SHA-256-Digest: 8d/8qfRIggc4MnOvNUgTJQA8HMRSoz0DpMJ0RNkgX7Y=
+
+Name: haven/DirCam.class
+SHA-256-Digest: VPegcJxu5BLatpcGcsXtg7Hdd+aYXktKAzLuADC08TI=
+
+Name: haven/GLSettings$EnumSetting.class
+SHA-256-Digest: xAMPp+jP/oUgZahZ4qNc0yhoTltOfOA8IH41PTq0HtE=
+
+Name: haven/resutil/BumpMap$1$1.class
+SHA-256-Digest: NUuefMqvA4DbNrGg6hjyJEUom/jraq3W0lMkFiWiEZE=
+
+Name: haven/resutil/TexPal$$res$1.class
+SHA-256-Digest: kM8A/qKWgJdt/YBclWX/1cc6ZjRhBsKgENNXVFYxDO8=
+
+Name: haven/glsl/LPostOp.class
+SHA-256-Digest: ad/LoLXDQ2kJLIdZ+XOl0xES7yOZWedH5o91Tt6prwE=
+
+Name: haven/BaseFileCache$1.class
+SHA-256-Digest: MpV6oZOpvUSXjPHtH5TWtWvJ7YBgd3ah7Pfixf9Tn2s=
+
+Name: haven/Inspiration.class
+SHA-256-Digest: pX0pKvpIJLRtYbULk9H95mawEB/LXxjPKPxkA+ynMg4=
+
+Name: haven/Text$UText$1.class
+SHA-256-Digest: 67zeYWuF1ICnO9zYts5OTQnZhSP9kEddjEK8ujbkAoU=
+
+Name: haven/Resource$Spec.class
+SHA-256-Digest: aiNnZxS4zl4FApgCRwmpK04gSznlFC2AMNBnR26Wo3Q=
+
+Name: haven/ChatUI$Channel$CharPos.class
+SHA-256-Digest: 3/bDKV4PZz2mQUn/AOFZFo6vY+OTzh8I5bHMR2biWv0=
+
+Name: haven/AudioSprite.class
+SHA-256-Digest: CfxYdcz2wqe2NttWBSm7i2GZVo5edspwi2QXG9vnVoQ=
+
+Name: haven/CharWnd$5.class
+SHA-256-Digest: U08SYXYm6XBzK2Jdfij3JlsjacdTVuoTeKoB3nHjVwk=
+
+Name: haven/Resource$Font.class
+SHA-256-Digest: GaixFFA5/KJUzA7ST+azKEz7Bv1eqnNWmMY6GsGQRTo=
+
+Name: haven/HavenPanel$3.class
+SHA-256-Digest: 4+FuksF5Xt+GDwuC7xxxf0V5CGRgCQweqE4mUyvoqfQ=
+
+Name: haven/FlowerMenu$Petal.class
+SHA-256-Digest: K2kxTpFqPxY1WjvvXTGKOawR1qLfuTZWLaB3o3iWwgo=
+
+Name: haven/Skeleton$ModFactory$1.class
+SHA-256-Digest: gKCk2moBaAtrXHUhF6dTe+Ap/I++ttYDU+gTGVP1efY=
+
+Name: haven/Store$Cart$Item.class
+SHA-256-Digest: 7/FZk2KtQvZmIMtvjX7Yoj+5LmqTCR2qK8rQ4keljxg=
+
+Name: haven/ChatUI$MultiChat$NamedMessage.class
+SHA-256-Digest: 2o/5WBR2b825xdIPEOOF3sIjPgwQqpY5NENTtMqcuu8=
+
+Name: haven/MenuGrid$PaginaException.class
+SHA-256-Digest: 4JUzw6wsWHMCcgdAonfsNRDOq1p1uOwSCwWANH4861Y=
+
+Name: haven/Widget$$CCont.class
+SHA-256-Digest: 3EX3VNrchF+6XjtCpCOHsHuZG0Bv9zxcJj/KwaNyrcc=
+
+Name: haven/Console$1.class
+SHA-256-Digest: GNA1NE8eulf2kEM+XcEcMzskgy5jQdI6yxwshZZlyDY=
+
+Name: haven/UI.class
+SHA-256-Digest: HsvkFAQCEyub7EmNPhyFuHl+oYD+8NWrZSU+rgDOfFY=
+
+Name: haven/PosixArgs$Arg.class
+SHA-256-Digest: N6oK5885dn3na4xp6jom4vixO0X7+FHQUzxk+r5rRKs=
+
+Name: haven/SessWidget$Connection.class
+SHA-256-Digest: axCbzJdGBV0za4w84yq2BGkY1YNKXGJ00jFT6rPO6NY=
+
+Name: haven/resutil/TerrainTile$Blend.class
+SHA-256-Digest: uY7IRpGBDAOaXmYMSoYY/4mpYn+HH3NCI43ipjwWZLY=
+
+Name: haven/MapView$Click.class
+SHA-256-Digest: Iqk4pCS/erTsH4JNhRUA+AmKcd0eW+hSeP9cy7LoegU=
+
+Name: haven/GLSettings$8.class
+SHA-256-Digest: dKCp2hD5dg1cynwGVt3mRtTjQCwFmziEzukuqhrIsqA=
+
+Name: haven/Skeleton$Pose.class
+SHA-256-Digest: 0aHw1Ijv4LkV60yDe7ENsgCa5m+zk724Hm6gOAC69Yg=
+
+Name: haven/OldGobble$TypeList.class
+SHA-256-Digest: gqaQnL2oYK4TKQFVB0IwJ1F87AtjqnkuILrqcBvERPg=
+
+Name: haven/Charlist$2.class
+SHA-256-Digest: qqDXlb7u3sK7AZSH+c6487RjGSW939UUyvCtap9Glp8=
+
+Name: haven/BuddyWnd$BuddyList$2.class
+SHA-256-Digest: L4Y2f7vhq/DXqI1e7tnjyRJT5Cskzff4vF7QoDP0pc0=
+
+Name: haven/Resource$TeeSource.class
+SHA-256-Digest: MTbyp0j+6FuPaMJNv/UT0pzTkDzqIuRT6c2jdNuB2rU=
+
+Name: haven/Window$$_.class
+SHA-256-Digest: /c63C/yu7ejvmZSnprzXYqzN0GKHSD3yYF5yEC8MP7w=
+
+Name: haven/resutil/BumpMap$1.class
+SHA-256-Digest: uCSrHvxHMSeHC2hNd10484YyVfS20LoxRtDRojdGBsc=
+
+Name: haven/Tex3D.class
+SHA-256-Digest: 72tfa9tYJ0GEQcBdpYqkUjutKhQrAHpnwtQNPMyQQRE=
+
+Name: haven/TexE.class
+SHA-256-Digest: ERlP4RoxhDSUHhGmDap3IvExb3MvHexq4rZwe07U7Fo=
+
+Name: haven/glsl/MiscLib$2$1.class
+SHA-256-Digest: YyI975K7wsXIqe/OvvM3SjN9GLnLLrzKlU/zar3xw/o=
+
+Name: haven/GameUI$Belt$1.class
+SHA-256-Digest: u8cVOLjTNW4zIK26qvpYVCabuhWjYEdIJJhu1aA5HDY=
+
+Name: haven/error/ErrorGui$1$2.class
+SHA-256-Digest: AkeKmMh/IITP08XGDZYEky4YYycU95gAo7asqHrDm4s=
+
+Name: haven/Config.class
+SHA-256-Digest: 2yg/kECc0FwDyJ7RTDAk8xSNZXmnH1haHMvZhc6UN5Q=
+
+Name: haven/resutil/WaterTile$Bottom.class
+SHA-256-Digest: JvJunC6BqjZAyBxZ9cpdg+ztwvYbOvM+TqZ54RdzCVc=
+
+Name: haven/TexR$Real.class
+SHA-256-Digest: Vpw0bVQ4oJ9BWCD74/y/dVzEeVxfD/K52qR/IpS9uPY=
+
+Name: haven/AuthClient.class
+SHA-256-Digest: H3RXkkfdCV3UAmYDDcOAWzBouSPDCqzN3VTtu100oRk=
+
+Name: haven/MapView$Camera.class
+SHA-256-Digest: 88E0uhcAxK+yt81wmoPyLGpTIIhsAFNfC0fd5byIRYA=
+
+Name: haven/Rendered$Dot.class
+SHA-256-Digest: BdgI8r4C4Mm4yMGnFSX+4Hx3vmPjgDtZAfNAHUmVyoc=
+
+Name: haven/Resource$Tileset$1.class
+SHA-256-Digest: 1gY8s/UHzvBeR5UGNDdocCyz67TqQ7OyiS7z2TfZt8M=
+
+Name: haven/AvaRender.class
+SHA-256-Digest: 9i9+hPP3JAj9mBnDHDDYPSt1oMv19wSykW/lyeh0J9s=
+
+Name: haven/ConsoleHost.class
+SHA-256-Digest: xTgzPycTrMqRYIEkxTPHPDRlTxQPmg2AnqV4/sDE15I=
+
+Name: haven/Defer$DeferredException.class
+SHA-256-Digest: 4RDbVjuNtOx2uKjY+04mvaxgRobZpuNsZ4AgRU4p0Ps=
+
+Name: haven/GItem$NumberInfo.class
+SHA-256-Digest: zREmXIk4/FSbIb+4/RPBYR83izXpxIyQNT6M3qjnpOQ=
+
+Name: haven/OptWnd$VideoPanel$CPanel$5.class
+SHA-256-Digest: UHFqpeEMWw0VfUM7hfsjoWwcJcVQPe01oEzphhWb/2A=
+
+Name: haven/GAttrib.class
+SHA-256-Digest: bG28ThME4ORYjefCye7ul5XfQGRQrTzJz8GFJENTOu4=
+
+Name: haven/GLState$Wrapping.class
+SHA-256-Digest: AL7t55G5b9WEd+lNmcrwHDJsRSF4Z/d3ri8VgEC4w/w=
+
+Name: haven/DisplayList.class
+SHA-256-Digest: R1dIUi778TFJdoBGuPV6RC3usRKzqEykhtOjjRf4Nyk=
+
+Name: haven/error/ErrorGui$7.class
+SHA-256-Digest: NVThUJ+CQdUJ/41hgbJ9RwBY0FkPjhe+9EEEr0EDXvY=
+
+Name: haven/LockedFile.class
+SHA-256-Digest: PwLDs3KQe+en26pR71cW/3M3HsGK0VfsNWMzyQP3AM8=
+
+Name: haven/LoginScreen$Pwbox.class
+SHA-256-Digest: G8JaKv3RVz64cHLuHr18yS9hD0fgnDcv/yivgOmo6cQ=
+
+Name: haven/glsl/MiscLib$3.class
+SHA-256-Digest: ACNlgXkcYUdMd/bVrme6k6AYmBLTUD6hfO6SH2WQc30=
+
+Name: haven/FBConfig$ResolveFilter.class
+SHA-256-Digest: 0guPlDKT28gC6W1Nf/iegkhURbt3ozX0gN7obQPC5e4=
+
+Name: haven/FColor.class
+SHA-256-Digest: XdmJ1ZXAw69YIwcqjtkdvO7lFfwnjEQp3WZkgjMr7q4=
+
+Name: haven/RootWidget.class
+SHA-256-Digest: 6cWv7BymLkx9xtmwGUxFMih6AghkytxElE8UzkFm5rI=
+
+Name: haven/Rendered$1$1.class
+SHA-256-Digest: 1Xs2mPW9OiZDTLEVrQwuaT+Dkzb++sMDNZWqiTa3c5s=
+
+Name: haven/glsl/LPreOp$Inc.class
+SHA-256-Digest: 3NhQQ7SlBIS/0wcKumw/egkrJEY3Lutur4RMY5X/Sog=
+
+Name: haven/States.class
+SHA-256-Digest: llpLuz0/9OedZoCPsJzz5RsfnsX6AoPYijeabEld+NI=
+
+Name: haven/PosixArgs$1$1.class
+SHA-256-Digest: 9r3ot0uy7/qCk7VmtKYKL6SQ24PMCXFH5WudsWRlBjk=
+
+Name: haven/PrioQueue.class
+SHA-256-Digest: 6w0Nk3nr4Wd9Ybp/2erVPgFiJNa34xz5GJi5+N9u5tg=
+
+Name: haven/RenderList$1.class
+SHA-256-Digest: KgNfpwAInqVuSjypOmhgSXgTi9W3UoR0JTrM3gWbMVQ=
+
+Name: haven/ActAudio$Ambience$Glob$1.class
+SHA-256-Digest: Q/I/XUHSJUGnNe5TUfQtEc8A9Ek0wA6KSKNV2sCRUks=
+
+Name: haven/HavenPanel$1$2.class
+SHA-256-Digest: TMa/bC/WERf7ESTf+O7i3jcXBfNXjdi/CcyBhNHrFk0=
+
+Name: haven/resutil/TexPal.class
+SHA-256-Digest: I6P68Zwa88JBaBnNcnHSQgBF2KnB4QqUjTotjXFQEdc=
+
+Name: haven/resutil/WaterTile$2$2.class
+SHA-256-Digest: df6K7YHw3jcaWSKiA9QKQUwv5JINuLak+waFLEUPHV0=
+
+Name: haven/glsl/LBinOp$Assign.class
+SHA-256-Digest: z+1DPnEqM2p6IZG+rUhEONb2etDV8QB8vMPxdYDqtzI=
+
+Name: haven/CacheMap$SRef.class
+SHA-256-Digest: nAtR6Gy8J3l+QDbY+bsMRJOt9uEhs8+7zQl7QQLTEdE=
+
+Name: haven/RichText$Part.class
+SHA-256-Digest: 9kZq95xk11zJr27M+ze4hlIN/noFMYweQ8nwenGsVi8=
+
+Name: haven/ParadoxCreds.class
+SHA-256-Digest: VsoP7q/kJCSEo5md7kqx+oGKFt/LC7S5iptedX1561Q=
+
+Name: haven/glsl/Element.class
+SHA-256-Digest: UEsQcv4F1uAkEl5ujx5pIIFs3hVfTm+cBtuFpelLnJM=
+
+Name: haven/Projection.class
+SHA-256-Digest: pYTz1oS+13WE/1K06oWQJQ/danN69tU3tokK8wrMuoI=
+
+Name: haven/resutil/RidgeTile$Ridges$Tile$TilePlane.class
+SHA-256-Digest: C2VXshkWVLXaXPyUSk6VT0ODAB+iMfrlRG/lMEEGo00=
+
+Name: haven/ChatUI$Channel$1.class
+SHA-256-Digest: ycb9SFNIhmUq36Tya1mS4bxqGEGMjsPyAhDE9ZQjemg=
+
+Name: haven/Label$$_.class
+SHA-256-Digest: GEX0r3zB8ZiZh7vlNjKEAyVQbCWWpVQXp92adyXoMPI=
+
+Name: com/jcraft/jorbis/ChainingExample.class
+SHA-256-Digest: OGp7wlJBsTHWfn2L7t1vl6TS2QMvoQ+VsWN/j0f4OcE=
+
+Name: haven/rs/AvaRender$2.class
+SHA-256-Digest: hbC9wmwqsO3TsWAwimdn6dM0XncHaV1mVUm9+YPqIrU=
+
+Name: haven/Mipmapper$Mipmapper3.class
+SHA-256-Digest: ilJ8rvfWaxnTPGQN2roTBd8RwYIdE35VfIAy/mkVF88=
+
+Name: dolda/jglob/Discoverable.class
+SHA-256-Digest: TiLDQgPDatDnDsazmhkT9L1wycqruIqGIeIoqTJMOgI=
+
+Name: haven/PoseMorph$BoneArray.class
+SHA-256-Digest: 3ZJRQmJeP8zvLXekzKasOPpzeaCxFfh5IrjQEndEGVM=
+
+Name: haven/Widget$2.class
+SHA-256-Digest: 25NHET5lFvtJX4ag4nFkp6dcOpfwgxjqt8XIB2Dz6mM=
+
+Name: haven/Dropbox.class
+SHA-256-Digest: tk3FGexKz5Hs0H+CGwxZSUS6CXpaOdRD+dvpWkOUtkk=
+
+Name: haven/RichText$Newline.class
+SHA-256-Digest: Oiy2g651lEpfmBwhAMVMp222zXGGcT9S0Kh0clmvVRg=
+
+Name: haven/glsl/Phong$3.class
+SHA-256-Digest: CbJVAdPNpJlktyilHU3Kh0fK+HQBGEN9IB/ffudp/rc=
+
+Name: haven/glsl/Function.class
+SHA-256-Digest: jHf5ws1C9d0reZsrrT+jylLkSEjrWvkxy/uV0NyFmGM=
+
+Name: haven/AuthClient$Credentials$AuthException.class
+SHA-256-Digest: G9Vn2eNVB/UTDkPKhi99CtSQKHkhFXlrJayv1CUFMv4=
+
+Name: haven/Tabs$TabButton.class
+SHA-256-Digest: upLmOW2gF4sOBnfVRwkNPAyJpkQOPGrOligYKX+dL3s=
+
+Name: haven/rs/GBuffer$1.class
+SHA-256-Digest: TSCOPx8Y3eKW30F4clgZHoHeAlFWFRpkUzMG/tPgVlY=
+
+Name: haven/glsl/ShaderMacro.class
+SHA-256-Digest: B8DiAVvkEcWdmqLyDMfxMLZRoQ45hK2pT3HSzno59FA=
+
+Name: haven/DropSky$ResSky.class
+SHA-256-Digest: 41atNQTqDlrEg4WeUfuPkWdCpg8ZBzwfACnujl8wJkA=
+
+Name: haven/Message.class
+SHA-256-Digest: y/t/gTxS3wSvh5KHCMreotx8f7bohC+VesvGTxcwiBY=
+
+Name: haven/GOut.class
+SHA-256-Digest: iN1aYohupVaO1XfyYNWkrqAl6bfbE8SIFEGAxMKoM1k=
+
+Name: haven/Skeleton$FxTrack$SpawnSprite$1.class
+SHA-256-Digest: YTgr5kUCShn9IE/vwpUenRhpC3o9YQ+yGZaN6u65oF4=
+
+Name: haven/ressrv.crt
+SHA-256-Digest: YbGOAw0m7ue0w+uE99NgfZK7lW2gZNeC0zMhNV0OSWQ=
+
+Name: haven/Store$MessageError.class
+SHA-256-Digest: PdMovn6+QQWi4ndjnL2fcRWgg3PwnzJ4oihbRkkQN7E=
+
+Name: haven/Glob.class
+SHA-256-Digest: 3kyOf7POJm1nssAMpzbvBhWAwjXkLU02H8ZXULKa0MQ=
+
+Name: haven/Resource$Image.class
+SHA-256-Digest: ql/GQq7hgF4AHy9bwLteGx5jkamHvB6ci45jBBRt/F8=
+
+Name: haven/error/ErrorGui$5.class
+SHA-256-Digest: LtFC0rT9blJVhJ5I2ogNaiSqyVTu5gOaXx7bTvWU0ZA=
+
+Name: haven/BuddyWnd$2.class
+SHA-256-Digest: ywhd4ieXGJg25FMwScXc2scedPCu8egysRi7hr3bGeI=
+
+Name: haven/Gob$1.class
+SHA-256-Digest: PaZa+W0UwMPJiD50Vlb4ZRpIk2T7UeqowrAY7plvU6U=
+
+Name: haven/RenderList$RLoad$1.class
+SHA-256-Digest: spx2vFhK5FaJF6oaArHUE5elbVxasnH/aWFuAuEwUJU=
+
+Name: haven/NpcChat$$_.class
+SHA-256-Digest: 7fjPMpe53bKYkNYAC0dnJdzJa6n+6S30wMAiI9uPIwI=
+
+Name: haven/IMeter.class
+SHA-256-Digest: PqUGrmdyD7DEZEjCdxF7ArgHaQFbWb4b9v4F/JSz0lg=
+
+Name: haven/Window.class
+SHA-256-Digest: 3SujoyC1Ux2tBSfB2/3Sq0vG/xWsJ6MN83COl+qH2/Y=
+
+Name: haven/GobbleInfo$Event.class
+SHA-256-Digest: m2Bz2XAmaLgRHTDIiDsYofdXLzN9tnrwZ/LqzEQuBR4=
+
+Name: haven/Outlines$1.class
+SHA-256-Digest: Pn4AfcmC5RTpIAeAs/O9cNTg72lnDaYBdkXN8UsV3JI=
+
+Name: haven/glsl/Vec4Cons.class
+SHA-256-Digest: hWXZeizOiNAWFIwz0FtXs2jz8n0fRdLX4uPjciaGICg=
+
+Name: haven/Resource$Loader.class
+SHA-256-Digest: RBf0SwuT8Cg34CqozMKruck1MIRHGNH/RUHHZsEusOs=
+
+Name: haven/glsl/Mul.class
+SHA-256-Digest: efrFFtiDvs9Lzk4dbsSmeOYVEeT/bMK03ltwyZXo+ew=
+
+Name: haven/IntMap$IteredEntry.class
+SHA-256-Digest: RbME17OO1ZamBOLmOTyXjszWaK2TyyqhctdgowWVako=
+
+Name: haven/Buff.class
+SHA-256-Digest: TlFoWd5Yegu6TooMvzdZsqapDzhevLsWES6DDKYRC3g=
+
+Name: haven/Store$CreditCheckouter.class
+SHA-256-Digest: +0oJaDd04siJlyUQ2//whpj+8SkjoGhrgz+qSTu2Ejk=
+
+Name: com/jcraft/jorbis/VorbisFile$SeekableInputStream.class
+SHA-256-Digest: YpG18Kwk7+AYVJiLeDhIr+TcUJMIlpQzki2uAm14Nxk=
+
+Name: haven/PView$WidgetRenderState.class
+SHA-256-Digest: V+oReSc2BYTZXdIY2axG4POOZN9SO38sA2aUq56bnR4=
+
+Name: haven/error/ErrorGui$6$1.class
+SHA-256-Digest: bTUNTJI/rJWO/SgnSLssGa33HliJuWKcIVTCImW+PHc=
+
+Name: haven/Composited$1$1.class
+SHA-256-Digest: JtSVM3bvgtk8SuvsMiTfV1SqHY19vpZNz0MgwDYs7cA=
+
+Name: haven/GameUI$MenuButton.class
+SHA-256-Digest: rk16s1O+oSqV5RYpct98jnwGklw1RfptbCX3K8GNjZA=
+
+Name: haven/Light$3.class
+SHA-256-Digest: WFlnH8rhwCq+56K4kquKYvkTuzf8jV2B9Q93FmTzEBw=
+
+Name: haven/VertexBuf.class
+SHA-256-Digest: BQhOJj1l/avDjclbbWvEWvxmZwP9QukWt8K43cGgIT8=
+
+Name: haven/FastMesh$Compiler.class
+SHA-256-Digest: J8/oq4V79IUVqfPvnCQh674mQ/j/WCvHf6rhJLj9f3A=
+
+Name: haven/PView$Draw2D.class
+SHA-256-Digest: 9kOwOFKfNWcydM0fUxB7fsF4beu8FZNa7YSScy8Jm3c=
+
+Name: haven/FastMesh$Compiled.class
+SHA-256-Digest: BMQyI7cAk/9ZXBde+P9mLYGOhooOtq3xbcnJQ7fNMJ8=
+
+Name: haven/Defer$NotDoneException.class
+SHA-256-Digest: Ab6N1o4zKT+pqCINFWZa2MFq/J900+8c1wC2KQw31FM=
+
+Name: haven/Defer$CancelledException.class
+SHA-256-Digest: 8+79JKPs6gqy2MbksBn6Cv7NXXd9KZJOE9/5l45Zvz4=
+
+Name: dolda/jglob/TypeMap.class
+SHA-256-Digest: ky6BVBHdQzgdfBzEjo8Rt7OjEXyqSA8cd7WPFpCfLfE=
+
+Name: haven/Text$Imager.class
+SHA-256-Digest: Da680Sw6q/e+WQgo6rJGP/xCHT/OdrBNlfpwn6E2/7E=
+
+Name: haven/GameUI$InvWindow.class
+SHA-256-Digest: +ZluAuZPGZBV/JYkarNobWjpoV61olI2QKTcS/ieDg8=
+
+Name: haven/glsl/Variable$Global$Ref.class
+SHA-256-Digest: nkZcqRwNpNR0PzHftIqYh6S0eAqDoxjshRicKnV0lLk=
+
+Name: haven/LineEdit$KeyHandler.class
+SHA-256-Digest: altSo4q7lAc0DoLhGLFhH4vIUpc7CEZt5koWKvGtNmM=
+
+Name: haven/MapView$GrabXL$3.class
+SHA-256-Digest: VCXUFwUJPGjoRn4qfx6GtpQQgfJ10bKFKRjhgA5IbRE=
+
+Name: haven/resutil/WaterTile$BottomFog$2.class
+SHA-256-Digest: iwYQF7NUpFBYdjWanXD3ayGuNWoPf0fmykJoPs98dME=
+
+Name: com/jcraft/jorbis/Mapping0$LookMapping0.class
+SHA-256-Digest: Yh6LzMkXPMd8BO0WEebV76UuC8wUfscXLdLsvMWL3Ww=
+
+Name: haven/Equipory.class
+SHA-256-Digest: +FZzBrRu6hIMOTHP76SjADmqK5P5XsxdDrTzdgYBof8=
+
+Name: haven/PUtils$Lanczos.class
+SHA-256-Digest: LfvqVXxZ3LJrQ4YIBou1a2YiONrJELTj4X61Sum+CAs=
+
+Name: haven/glsl/Varying$Def.class
+SHA-256-Digest: QAWpFqeW/T5w1A3H6HeJ9ejkIF0+ay7/bemZZAiz2iE=
+
+Name: haven/MapView$5.class
+SHA-256-Digest: H3BKp/+szy8Bzo+fGPeGwTBAIRb15y5CZy+CsEozw20=
+
+Name: haven/Skeleton$1.class
+SHA-256-Digest: 2RQt0mUlMLM/vOsQAkz1kqUoBQkPZ+PRsxMmf3W16ig=
+
+Name: haven/Tiler.class
+SHA-256-Digest: K7WdFpnVyqcrqEqBQm+Dgl/FGVFs0BkineDKktrWwLk=
+
+Name: haven/RichText.class
+SHA-256-Digest: w2tuQmr59StUsscaOoHkbcL2ktrIxLFqoa07XXbBKMI=
+
+Name: haven/error/ErrorGui$2.class
+SHA-256-Digest: Gub89zCCS8urUlyYl80tukHO1uQKP0CF9gCc9vu0OdI=
+
+Name: haven/Tiler$FactMaker$1.class
+SHA-256-Digest: wSFWgymLGA2yfqvyqadhTXnXmc1N6xTO19hHQBUtvqU=
+
+Name: haven/resutil/GroundTile.class
+SHA-256-Digest: edU5B7J4X123NTEEDHjuFkRwM7SoEEdcqJaKqjFLrnA=
+
+Name: haven/Glob$Pagina$State$1$1.class
+SHA-256-Digest: n4KugQvu2rSexAjpzQVZar6tC1nfmn75AEBgp1ZFOGo=
+
+Name: haven/resutil/WaterTile.class
+SHA-256-Digest: uRSseiM7N6AXQ4n0lSjQjGsMgncyfhiXQLcZ8HfXr9o=
+
+Name: haven/LinMove.class
+SHA-256-Digest: a4rzcnilZQLuJ5CADBf55haMhOuewf8aCbqNmpDj5dY=
+
+Name: haven/Tempers$2.class
+SHA-256-Digest: bLDRvsTCyHsMrHsR2tUdkggmRaCRqIBZ79WIXBNoO24=
+
+Name: haven/HavenPanel$1.class
+SHA-256-Digest: VjR+GOXy222qbr/b2kcYqzOzlJX7qMqHU2fSYR9bkFs=
+
+Name: haven/Store$Reloader$1.class
+SHA-256-Digest: 4OamdvLATMuSMsq70CWFNL5AtfnoNfgY94Oq1yMAIt0=
+
+Name: haven/Light$Res.class
+SHA-256-Digest: deV5cWs7GLLeb791lGSO8Vr9/SaRL4lsdTt5GA72B0A=
+
+Name: haven/OptWnd$VideoPanel$CPanel$3.class
+SHA-256-Digest: Y9x/sILTDKpmkaaXiksL73GfPqCpowB2icIJi/dQqug=
+
+Name: haven/Skeleton$3.class
+SHA-256-Digest: uIjEaq4hhZaOacIWOHuBRpM7bTCszN+ihwxm3tf0uuk=
+
+Name: haven/glsl/FragmentContext$FragData.class
+SHA-256-Digest: esaADpwD6EKNlO1sodR+BA/rbG8EPK5927yJtx3nWY0=
+
+Name: haven/resutil/BumpMap$$bump.class
+SHA-256-Digest: y0CFce9Uj6bMi2r8rotNcjQJ6KB3sPOXKDd6N8rAdK4=
+
+Name: haven/MapView$3.class
+SHA-256-Digest: aed0ohCnP1I/X92Bpne9i0KI9KWCBNYWHAn5HyF8QjM=
+
+Name: haven/Session$MessageException.class
+SHA-256-Digest: TJcFBhovZJAe63DUpFf0I0gEy6dGmLZAlNTBDmht3fs=
+
+Name: haven/CacheMap$IteredEntry.class
+SHA-256-Digest: kZDYl7idDhjDaNrd73rzOQgY6ztcVI38D2VFePvi31k=
+
+Name: haven/GameUI$13.class
+SHA-256-Digest: KXWurM7KrW4WLy/z8+b3xU0WGESdMzeHdBqLl4MHjB8=
+
+Name: haven/Logout.class
+SHA-256-Digest: 8OgAQMpVD7g/p4OddioPzLr0OAcgBdOIVpgNUHc06ns=
+
+Name: haven/Location$1.class
+SHA-256-Digest: Sq5f6gBSmKolbJmrNyBwV+iSBe3u0ewpy6qLWkD1z8s=
+
+Name: haven/MenuGrid.class
+SHA-256-Digest: XQr1svOsUUOliJ7Zg1O+e2QXyyI/xatqedqrQceI3tw=
+
+Name: haven/glsl/ValBlock$Group.class
+SHA-256-Digest: ZnEEAHfRMFS5aSD+H9MB7CGSJMRzEpua+pfoBRrjWoc=
+
+Name: haven/GOut$GLInvalidEnumException.class
+SHA-256-Digest: 90C/GTlk3KJwbo5tPVdCtN2eNokFQgU172KIUOTWqho=
+
+Name: haven/Speedget$$_.class
+SHA-256-Digest: Lx5P3nNLDpQy31ypL3YWu2n4h9W7K1abb7UqTnnwhMs=
+
+Name: haven/GOut$GLInvalidOperationException.class
+SHA-256-Digest: aAd3GUVzQ2p2+vUXO3/EEFiZYOg3RWZJm1V8mxo8ijM=
+
+Name: haven/glsl/Function$1.class
+SHA-256-Digest: gd2520Sf/xjvfwZ/S4Gb+/A+HaQzU4KJs09zf9CYyAU=
+
+Name: haven/Location.class
+SHA-256-Digest: 7DG3PbRrgZsnAAafb1He9l4jvIvrBtlJCglmu5MGlfg=
+
+Name: haven/GLShader$VertexShader$1VSplitter.class
+SHA-256-Digest: rWtC+llN3U8BVA/BbqiK6qMUpF7SWbWOwn37oCfwzMk=
+
+Name: haven/MapView$GrabXL$1.class
+SHA-256-Digest: Ipg/1+RiCOxj/VTdOkxHTPofuiX6mib7ZL3MSLl1QrI=
+
+Name: haven/Skeleton$ModOwner$1.class
+SHA-256-Digest: hk4Fv3p+BhwypR7IDFA6lKSNLYQeXLZ8mU2DnxSXk8k=
+
+Name: haven/TexSI.class
+SHA-256-Digest: e/U8UWXFX+FWRkafmLHCcB/q09VOlS1ABy4ZCDsWwEU=
+
+Name: haven/Store$CartWidget$ItemWidget.class
+SHA-256-Digest: sJw/r+y0llMmnfWmlyssUhkoHTZWq5CYGMfBOW9G+AE=
+
+Name: dolda/jglob/Collector.class
+SHA-256-Digest: ilJEAQtlvnl927dip10M8w4re6NbChGuagq9XwpF9oI=
+
+Name: haven/Light$5.class
+SHA-256-Digest: 4fy4r7NDMGw3vSi84DgswHxls7FuQs5wSMoPSzxXdQ0=
+
+Name: haven/ChatUI.class
+SHA-256-Digest: SjGTqIY/yj5ANxMGwSobRSccDOikJM3OhLniESBSdrc=
+
+Name: haven/GLState$Buffer.class
+SHA-256-Digest: LIR1l1TamZCgMV0S0OsMksfCKhy0RqSong//uMJC7UM=
+
+Name: haven/PoseMorph$WeightArray.class
+SHA-256-Digest: 7p48p/NBt8S2UDax4JTVQLLRYqB1XMJbMQnpeyue7LQ=
+
+Name: haven/resutil/AlphaTex$2.class
+SHA-256-Digest: kndNrUsPr3qXHbiehsmwOxDD9Q1Axx2SQyKB+urHHeg=
+
+Name: haven/ListWidget.class
+SHA-256-Digest: OhFmzIsl8kgUKTpJOsGhFe0UnCpUAcHwYsbU1gGLh+g=
+
+Name: haven/Store$SteamCheckouter.class
+SHA-256-Digest: wakwEvEA2h5TwYc2AKABI4su7vr/XqxGxHZQvysOLGg=
+
+Name: haven/TexR$1.class
+SHA-256-Digest: 9wqQHJCGcQdmsQnd+xHAD2jfPMkTgi8a2Ed4pyneF8c=
+
+Name: haven/rs/Server$1.class
+SHA-256-Digest: youGlZS6n93dzwBXc5YBtHk4pF0tbBOgdThqstFyxss=
+
+Name: com/jcraft/jorbis/FuncTime.class
+SHA-256-Digest: NDtBXC9ggfHtuUf8rEGoD542YGAwIGRqoLjWEohqL/0=
+
+Name: haven/MapMod$$_.class
+SHA-256-Digest: OhJBn/tOb4tpXR6OTIpCYD5qqHNLRZ9KLBMmZUxXMCY=
+
+Name: haven/TexGL$2.class
+SHA-256-Digest: G0Jl9Izr+LZmvWwPoHJzNrCPDwszku9+AM22lilaQ9k=
+
+Name: haven/TexMSE.class
+SHA-256-Digest: kxvWDtXtkQ2BBRUHPJPHxClU1dgdufjPNTt8QcunQ3o=
+
+Name: haven/Audio$DataClip.class
+SHA-256-Digest: 3LmxzmEOykg6XSAcAAbDe1/0dqBpsm6f1JWvDE5orgQ=
+
+Name: haven/ShadowMap$Shader$2.class
+SHA-256-Digest: OWvxmVqWZXHT9+ESak2IjDCn/J0uPzyreaLd9NSmAEE=
+
+Name: haven/Img$$_.class
+SHA-256-Digest: z6G9F71YG+sKkQEE7xzlOtR/SOsOxgFi3RACEMsqNRY=
+
+Name: haven/LineEdit.class
+SHA-256-Digest: tsr4ojU94L5pc3J+fI5k76DcES3wHLX/llEuad5Gtuc=
+
+Name: haven/GLFrameBuffer$Attachment.class
+SHA-256-Digest: bWlZhwvFZ/eK1ubUz3PzU00RB14a3FWpk3RHtMKpC8I=
+
+Name: haven/GLObject.class
+SHA-256-Digest: FiI13qW4cXSOoLFOMo6QSDdXIp23jNfc3Ea06TnIS9w=
+
+Name: haven/MeshAnim$Frame.class
+SHA-256-Digest: em4t+z00JYCthzRVaWIcafnxF/plxoY9hp92mEeXGFs=
+
+Name: haven/PointedCam.class
+SHA-256-Digest: Ra9JLcCjOFEj8scluXoj85iqvtwb2Q2XKwJ8qA+TEpQ=
+
+Name: haven/glsl/Function$Def$Call.class
+SHA-256-Digest: gBcSEtdTRJT1c5BOKLBlGxRpVRzlpqVCGHenOeWiVDk=
+
+Name: haven/glsl/Variable$Global.class
+SHA-256-Digest: RtCSNwqoh5F3FdtkveyieQzFtGFVSkdj9ZW/UK6EMPE=
+
+Name: haven/FileCache.class
+SHA-256-Digest: npUBGx3WiUTr5fmrT9V5GKOFwDdo+CvRCF1M5V/h3bA=
+
+Name: haven/error/ErrorGui$1$4.class
+SHA-256-Digest: yq2XTNBDjed95ItuBHCrOZNf3jXiaprq4IJ0BiNKuGQ=
+
+Name: haven/glsl/Macro1.class
+SHA-256-Digest: oxQOyw7rxDB3yJ4Il333/1HGmXjeZVuhMYlBhEcav0I=
+
+Name: haven/Light$LightList.class
+SHA-256-Digest: fTytzBlSjxO+UzdPD21V6fUVN74H5HoYXHevMibXBzE=
+
+Name: haven/FramedAva$$_.class
+SHA-256-Digest: E7soU9N2MNMirkt2AEdUx8NHtLVfge6tnMkpPDy9eq0=
+
+Name: haven/Audio$Player.class
+SHA-256-Digest: JbpHI0DXSUao7eZ9f6uilJsLvozJ6JECJaTnenvJHHw=
+
+Name: haven/ActAudio.class
+SHA-256-Digest: 9Ga2kj+wYDCJsr22A68EBepIY3RXB6UF50H5bfFfank=
+
+Name: haven/Material$OldMat.class
+SHA-256-Digest: VvGgkBQCysvrLvWwf/3tC7sWjv6xUS+SKqiRizUL0AQ=
+
+Name: haven/SIterator.class
+SHA-256-Digest: U2dwsZzd4d7rkcaYwaXVGhaL4mFOxWE6a0Pa1g24Pzg=
+
+Name: haven/glsl/MiscLib$1.class
+SHA-256-Digest: CPi57NW8HwVrsHTPifxDubnTR2MDPT8zNX/jtC0VSYo=
+
+Name: haven/UI$UIException.class
+SHA-256-Digest: Gro84lS/TfdmoIXyv3CBP4GvUW/CPO5j5FF7LXi9rA8=
+
+Name: haven/Avatar.class
+SHA-256-Digest: g4oOiVIzd4TWD7VwgSbncWG+w9m0Qj/LavJl0ey6NkQ=
+
+Name: haven/Material$Res$Resolver.class
+SHA-256-Digest: LDt+QLaueiiZO0nuPTMbc8iSK0rSK2QFGpdUVmXapc8=
+
+Name: haven/MapMesh$Ground.class
+SHA-256-Digest: 0q+dpc+FwOAFo3ZgcXSlAUHWa6IjeNAR83ze5S+K4cw=
+
+Name: haven/Widget$$CCont$1.class
+SHA-256-Digest: 0cOiR5bWAdD0RafgB/yY+tj+K88ZHTFcmWl3Ay6Uso4=
+
+Name: haven/glsl/BinOp.class
+SHA-256-Digest: asceCUl9qZ9x9Y0aMqEYYwucEqJXoTbov60JP47L2KE=
+
+Name: com/jcraft/jorbis/Lookup.class
+SHA-256-Digest: nLA+eu2TfUd7y1E8KOzWSbhrV5+iaYubsxtm/h/pL10=
+
+Name: haven/glsl/Add.class
+SHA-256-Digest: WnDm35xVp0yn++V2S3BivlIQcYiD7/hdLRzwNa1T42w=
+
+Name: haven/Dropbox$1.class
+SHA-256-Digest: diHcd3QwkSO3wal9bVPsXxFimalZANdW1fC0JreWQNU=
+
+Name: haven/MapView$GrabXL$4.class
+SHA-256-Digest: zzPg1cQxHAob/dabeHGtvx8tG66OWVMUP8WojFLCPgQ=
+
+Name: haven/FBConfig$RenderTarget.class
+SHA-256-Digest: T6AGGOSkkxPkLPDd+Hc4RPOg0cDcp4OAg24ROCvtaJw=
+
+Name: haven/GItem$ColorInfo.class
+SHA-256-Digest: HHjM2FhqQGmwPmuTQgtKeIiV7WnmuC7VDNnFd0Z38t0=
+
+Name: haven/Tempers$1.class
+SHA-256-Digest: 6GhDNY//91t9aQd+0W7tA43kSFQeyabnMZojYzC8xKc=
+
+Name: haven/HScrollport$Scrollcont.class
+SHA-256-Digest: ltcFd7bJ7v3DYWuiQX/9Z+KHMsVl8XdwIW6Qz0+3gnI=
+
+Name: haven/resutil/WaterTile$BottomFog$3$1.class
+SHA-256-Digest: c6bFlLRcjr6Tw2VqMIaUADav4ofC7bwxcoEyCBtUG1g=
+
+Name: haven/FBView.class
+SHA-256-Digest: 5A2NZXWNqjKf0npf/+4vxBVybQs0MyU8gDgiiNFkmSo=
+
+Name: haven/HackSocket$InterruptAction.class
+SHA-256-Digest: 2NVyxMbBCrvPKyVi4kPzKOxOROImjP3QLdYQM7OMQPs=
+
+Name: haven/glsl/Symbol.class
+SHA-256-Digest: UkNv0s9ds474/ogNKrrMYKvZUZcdE4YczIIBL4aNVZ8=
+
+Name: haven/Inventory$$_.class
+SHA-256-Digest: BM/mVtWm+0yusFGd1WzCC66G0qqEVbJd2AJCf7HSFQA=
+
+Name: haven/OptWnd$VideoPanel$CPanel$2.class
+SHA-256-Digest: jmDSGSrSo1NsQ22Ez2gnRl5JqAYzbF6uzpp8gUQ8eV4=
+
+Name: haven/TexIM.class
+SHA-256-Digest: h/IWXQO7yG2CF57x10DGYGTmRYzxhLVHlKx+hnGqMQI=
+
+Name: haven/glsl/LPreOp.class
+SHA-256-Digest: sPB4fwdKH5qwY2JZLc+oD3LM4ei+9nowwZNiZ6EHRLE=
+
+Name: haven/Resource$Tileset.class
+SHA-256-Digest: aIsMFWNmHPeOHIFijAKuo4m5wmcrnCft3FWpnT9nYzw=
+
+Name: haven/glsl/Block$Local$Def.class
+SHA-256-Digest: bRkB9cRYdpD590Al1+cjL2zTI+CYtH8ek04bVJlnKUA=
+
+Name: haven/FastMesh$DLCompiler.class
+SHA-256-Digest: Qx3wTNE6nSR7FFd4DB492xkeuQ4LiWNoT0S+Eqhee+g=
+
+Name: haven/MenuGrid$2.class
+SHA-256-Digest: D/vyK8AacxWRiBPx+RypzWnrIfsGKmc5MgLEzffjn1Y=
+
+Name: haven/res-bgload
+SHA-256-Digest: acJQPD8UxEG4tfy/1WFK8lgc4TPfJYXcYoKJsQKLUZA=
+
+Name: haven/rs/BufView.class
+SHA-256-Digest: Fx263XwWg96AcqL1v5fI9Jicdv3Tjs2kMDWfgm4Oc1E=
+
+Name: haven/TextEntry$1.class
+SHA-256-Digest: 7Udy5uKK62qZEOiEd/lP2Z3tqJ5HaWdmGtr8yDLPhFE=
+
+Name: haven/glsl/BinOp$Lt.class
+SHA-256-Digest: lE8Sap3i3t9EqDz/4k+9EwcKDfHLW5wKDHisvD2buFw=
+
+Name: haven/glsl/MiscLib$6.class
+SHA-256-Digest: AJth8Ehz6YRh+moFpX71ZicoQbxzi2zvPeCzEnKYfns=
+
+Name: haven/GLShader$VertexShader$1.class
+SHA-256-Digest: 3CAd9a1FowTW+JG9VtiG5oeXzRb2aUVpo7+QbHN0URk=
+
+Name: haven/glsl/FragmentContext$1.class
+SHA-256-Digest: Xb1Qnv6IRqa7RRhrP7qAE1FLLq4KdOJbhEexpeZHAvA=
+
+Name: haven/Polity$$_.class
+SHA-256-Digest: GbJ6L28ZpUnRlIXBtf7dsL3pllFuf8009f2abNFOKsE=
+
+Name: haven/GameUI$11.class
+SHA-256-Digest: XiEfhVNz652EGtEvPpz6FXR8nid7iQpOY52ZpnvpUYo=
+
+Name: haven/resutil/AlphaTex$3.class
+SHA-256-Digest: MGMl83aRmKBFCGUDa1xU+r8KpUsCoboJvRFno1fNenI=
+
+Name: haven/glsl/Type$Simple.class
+SHA-256-Digest: nmIEW59Bp1kZfkW9wg4E4EahsEcr6th+rVokinrRoi4=
+
+Name: haven/Material$Res$1.class
+SHA-256-Digest: 47bALvEYcc1SdqXua4NuRVBs3Ee1Zb+Lj3X95CgS2vo=
+
+Name: haven/Skeleton$ModOwner.class
+SHA-256-Digest: osmf7kWDYWqz4X2MVItqgBQRFUC9S7IYqSOjF4PYrD8=
+
+Name: haven/GLState$Applier$ApplyException.class
+SHA-256-Digest: e1ImGDouHSnJnDaNgIVOdZh623TIQBWSNZW9I9ICUfg=
+
+Name: haven/TexI.class
+SHA-256-Digest: BBCch65qnFfmcBlTXXu+FAlR7V8Ez5s4GiMvkMKefUk=
+
+Name: haven/Widget$NormAnim.class
+SHA-256-Digest: Ov3wJYDC+Hdc9P+RnpeRWSTDmeKx1/o1DPh0pwaBxfM=
+
+Name: haven/glsl/Tex2D$2$1.class
+SHA-256-Digest: NZ1/ri/ljtSaPEjaOLS6UhzP3nieF+iIimT8MOx+YyU=
+
+Name: haven/MapView$6.class
+SHA-256-Digest: O45zfBYt5uINKTpwe5il5F9EVC9i4ax5XjTBJOM4QY8=
+
+Name: haven/Steam$WebTicket.class
+SHA-256-Digest: 19a+aTPWkYv/C6bUfc+zcYOPRUCn7TxPhc4ilqomua4=
+
+Name: haven/FBConfig$Resolve1$1$1.class
+SHA-256-Digest: +NZXhimofT64NqW91YUilPaTg6gjEOejeMFe8xrWNfM=
+
+Name: haven/glsl/Vec2Cons.class
+SHA-256-Digest: nKGOcuGyq8mzHuPB0kW+76nhM4syo3KHjbrlRQbMJaM=
+
+Name: haven/ChatUI$$MChat.class
+SHA-256-Digest: KplkkQTMUDR7S7HA6kssADAH93AYXwij7nadVZ5sZk0=
+
+Name: haven/MenuGrid$1.class
+SHA-256-Digest: /ym/bJPYEYT7yc/KdM1UdzyBkkLb3whCObb+623QIUc=
+
+Name: haven/glsl/Phong$2.class
+SHA-256-Digest: /p5K/RZeb63EkJ/gTVgFC16KPQEqeqr+kxBfcoSUvmQ=
+
+Name: haven/Listbox.class
+SHA-256-Digest: IVxGd6xYb2Ci0xDCc5llYZ81dPmqfn59jW9kBlNST8M=
+
+Name: haven/CharWnd$Skill.class
+SHA-256-Digest: okQSbhqrepLmNNtsChCz2hmtuQjSlJemJAnI+cW4/YA=
+
+Name: haven/Defrag.class
+SHA-256-Digest: TZnpbFFLxT3SLeEwfN2VKiz4Zf5ZN+6HhxsMygvo/HI=
+
+Name: haven/TexGL$TexDraw.class
+SHA-256-Digest: MH1mKhXM5qg7VeXbuUiIT4EOYHdfUjdKj6l7nF+O9x4=
+
+Name: haven/resutil/AlphaTex$4.class
+SHA-256-Digest: ZlpDeZncZHtPwalvVA1OJBgWRJd090DcsBLNf1G2+Ig=
+
+Name: haven/SkelSprite$2.class
+SHA-256-Digest: oEPXOwiP//K3RT6htirhlznWx3l6OAjWY7KdDoDpjtc=
+
+Name: haven/HScrollport.class
+SHA-256-Digest: yd2ESfKHECD8Bv1EwnKLjfQjH+zmT4k15GyE5wSIFr8=
+
+Name: haven/Text$Furnace.class
+SHA-256-Digest: U3k9plyppz/BTklylKq4qLFUFTcNF9xOjifLElx/DvM=
+
+Name: haven/VertexBuf$FloatArray.class
+SHA-256-Digest: wJyYvIxK0wD8Of5UN3VBIgpQ4ZXd5IKjN538gkJufHw=
+
+Name: haven/DTarget.class
+SHA-256-Digest: JnpKq5PokKV3Q/H65SN5m9TCCJaG5jsGS8XZJ3RmBpQ=
+
+Name: haven/GLState$Composed.class
+SHA-256-Digest: 7SjxrIOWsi2dcdcuJphhUPFcjQRhC8SdemU/ntTzh64=
+
+Name: haven/GItem$$_.class
+SHA-256-Digest: V0AfBlDLEt1uFyXNDSi+Iz6H6tWz+d/A0fTN370wxG8=
+
+Name: haven/Mipmapper$5.class
+SHA-256-Digest: yWQowXl5cz7R2K/mlUBayh+rm8iQgGBB2ENR9Y7+w0I=
+
+Name: com/jcraft/jogg/StreamState.class
+SHA-256-Digest: FAN5pxC421i1kNHm7NVMyxIn+Tptl52/0oKZYcVQsgY=
+
+Name: haven/VertexBuf$Binding.class
+SHA-256-Digest: jNaRgbf1WrfCNaN3NwErypWQrzqrNQ0NBBFsmnkfgGg=
+
+Name: haven/glsl/Pick.class
+SHA-256-Digest: yuxJ0iZepdVg6qEiYwplTLYHKaAynZ5h2+nV2mR+fV8=
+
+Name: haven/SpotLight.class
+SHA-256-Digest: b70ESWlaCu1a/PF9s3HqOJFyUHDJb7415wC/+KpnNlI=
+
+Name: haven/JnlpCache.class
+SHA-256-Digest: R/H9Djn3Mz/HPFnnDeStMrsNImcRQQ9PM9WITcjCp5g=
+
+Name: haven/Resource$Music.class
+SHA-256-Digest: W6t1PY0IsmeAtn0XqlOhmxTBXjWpfH1qEPv8BGD4cM8=
+
+Name: haven/OCache$Virtual.class
+SHA-256-Digest: nQBBdBJxFLf+hWrKVosow9xmiGpK6GmAFiXwyIxbNb0=
+
+Name: haven/GameUI$10.class
+SHA-256-Digest: 4zzsasBNrWsOLC+/CN5E3Mx1Gz5iffqiQRx/pa+GkHE=
+
+Name: haven/Bootstrap$Message.class
+SHA-256-Digest: ziuFYfc+CcGGST2Px59NSs6UvI4MMaj8qxVayHPiATA=
+
+Name: haven/MapMesh$GroundMod.class
+SHA-256-Digest: sGsjoCZWdsPknGnMduw2PXMNOmoq4mwTFKnshCy5Q1A=
+
+Name: haven/MapView$7.class
+SHA-256-Digest: WWIjIx4tlNpSHURmXPcZUAiiI8YjP6pOf534CjEGwyY=
+
+Name: haven/ChatUI$$PChat.class
+SHA-256-Digest: R0PlcfCpHQIJlaJkvQRjb6AmVOjCJn/hmJL57iv2cZI=
+
+Name: haven/MapMesh$Plane.class
+SHA-256-Digest: SaLONoa45MsvORwRap3uxGrHxNhzEFRj/4+uAfa5NKE=
+
+Name: haven/test/Robot.class
+SHA-256-Digest: 7YJjYSf0wNHWl3DY2VxvvSRwNiCevSa//eDVgyqVAFM=
+
+Name: haven/GLShader$ShaderException.class
+SHA-256-Digest: ry0tVs8SP7OLw1F8N+rBMEP7k1uMtvrvqqgSqUgjPMo=
+
+Name: haven/Widget$Anim.class
+SHA-256-Digest: 5M8HqxmS4H6uyYcgOry14vIUxCXEOk13Y+2TN6J0vlY=
+
+Name: haven/error/ErrorStatus.class
+SHA-256-Digest: 3gWbNQu3lwXUSYt54E7TFLzrktDgqoEQs6pmaSxyVuA=
+
+Name: haven/Chatwindow.class
+SHA-256-Digest: wNpsbbZYYmLgiGoBuBETz2sI8cABriNvqblOTHAytK4=
+
+Name: com/jcraft/jorbis/Floor1.class
+SHA-256-Digest: bVlf0LEI/WAvp21EOyJPfLO5GOLV/3eRNF02Gy8w5as=
+
+Name: haven/SslHelper$1.class
+SHA-256-Digest: lRgT5knMUQPmLMcg8W9JwSfemgOnHKOSTyAdnSK3NCw=
+
+Name: com/jcraft/jorbis/Residue0$LookResidue0.class
+SHA-256-Digest: CXJ/zq1aXWHuXSg3KxGMEav1FPyHbAKg0J1VePW0gZs=
+
+Name: haven/Textlog.class
+SHA-256-Digest: YYEK3d2lVEKKzeLQCVBKRGY/Vb13Ek0Trzrv20u0nuA=
+
+Name: haven/IMeter$$_.class
+SHA-256-Digest: RCtVxGZMIAgGdP2Dh19hI2ezYpYTAxgZxUQWBRfNgeg=
+
+Name: haven/PView$ConfContext.class
+SHA-256-Digest: GNxuD1nkKbOFCwhmRfMcZtiFL2NbYW56x4uxHWHrZmQ=
+
+Name: haven/rs/BufView$RenderState.class
+SHA-256-Digest: A1cABVKLwN2QhF5ek1Lm/uA8dZSuA6jbsyT+wBAmtCI=
+
+Name: haven/PUtils$1.class
+SHA-256-Digest: sTbEStN8eG+x32rIP//y/wpGwBDXx3xzlg+Ggs5r3zE=
+
+Name: haven/resutil/WaterTile$2$1.class
+SHA-256-Digest: IiDprNZrhr/GrIR/nyUb/7sCN8VSU/MpyMWLSNPHzCc=
+
+Name: haven/LoginScreen$Amazonbox.class
+SHA-256-Digest: jDShUcu1CIErQ9lUUgtk4sVSQQ3jrvzNZ7keCjjj1EE=
+
+Name: haven/Drawn.class
+SHA-256-Digest: qi5cuvn7WWNfaQRR6OrTyoQibSUTvrL6cQfVx9fZLDc=
+
+Name: haven/Party$Member.class
+SHA-256-Digest: ZR8cFhAQrezBv1Q/TRGr9S4wPUJZP8xYitTuPth4qns=
+
+Name: haven/RichText$Parser.class
+SHA-256-Digest: l037lqb0EwfVa3ST1jUSaAh8GVqyfflSaVF5s09vTBs=
+
+Name: haven/VertexBuf$Vec2Array.class
+SHA-256-Digest: a7i9+HB8ghyRVoAptskr8yLYpWV85MeXb/RXP3S+kw4=
+
+Name: haven/MeshAnim$Res.class
+SHA-256-Digest: 2Czw+A+zOV8zZkDYHLcuVcsorJCjE/tg5Vfh3PS9I4k=
+
+Name: haven/Skeleton$BoneOffset.class
+SHA-256-Digest: 4nEdoS44H7cnQgnJvmZR6DhtX0f7vB5lqUfRekiDIrI=
+
+Name: haven/glsl/MiscLib$8.class
+SHA-256-Digest: AX3Z8RVMbaBpdh+m6GJKMK6lDGbP39AYjju0Y7wN1EE=
+
+Name: haven/glsl/ShaderMacro$Program.class
+SHA-256-Digest: VkhL7pFAG9cRBq6yovdxXUlwy3EtdJi7MkcpywFXXtk=
+
+Name: dolda/jglob/Loader$3$1.class
+SHA-256-Digest: x5uFyk+mP4VZcrubrAtFXPWyKxrep+8LZoDSpYp0biE=
+
+Name: haven/Charlist$Char.class
+SHA-256-Digest: CQxO90TwT0BX5B99BVxRcbc1Eu4XmffTA/dCSDTJc04=
+
+Name: haven/Polity$1.class
+SHA-256-Digest: 3zCjawRgjsqBnh4fw3k4B2hQIeROMWtkQ1CXNksEAzo=
+
+Name: haven/Button$$Btn.class
+SHA-256-Digest: NL3f6HmDWo4Y60SnG63y3eocCDS9f2ZFFihYxlC+1NA=
+
+Name: haven/glsl/Attribute$1.class
+SHA-256-Digest: 4SJEueh0m9QRZSVp6hlh6GoKwYv/cJnzpY8ULgeVV+g=
+
+Name: haven/ChatUI$1.class
+SHA-256-Digest: 6Jfo95QyZ7o2E/Y3t5Li9/GrV3wyPhWL3wSgl4k0pic=
+
+Name: haven/UI$WidgetConsole$2.class
+SHA-256-Digest: 2/K+UY0sxkhBgM7LWS8S32OT/t4eEfW01si99R4AIE8=
+
+Name: haven/SeasonImg.class
+SHA-256-Digest: svm18LT3EVU681t5n4hAzm0+sBObWSCj37KlQGR6gLI=
+
+Name: dolda/jglob/GlobInstantiationException.class
+SHA-256-Digest: lxc7CwgJ0mZ63k+aOaLm0ASe29DLz57vaBJE76J4SIM=
+
+Name: haven/MapView$8.class
+SHA-256-Digest: W/KNNf7D8FDVhG6t0rFNeJwKw+PW+A30lI+pK1wEzYk=
+
+Name: haven/Polity$Member.class
+SHA-256-Digest: Qos9Y0OC4PUkHGvCmiuZl22tahQh/oQHrbFa+kPTdhk=
+
+Name: haven/glsl/FieldRef.class
+SHA-256-Digest: EAUGvFnfMSSO+RauhOChE6UWLV35jDGTKHlIuNKzCHs=
+
+Name: haven/test/DumpBot.class
+SHA-256-Digest: W+z/9GbAq4/SrpHPyUpyuGndxkjbtqxVRYGBMDj21QU=
+
+Name: com/jcraft/jorbis/Floor0.class
+SHA-256-Digest: AB3sF/Q7CHSCP/2fg1IP/ThqHQwpqke9OFjfet1Hvy0=
+
+Name: haven/OCache.class
+SHA-256-Digest: 5HLlN2yzOi1OmlgyE64oOjgbismLKMqRMwD6dwkbp8w=
+
+Name: haven/RenderedNormals.class
+SHA-256-Digest: 3spKkC6YcUy47ess5OogYiN0LqNLENDUOWNVRIDLbI4=
+
+Name: com/jcraft/jorbis/FuncFloor.class
+SHA-256-Digest: btEH3hJdl7TIW8e4vcfbEUPl6T0v2OTsbSpKfNVKDG0=
+
+Name: haven/glsl/MiscLib$5.class
+SHA-256-Digest: YQLdCJZm84u/OFEjOHVB5AnKgvu7AsqHioPedY4XM5I=
+
+Name: haven/glsl/FragmentContext$3.class
+SHA-256-Digest: +l/Wx029aUoVtzuvbZj5c3U/fWi3vbVZbFtMKr4qxSY=
+
+Name: haven/error/HtmlReporter$1.class
+SHA-256-Digest: 3LxEOCmPf93rMQMLkk92UypBCqtjJ9+H42UJbIwwN+c=
+
+Name: haven/glsl/Symbol$Gen.class
+SHA-256-Digest: Yt6x9mMEBLwhoXivPOIUyNIS+tm6VfXCZbofTyxtguA=
+
+Name: haven/GLFrameBuffer$FBO.class
+SHA-256-Digest: /g0Dh7QaBDCdZwDgtsYvf9TLUfEjw6wK8p24YCR7lLA=
+
+Name: haven/LoginScreen.class
+SHA-256-Digest: v1tPhBR0Pr+ty/H6ilr5tspLZdqsGRot75cGbg7TR/k=
+
+Name: com/jcraft/jorbis/Mapping0.class
+SHA-256-Digest: GfNyOSvOqynSJGOmncqM8ZOvhhro3g8Yivjtd5hD1Nk=
+
+Name: haven/Widget$2$1.class
+SHA-256-Digest: KShEUoeGGNk07M2BA9m4pdAqGmcWfKXmYQqRTOaP/pI=
+
+Name: haven/RichText$Parser$PState.class
+SHA-256-Digest: HQU/10Aueo29S+C9+I+nVE1r6kbYnhIefWJoz/O8Plc=
+
+Name: haven/Resource$3$1.class
+SHA-256-Digest: XQD26T4uKSPQpSyRx9pnDlG1seuPs+BMz4nvg1VxVY0=
+
+Name: haven/GLState.class
+SHA-256-Digest: n3R7p86U/fRYhybIvg6M9NVQX/wGfETZWYpKnhV+Ld8=
+
+Name: haven/Resource$Tooltip.class
+SHA-256-Digest: eZUMRE08QTbNJztGpOSJY6xp00aTLQo/IEYdT164MAs=
+
+Name: haven/PView$RenderContext$DataID.class
+SHA-256-Digest: xhcHr3kNbftF49crp38+Wxmh3bv8M/lCekG/aURxcpA=
+
+Name: haven/Profiler.class
+SHA-256-Digest: CO2f8HjKZ5A8pNsCgi6nWC4qfYxPsuOUHPypdnnzKrA=
+
+Name: haven/Store$Browser$1.class
+SHA-256-Digest: GrOW95g0c4OX3TKwBIMuA04tNkmZSiLrMVHz1FcLBMY=
+
+Name: haven/Equipory$1.class
+SHA-256-Digest: knga5RN15PS62JTz3MMiHDbO0RnJXaoNvYutR48Hak4=
+
+Name: com/jcraft/jorbis/Time0.class
+SHA-256-Digest: txdwCr7OKhJR2sy7JgpLpU5lJP1h2HISASo3OLm/21E=
+
+Name: haven/MapView$Clicklist.class
+SHA-256-Digest: u+Z69t/oaD1u/92bpsDiyfBNWAgYB4dmhVmM0mqa3IA=
+
+Name: haven/Material$ResCons.class
+SHA-256-Digest: RhIZJknpbJOHDh34qBq3xFr8s0qhmUFGjFz6eqGwauU=
+
+Name: haven/Material$1.class
+SHA-256-Digest: xFaVkIPp/XsB0DEafeY+1rzDjmRnkdrwLZNslAeKLOI=
+
+Name: haven/MainFrame$3$1.class
+SHA-256-Digest: UL17nivjo2edMES5MxIKs04c/7VhoPjksYTAQinEghE=
+
+Name: haven/Mipmapper$4.class
+SHA-256-Digest: 0x1iK6pmhhCkFVqEp12D+QqNSKdP/8soNSc3fz4pC1g=
+
+Name: haven/MeshBuf.class
+SHA-256-Digest: OykToHNf8Bqmdtg01qBGJ+eBOMdSkjkUz3Gz+FlRjc0=
+
+Name: haven/VertexBuf$NormalArray.class
+SHA-256-Digest: iTMQOEKa2P7ad+3e5fKC6wg/Ggj1eDF/4olXrgzXohQ=
+
+Name: haven/resutil/TerrainTile$Var.class
+SHA-256-Digest: TohB/1UX/8m60itqxJQ6WudnwKHcjizMh6Gk73EHeBs=
+
+Name: haven/Tempers$1$1.class
+SHA-256-Digest: onZVBxlBOJMkTelSNtxMktgmY3kIT1U5N6wLJlMxqrY=
+
+Name: haven/Resource.class
+SHA-256-Digest: qt7IfIPImIP26uadHsXQfRv1BQfTAI7ZBdbFlwZdVVo=
+
+Name: haven/Resource$CodeEntry$1$1.class
+SHA-256-Digest: /Pc1BqA59jsqgJo9cglFq5fVnLyyPVuyXFsu79rO1OM=
+
+Name: haven/SkelSprite$1.class
+SHA-256-Digest: spl48tsis2qxPC4VsuZj7fpSq5Avwu1VbzMKzMEuCjs=
+
+Name: haven/BMap.class
+SHA-256-Digest: +QAU45JJFvxwl47sxP7TByLqd3Mkm/iQ0E16Hlr8818=
+
+Name: haven/GLFrameBuffer.class
+SHA-256-Digest: VlGtUjZYO+zxAJ9hLJssiDUUWdNQdDZJ/ynh/tcZPHs=
+
+Name: haven/Moving.class
+SHA-256-Digest: MN21YPMx2xKsfDK33VxhitaXtasMobzAhG00MRNgbHQ=
+
+Name: haven/Session$Ticker.class
+SHA-256-Digest: nCnPHLB4+UQNfJl5hQXeZ1S/QZ9TRHdQhq3kmWjpFPE=
+
+Name: META-INF/glob/haven.Material$ResName
+SHA-256-Digest: SRwB07QdQvWKZG8RnNldiSQEGJDD0H0V5wxYHqF/yVs=
+
+Name: haven/glsl/MiscLib.class
+SHA-256-Digest: 0RHu4TVqV0Q4ditxMO6iQHS742HAd09y1vmcp7A5JeA=
+
+Name: haven/glsl/MiscLib$12.class
+SHA-256-Digest: vWwUtXlC27jXi768gYlVCyB1Jn9hrC/uc/Teuzjjf3I=
+
+Name: haven/AudioSprite$RepeatSprite$1.class
+SHA-256-Digest: 9TvfWWvdimudK6QFNhhNl4ROVZib53CeKzp1O71XPRE=
+
+Name: haven/Resource$Code.class
+SHA-256-Digest: QjjSDtMRZQenGaqxY5o4ebp7z3q8oQbX7sxhnrp7nO0=
+
+Name: haven/WItem$1.class
+SHA-256-Digest: CPGzbptepE7Dc8nYp0oB3RxLO+z4e4SXULNnLkKaHUw=
+
+Name: haven/RenderList$2.class
+SHA-256-Digest: B0vgU3lrxcICJ3d9/ZRzNmMrA0qY8HLLnrCoPNiijpU=
+
+Name: haven/Tabs.class
+SHA-256-Digest: s/kWAU+3baz9BttY5h80C6wIeatWrPGY0sQXdAtGlmo=
+
+Name: haven/Mipmapper$1.class
+SHA-256-Digest: WaQeYmYBg6Bll2Azwea1j+W1hNRSbjRLv9iWZncwUrw=
+
+Name: haven/glsl/Variable.class
+SHA-256-Digest: /x4ajTNw3ITw0FcMmHoS4mpibwUTBcpMV0Q38auzf4w=
+
+Name: haven/StreamTee.class
+SHA-256-Digest: aJGrcYgcTNYlbMx7M/ssrCd/IzeTf0+pA4tscaBh9ps=
+
+Name: haven/Material$2.class
+SHA-256-Digest: 8s2JrMftHiQ5syYTY4ImOlVRX0EwvRf5zn2fULPSboo=
+
+Name: haven/Scrollport.class
+SHA-256-Digest: PZ9GSf3ra5eEGgv21coE+OpL58awgaOiQkcHDQlCS8A=
+
+Name: haven/Session$1.class
+SHA-256-Digest: CEMG3ZuyGbBork7u9cjEKg9fShYLAjz2V/qk7H5rw1M=
+
+Name: haven/BuddyWnd$GroupSelector.class
+SHA-256-Digest: AEJNtOK2dGf/GWoFmz5qIJYu8po+yUr6e3P7HEc4R98=
+
+Name: haven/CacheMap$Ref.class
+SHA-256-Digest: AD2jRJnhGIuoZrfXAnGNz6lit86RELsJats5nCT55IM=
+
+Name: haven/glsl/Function$Builtin$Call.class
+SHA-256-Digest: 0mEDS9qaZY6KhcZOy33wQqT+tI3V9x0IwNP2u02HZpA=
+
+Name: haven/AudioSprite$RepeatSprite$2.class
+SHA-256-Digest: WpEeG0CObelQoGVYfzBqEK/cxGG/PEZWU9fxPYsvges=
+
+Name: haven/PoseMorph.class
+SHA-256-Digest: iDMszqS4A6n1Usr2VDDg9GiQPVgni8ZP++dK7YTE2eI=
+
+Name: haven/Session$LoadingIndir.class
+SHA-256-Digest: hbikKKEqsEh9AXEmpVm+2QVLLMBm/zl8IXuv2YHt0E4=
+
+Name: haven/WItem$2.class
+SHA-256-Digest: RXcv1JbfO08IkWJmrlyI8lTHWW9e2ToHyxeRtoo/SWg=
+
+Name: haven/DirLight.class
+SHA-256-Digest: D9yeoYkv0QUJezoKQ7iTUNZkG3vpT3FvvDAqR+TuAnA=
+
+Name: haven/MapView$9.class
+SHA-256-Digest: LEkpSThJRHCdTzu99iZTHPPlUAx7DI03aaPNV4Fnc/Y=
+
+Name: haven/KinInfo$1.class
+SHA-256-Digest: bEUUsvQxOX35h/CRz7z9V86t1d64xykRokEdBzhQOIA=
+
+Name: haven/LoginScreen$1.class
+SHA-256-Digest: DEbz1DNqynF+btevFt/IqBYdScvEOu+Nx2KFOUNelJ4=
+
+Name: haven/glsl/Phong$1.class
+SHA-256-Digest: NleQaoURwTMOEF0KqyNlSdsFPpG1ByQfT/UpVGt7pd4=
+
+Name: haven/rs/AvaRender$1$1.class
+SHA-256-Digest: H7kqSWo44SkrBi32WXxRNwN714mRZpqfQVsU0elRrlY=
+
+Name: haven/rs/GBuffer$Context.class
+SHA-256-Digest: 3srwj98l5BOv0yvl5T3vQa+X6JATqS88d4c6M8ZVuLQ=
+
+Name: haven/FlowerMenu$Chosen.class
+SHA-256-Digest: sKFHiLyrWpnGbVaMiUwn18fZArovmHX/vfcK0WhYxbE=
+
+Name: haven/RenderList$RLoad.class
+SHA-256-Digest: BuHzZgPELeG2PawpDfWMPhQlb5xZ+HJP2jgN6QpnCJY=
+
+Name: haven/UI$Runner.class
+SHA-256-Digest: 0jXroxFNckXKOyXOuE+CB0RX6g5jg3qBVH7oLQWqRQM=
+
+Name: haven/TexL.class
+SHA-256-Digest: g+JtWOQew2VPB/nvnqa0bRyfHwF0dVgFxvoOP++3ato=
+
+Name: haven/glsl/MiscLib$11.class
+SHA-256-Digest: 1gZzWrrgP30louPfsOA4X14BhdjHPGj7uPCRbGU4RfY=
+
+Name: haven/GLShader$VertexShader.class
+SHA-256-Digest: fbT3MHWyhPxstUbMR1Zr980DGhufKiVPwLPAKFqOOlU=
+
+Name: haven/FastMesh$DLCompiler$DLCompiled.class
+SHA-256-Digest: JCqZI26MlFhwLWfL9MiOkfHMZHhscjQ/UJYAVqyCS3Q=
+
+Name: haven/UI$WidgetConsole$1.class
+SHA-256-Digest: NXN91q2p2Jy8o+lEiUqQ2i5xbMtEojGDCNDowN2bcLg=
+
+Name: haven/MeshBuf$Vertex.class
+SHA-256-Digest: Xh3XE7NAEpPWXVw9Xp4nmUAkrVvDjSvm0+Rj2VBXPMg=
+
+Name: haven/WidgetFactory.class
+SHA-256-Digest: sdd2Qg2i9SFCmXeJWtPz/PNh1tWEUOOxrNCkLpsK6LI=
+
+Name: haven/Tempers$1$2.class
+SHA-256-Digest: JRGAcQ4t3OcXip/KO7IHSo+FOrcbd0hlA0hcH0KRQ10=
+
+Name: haven/glsl/MiscLib$7.class
+SHA-256-Digest: ZAcJ0lyMpdo3ePyr76RUxTGBRi5HDDkfD+zrqTTL0Ec=
+
+Name: haven/GLFrameBuffer$AttachMS.class
+SHA-256-Digest: f3ZcGxfY3ojh5cGDT0NKc4c01vys9XdbdZ5TdpsZ3YA=
+
+Name: haven/glsl/LPostOp$Inc.class
+SHA-256-Digest: SNeGL1OBwvQjk5iytkY1AR02XPJQHKulDHncQzTdMTY=
+
+Name: dolda/xiphutil/PageStream.class
+SHA-256-Digest: 6AGXyaBvEHt5aBEzUOcxtUp5y4/pfNFAmYGjbcX7kXU=
+
+Name: haven/Mipmapper$2.class
+SHA-256-Digest: r0PZlcU/zHrqOk2J5L0H4Sll1tu67qCxUlIKkcwsfj8=
+
+Name: haven/MCache$Grid.class
+SHA-256-Digest: eDsPlupPrMMLJUObP/dvXtVGSHdh3OPrbj4s5cQ0i1U=
+
+Name: haven/glsl/FragmentContext$2.class
+SHA-256-Digest: wiOEiiAupTHPiQ3CClhlCpBU1pkS/k4vJUE0Z5S7SIw=
+
+Name: haven/SprDrawable.class
+SHA-256-Digest: u9NE5XdRzSVo6N0lZhzdCeHSPpFAacyf+mkapR2YVA8=
+
+Name: haven/HavenPanel$OrthoState$1.class
+SHA-256-Digest: niwLZCo31XntVdiqzybrbSdZxNtp0sewlh4weAsNrwo=
+
+Name: haven/HelpWnd.class
+SHA-256-Digest: vOZgYZzDnUHWQwDQlGu3+g5gkSS0XQAcqwV2XlRJ/XY=
+
+Name: haven/MapMesh$Models.class
+SHA-256-Digest: euAacYKrw6zcY2lvBw624YEQbqlDGNEqgclUmKpp7lM=
+
+Name: haven/UI$Receiver.class
+SHA-256-Digest: EXJjk6ecoIJoH4aJwOqrRvbjJMNfZe+3A0UydKYku8o=
+
+Name: haven/Material$3.class
+SHA-256-Digest: oiG83VWN9hl5q2Qwb8loBULM7zEFsXTXoGJgs+8NKSA=
+
+Name: haven/MeshBuf$V1LayerID.class
+SHA-256-Digest: 65xc00DYtGTGwpivoJXCivA4uynwrBXZRFRvlF8W8K8=
+
+Name: dolda/xiphutil/VorbisStream.class
+SHA-256-Digest: 76GVdSXDmohTbp5tjS6R4cUiwYpNFSuqAq47is4YM6c=
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<project name="jsalem-bots" default="jar">
+  <property name="src" value="src" />
+  <property name="build" value="build" />
+  <property name="classes" value="${build}/classes" />
+  <property name="client-classes" value="../client/build/classes" />
+
+  <target name="build-env">
+    <mkdir dir="${build}" />
+    <mkdir dir="${classes}" />
+  </target>
+
+  <target name="compile" depends="build-env">
+    <javac srcdir="${src}" destdir="${classes}" debug="on" source="1.8" target="1.8" includeantruntime="no" encoding="iso-8859-1">
+      <classpath>
+        <pathelement path="${client-classes}" />
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="jar" depends="compile">
+    <jar destfile="${build}/jbots.jar">
+      <fileset dir="${classes}" />
+    </jar>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build}" />
+  </target>
+</project>

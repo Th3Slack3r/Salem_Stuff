@@ -1,0 +1,17 @@
+/.classpath
+/.project
+/build
+/release
+/nbproject
+/build.properties
+*~
+
+/.externalToolBuilders
+/.settings
+/resources/res
+/resources/compiled
+/bin
+out
+.idea
+/salem.iml
+/vsalem.iml

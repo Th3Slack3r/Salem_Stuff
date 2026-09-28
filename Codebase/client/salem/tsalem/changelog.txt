@@ -1,0 +1,1093 @@
+$size[20]{$u{CHANGE LOG:}}
+
+$size[14]{$u{Update for 08.11.2024 (Taipion):}}
+
+  Right-Clicking several tools like the loom
+  or crucible will now automatically bring
+  up corresponding recipes, partly determined
+  by what items you have in your inventory.
+  
+  Example: clicking a crucible with 5 or more
+  silicate will bring up the glass recipe,
+  with 25 or more golden eggs the gold bar recipe,
+  otherwise the golden egg recipe.
+  
+  Use console command ":roc" to toggle on/off
+  
+  Leantos are now darker on the minimap if unclaimed
+  and using a shape instead of an icon for them.
+  
+  Also: claimed leantos have the colour that you
+  chose for blooming thornbushes,
+  to toggle this on/off use console command ":hcl".
+  
+  
+$size[14]{$u{Update for 22.09.2024 (Taipion):}}
+
+  Right-Clicking any building that has a door will now
+  click the door instead (to enter it)
+  (only if CTRL/ALT/SHFT are not held)
+  
+  Right-Clicking anywhere on the ground will now
+  be as if you used SmartSpace from the cursors
+  location, thereby clicking the object closest
+  to your cursor instead
+  (only if CTRL/ALT/SHFT are not held)
+  (only if not carrying something over your head)
+  Note: toggle this on/off with console command "soc"
+  
+  Changed "show content icons" to be on by default
+
+$size[14]{$u{Update for 16.03.2024 (Taipion):}}
+
+  Fixed SmartSpace for horses
+  
+  Added ":belt ..." command to access your action bars,
+  whereas ... is the number of the button, 
+  use ":debug" to find out the first argument/number,
+  then use the custom hotkeys to map it as you like
+  
+  Fixed makeshift scarecrow radius
+  
+  Fixed TimSort exception in rendering
+  
+  Fixed CTRL+L and CTRL+SHIFT+L to work the same
+  as CTRL+F and CTRL+SHIFT+F
+  
+  You will now hear a sound if a blooming thornbush is nearby,
+  you can toggle it on/off with ":tbalert"
+  
+  You can now change the colour of highlighting for blooming
+  thornbushes to any colour you want, to do so, us the
+  command ":tbcolour r g b" whereas rgb are values
+  form 0 to 255 each
+  
+  Added the Stonetower to "auto doors"
+  
+  Updated the "list of hotkeys" in the xtended menu
+  
+  merged from vanilla client:
+   - Implement basic support for store credit.
+   - Display store credit.
+   - Destroy store-window instead of hiding it.
+
+
+$size[14]{$u{Update for 02.03.2024 (Taipion):}}
+
+  Merged code from latikais client
+  - store button fix
+  - height map improvement
+
+$size[14]{$u{Update for 29.02.2024 (Taipion):}}
+  
+  Merged code from the default client
+  for new server compatibility
+  
+  more fixes...
+  
+  NPE fix in equipment hotswap feature
+
+
+
+$size[14]{$u{Update for 03.02.2024 (Taipion):}}
+  
+  Fixed bug in season change log notification
+  
+  Fixed some recipe/food group in craving tooltip
+  
+  Fixed "purse protection" not working in or near deep water
+  
+  New Feature: "Eat All", use SHIFT-Right-Click on
+  any food item that has uses to get this extra option!
+  (when in progress, cancelled by "any mouse click" or WASD)
+  
+  New feature: npc/mannequin-colouring
+  these now have a colour separate from actual players,
+  both unknown and kin,
+  use the console command like ":npcrgb 30 30 150" to set
+  a new colour, with 3 numbers according to the rgb,
+  or without any numbers to reset to default.
+    
+  Also: npc/mannequin are now set to to display below
+  actual players on the minimap
+  (order = 99, vs order = 100 for players)
+  (you can set order in the radar.xml for all other things)
+  (just add order="100" or whatever number you prefer)
+  (next to name and show for the group)
+  
+  
+$size[14]{$u{Update for 15.07.2023 (Taipion):}}
+  
+  Fixed crash with FlatnessTool upon logging out when active
+  
+  Fixed bug with ":inv all" not working properly
+  
+  Fixed bug with season-change-popup not showing up properly 
+  upon login, if the season changed since the last login
+  
+  Fixed bug in craving tooltip,
+  that would sometimes not display the food group
+  
+  Extended Feature: animal-stats-output
+  use :animaloutput followed by 6 numbers, 1 or 0
+  separated by space to set which stats you want
+  to show, so animaloutput 0 0 0 1 1 1 would show
+  only the last 3 stats in sum.
+  (-50 per stat to keep the number small)
+  (+/- the total offset you set with animaloutput
+  followed by just one number)
+   
+  
+$size[14]{$u{Update for 15.07.2023 (Taipion):}}
+  
+  Added new "static"-mode to the FlatnessTool!
+  use CTRL+SHIFT+F/L or the new button to activate,
+  if in static-mode, CTRL+SHIFT+F/L will close the tool!
+  use ":flatgridsize 40" to change its range to 40 (or any number) 
+  
+  Added "new" ESCape-menu, hit ESC to access it
+  
+  Merged the new cert-stuff from the vanilla client
+  
+$size[14]{$u{Update for 04.06.2023 (Taipion):}}
+  
+  Added animal name to animal-stats-output-feature
+  
+  Added command ":ttoff" to toggle turn off ALL tooltips
+  
+  Fixed crash on closing the crafting window 
+  
+$size[14]{$u{Update for 27.05.2023 (Taipion):}}
+  
+  Added Food Groups to craving tooltip
+  
+  Fixed some items on the Cravings List (when you click the craving)
+  
+  crafting item link fix:
+   fixed all broken item links when crafting, and clicking on items
+   that are shown as ingredients
+  
+  craft window fix for "last craft"-button
+   the button that brings you to the previously used crafting recipe
+   will now always work (used to be broken for everything where the
+   crafting result is an unfinished item, like almost all items
+   in the bread food group)
+  
+  built-in-fuel-filler: fixed
+   fixed an annoying little bug in the built-in-fuel-filler (CTRL+click),
+   where it would just not work if you activated it in quick succession
+  
+  merged: z offsets (update to the vanilla client) 
+  
+$size[14]{$u{Update for 12.04.2023 (Taipion):}}
+ 
+  Added a feature to give you the recipe of the craving
+    (if there is a recipe) by clicking on it. 
+  
+  Added protection for your purse, you can from now on, not drop your purse
+    when on water, that is, if you CTRL + click your purse when on water,
+    it will give a message and not drop it,
+    but you can still manually take and drop it.
+ 
+  Fixed the shortcut CTRL+G not closing pumpkin packs.
+  Also added pumpkin packs to sort windows list, auto-bucket-from-backpack,
+    backpack-lock and all that. (Including "Big Autumn")
+  
+  Fixed cabbage & kale wine having no icon.
+  
+  Changed command line to ignore additional ":" so there is no confusion
+    anymore, like when using custom hotkeys, so you can input commands
+    in the hotkey window with ":" or without and it will all just work.
+  
+  Fixed a bug in the [ignored]-feature that allowed an ignored char
+    to open a chat window with you through using the highlight feature.
+  Additionally, the [ignored]-feature will now also prevent ignored chars
+    chat from appearing in area chat, or any chat at all,
+    though you will still see the chat bubbles.
+  
+  Note: If there is anything in chat you don't want to see, you can also simply
+    right-click the chat, and everything in that chat will be deleted,
+    this works for all chats including System and Log chats.
+  
+  Added animal numbers handling, with ":animaloutput" to toggle, and
+    ":animaloutput x", where x is any number as offset, also negative,
+    like ":animaloutput -35", this will output a number to LogChat that
+    is the sum of all animal stats except the first, all minus 50 by default,
+    so an animal with all 50 stats would output 0.
+  Output is done when opening the stats window of an animal.
+  
+  Fixed a bug where the Screenshooter function would open 2 windows
+    upon hitting ALT+S, though probably no one ever noticed
+  
+  Fixed crash with ":inv one" / ":inv all" if you'd inv something that moved.
+  
+  Added an output to ALT+LMB on sacks/bags/baskets where it tells you how
+    many items are there in total (takes a few seconds).
+    You know you can access a bunch of sacks/bags/baskets in a container,
+    like a shed full of sacks, by ALT+clicking one of the sacks:
+    - ALT+LMB opens all but closes the non-empty (and tells you the item # now)
+    - ALT+MMB opens a window where you can input the # of items you want
+    - ALT+RMB opens all
+  
+
+
+$size[14]{$u{Update for 27.08.2022 (Taipion):}}
+
+
+  Abacus only re-positions itself to be in the visible area upon 
+  (re-)opening it, instead of at every item change.
+  
+  Added System/Log-Chat notification of Exploration Event music playing
+  
+  Improved performance of the Abacus, saving you a few ms any time
+  you move a lot of items, every little thing helps :-)
+  
+  Added icons for most fluids including wine,
+  and a custom icon for milk (thanks to Vesemir!)
+  Thanks to Mirrodin for the json list of icons and the idea!
+  
+  Added caching of all icons, which was especially noticeable
+  on sheds full of seedbags, or any occasion with a lot of icons,
+  the performance impact of icons was pretty huge, and is now near zero  
+    
+  Reduced the "Loading"-time upon entering an area (thx to Wintermute!)
+  whereas it might look strange for a second,
+  but you'll be able to see and act a little faster
+  
+  Added a lock to the backpack(s), so you can fix them in place
+  without accidentally moving it
+  
+  Moved the buttons for item sorting, who knew there was a title bar?!
+  Moved them a bit away from the close button, it should in general
+  look better now and you can finally read what the container name is 
+  
+  Changed transfer limit from 72 items (cupboard)
+  to 100 to account for nailboxes
+    
+  Added CandyBasket, NailBox and GemBox to the containers for
+  ALT+RMB and ALT+LMB special "open all/not-empty sacks"-function 
+  
+  Excluded gems carats from picky alt comparison,
+  excluded fishs weight from picky alt comparison,
+  this means you can shift+alt+click transfer them all,
+  without the need to deactivate the picky-alt-modifier
+  
+  Added a command line for SmartSpace -> ":space" 
+  this way you can bind it to anything as custom hotkey
+  
+  Pluck before Butcher (for Hydrukies)
+  
+  Autoshovel will now only try to find a better shovel once,
+  or if your equipped hand-slot-item changed, and not all the time
+  
+  Fixed FuelFiller plugin which would only do 1 item on rare  
+  occasions when clicking fast between different targets
+  
+  New button: "Take ALL and close" ...well there is no new button,
+  it is the "X" button, just hold SHIFT and click it,
+  and you will "take all and close" instead of just close,
+  there is also a tooltip saying that, which can be turned off
+  in Options/Inventory&Items
+  
+  NEW function/window: Take X from Sacks (...baskets, boxes),  
+  simply hold ALT and click with middle mouse button on a sack
+  (or basket, or box) and a window will open, enter an amount
+  and that amount will be automatically taken form the sack you
+  clicked and all others (if there are any) in that container,
+  so... got a shed full of shrooms and want to take out 1000 shrooms?
+  -> just ALT+MMB one sack, enter amount, watch and enjoy!
+  
+  NEW item-scroll functions, hold CTRL and mousewheel-scroll items  
+  in and out of containers,
+  #1: CTRL + scroll-out takes items by position (bottom right to top left)
+  instead of the order the server determines, easy taking out
+  bad humus and worms among other things
+  #2: CTRL + scroll-in will take items from your inventory into the
+  container, taking those items first that are the fewest in your inv,
+  beware this targets containers by the order you opened them, there
+  is unfortunately no other way, just don't open more than one container
+  when using this
+  
+  The .res files for the icons are now directly in the client jar,
+  which means icons should always work, regardless of if the player has
+  already seen the items/stuff where the icons are taken from, also means
+  a tiny bit less .res downloading on new/cleaned-up client installations 
+  
+  Background music on multiple clients:
+  Now, if you have music on, and more than one client running,
+  only the last active instance will play music, and all other instances
+  will be automatically muted, this way there is no overlapping music,
+  and you can finally turn music volume on and enjoy Salems tunes,
+  even if you use more than one client instance at once!
+  
+  
+
+$size[14]{$u{Update for 14.02.2022 (Taipion):}}
+
+  Fixed that hidden UI elements were still click-able (=blocking clicks)
+  
+  Set "Gather Lard" (if set in auto-chose) to always have priority over all
+  else, after that, priority (if set in auto-chose) is "Skin" (unchanged) 
+  
+  Fixed Abacus-Window positioning, it will "jump" back into the visible
+  area upon toggling it on/off, just like the inventory does.
+  
+  Added the new stoves as targets for the built-in FuelFillerPlugin,
+  use as usual with CTRL+click with item in hand
+  
+  Took over new "drop all" functionality CTRL+ALT+click, works like before,
+  but uses server sided function to do it in one command, not 1 per item, 
+  should remove any lagg from dropping large amounts of items,
+  and it should be faster, too
+  
+  For now, I did not take over the new "transfer all",
+  because it has no sorting o.o
+  
+  Re-Added the "old" NightVision mode, to switch between old and new,
+  just use CTRL+SHIFT+N, and then CTRL+N as usual
+  
+  Added System-Chat output to "old" NightVision mode,
+  so you always know what you just selected
+  
+  The "old" NightVision mode is now properly persisted between sessions,
+  this includes the angle, so you set it once and that's it
+  (the angle was not persisted in previous clients like latikais)
+  
+  Added a Link to the official Discord on the Login-Screen,
+  you can turn it off in Options/General if it bothers you ;)
+  but you should really go there, it's where all the fun is!
+  
+  Cleaned up some misalignment in Options/Camera & Graphics 
+  
+  Added an Option under Options/General to always display
+  the Patch Notes, not only once after an update
+  
+  
+$size[14]{$u{Update for 23.12.2021 (Taipion):}}
+
+  Complete rework of the "Nightvision" feature: CTRL+N (!)
+  It will now illuminate ALL wall faces in mines!
+  There are 7 levels of brightness, use CTRL+N to cycle through 1-7 and off,
+  also the client will tell you the current setting with every use of CTRL+N
+  
+  Added "Nightvision" to the "outside world" as separate setting!
+  The client will know if you are "inside a mine" or "outside of a mine",
+  and CTRL+N will set and save settings for "in" and "out" separately,
+  so you can live in darkness, but with light!
+  And have a separate setting for mines at the same time!
+  
+  Note: Saved settings for Nightvision for "in" and "out" are 
+  usually applied upon loading/entering an area,
+  if not it will be applied after walking a few tiles.
+  
+  Added ":placegrid x" command line option for further evaluation,
+  x is a number that changes sub-tile precision when placing things with CTRL.
+  
+  Fixed bug with getting KOed and the death/KO-animation fix,
+  which was effecting the "stars over the head" animation.
+  
+  
+
+$size[14]{$u{Update for 03.12.2021 (Taipion):}}
+
+  Fixed a bug with the new performance-saver on dead animal animations
+  and render distance, if you used render distance limit it would
+  still play the death animation.
+  
+  Fixed auto-door not working on makeshift gates that had grapes nearby
+  
+  Fixed a little bug that prevented ALT+SHIFT+click transfer on sacks
+  
+  Fixed a few bugs with the new Hotkeys, specifically editing existing
+  Hotkeys and the use of ALT as modifier
+  
+  Upgrade: The "death animation fix" now also applies to player characters,
+  so you won't see the KO-animation on them if not appropriate.
+  
+  New Feature: Offset from "snap to grid" when placing ghost objects,
+  use ":offset x y" with x and y being numbers 0 to 10,
+  this setting is not saved between client restarts,
+  Note: not recommended when placing walls
+  
+  Hotfix: This client version has a fix for the "Makeshift-Gate-Crash"
+  that was introduced with the Game-Update on 03.12.2021
+  
+
+$size[14]{$u{Update for 17.11.2021 (Taipion):}}
+	
+  Fixed a bug in the auto-equip-shovel functionality,
+  that is used when destroying stumps.
+  It should be much more reliable now.
+  
+  Changed SmartSpace so it will target grapes on makeshift fence instead of the fence, if applicable.
+  
+  Fixed ":inv" to never make the player char invisible in this way, as that'd crash the client,
+  use ":p" instead to toggle player visibility safely.
+  
+  Fixed Signs (the sign you can build and write text on) crash on more than 2340 characters.
+  Input is now simply limited to that number.
+  Note that the maximum number of characters allowed to actually put on a sign is only like 150.
+  
+  ALT+Click which transfers "only same items with the exact same %" now works regardless
+  of "picky alt" being selected or not.
+  
+  The sound you can set for the buff-alert was not properly persisted (saved),
+  now it is. :-)
+  
+  By default, and not optional, the animation processing of dead animals (and dead deers and bears)
+  is removed, after they played their death animation upon loading,
+  you won't see any difference, but your fps may be seriously better now
+  if there are a lot of dead animals around.
+  Note: that you can still use "remove all animation" in Options/General to do just that for everything.
+  
+  Added Undertake Shovel to the auto-equip-shovel-function for when you destroy a stump	
+  
+  Fixed a bug with "toggle mute all audio / CTRL+9" when using multiple client windows	
+  
+  Fixed the "Smoke Lagg" for cementation furnances, reducing the smokes heavy performance impact
+  by somewhat like 90%, it should be much less bad now
+  
+  Fixed a bug with SmartSpace and "remove all animations"-option and mounts,
+  it does not crash anymore, but due to how it works, SmartSpace will be pretty useless while mounted,
+  if and only if you also use "remove all animations" at the same time
+  
+  Added new feature "ALT+leftClick on Sacks", like "ALT+rightClick on Sacks", just that it only opens
+  sacks which have items in them (closes the others), also works with egg baskets ofc
+  
+  Added functionality to the command ":x" (if used with no parameters) it will open the xtended menu
+  from anywhere, but also tab through the pages of the xtended menu if you have several pages, like
+  if you use a lot of plugins
+  
+  Hotkeys!!! did a whole big rework on them, see patch notes on the forums for details!
+  
+
+
+
+$size[14]{$u{Update for 22.08.2021 (Taipion):}}
+	
+  Added separate cam control inversion option for left/right (x),
+  next to the option for up/down (y) from the previous patch
+
+
+
+$size[14]{$u{Update for 20.08.2021 (Taipion):}}
+
+  Food troughs now have a radius with ALT+R
+  
+  New Option to invert the mouse cam controls
+  Options/Camera & Graphics/invert mouse cam
+  This applies to the following cams:  
+  Free Cam (:cam free)
+  Smooth Free Cam (:cam sucky)
+  Far Out Cam (:cam farout)
+  
+  Fixed the "sort only main inventory"-option for continuous sorting,
+  it was not properly persisted (saved) between client restarts.
+  (no one used it?! had not a single person complain about it -.-)
+  
+
+
+$size[14]{$u{Update for 03.08.2021 (Taipion):}}
+
+  Added console command to hide the whole UI or parts of it,
+  should come in handy for making videos or less revealing screenshots,
+  type in ":h help" to find out how it works
+  
+  In combo to that, added console command ":p" to (un)hide the player  
+  model, too
+  
+  Added a new, entertaining way to look through what your char
+  has, can, and much more:
+  console command ":x show ..." will look for ... and show 
+  all skills, actions, attacks, building, recipes, plugins,...
+  then ":x ..." will call ... directly,
+  also just using ":x" will call the xtended menu, as there
+  is otherwise no way to make a shortcut to it,
+  try playing around with this in combo with the hotkeys feature
+  (gonna rework hotkeys in a coming patch!)
+  
+  Fixed a rare bug with the auto-equip-shovel,
+  it should be even more reliable now
+  
+  => as always, look at the forum thread for more details to this patch!
+  
+  
+
+$size[14]{$u{Update for 20.05.2021 (Taipion):}}
+
+  Quick fix for some weird outputs to the Log-Chat
+  that came with the last update
+  
+  
+
+$size[14]{$u{Update for 18.05.2021 (Taipion):}}
+
+  Hello everyone! :-)
+  From now on, I'll continue to use this changelog
+  as a means to inform you that the client was updated! ;)
+  
+  You can always find the latest patch notes in detail
+  on the forums in my client thread.
+  
+  Changes Overview for only this patch:
+  * Distiller Plugin (!) => Check out the Forum Thread for it (!)
+  * SmartSpace: just hit space to click the nearest object
+  * Sound-Loops-Fix: no more infinitely repeating sounds!
+  * Option for "only main inventory" for continuous-sorting
+  * small fix for rare crash caused by craft window
+  * revival of ingame patch notes :-)
+ 
+ 
+ 
+ 
+ 
+ 
+ ... previous patch notes from Latikai:
+ 
+$size[14]{$u{Update for 31.12.15 (Latikai):}}
+  * Included scarecrows for the radius display. Might require a fix for scarecrows in other seasons, but I hope not.
+  * Added a button that lets you choose which server you connect to for authenticating. This is be remembered over client restarts, and should allow popham players to connect even though providence is down.
+  * The client will now state which type of object is highlighted when you (or someone else) alt-clicks an object in the world. Particularily handy for knowing which fruit tree is flowering.
+  * The wiki was now changed to salemwiki.info again. May require you to empty out ~/Salem/cache.
+
+$size[14]{$u{Update for 07.11.15 (Latikai):}}
+  * Fixed crash for inventory sorting with stuff on fishing rods.
+  * New default radar.xml (will not replace your old settings until you delete ~/Salem/radar.xml)
+ 
+$size[14]{$u{Update for 07.11.15 (Latikai):}}
+  * Radar update: you can now choose whether or not to show icons, and which order to display icons in.
+ 
+$size[14]{$u{Update for 02.06.15 (Ender):}}
+  * added madness level to biles tooltip
+  * added tooltip with estimated timer completion date to timer widget
+ 
+$size[14]{$u{Update for 21.05.15 (Ender):}}
+  * fixed rare crash in gob path displaying
+  * fixed crash in gobble meters
+  * added option to disable gobble meters (Options->General)
+  * made timer display days, if more than 24 hours left
+ 
+$size[14]{$u{Update for 19.05.15:}}
+  * Merged Ender's changes. Patch notes below.
+ 
+$size[14]{$u{Update for 04.04.15:}}
+  * Merged Vanilla client changes.
+ 
+$size[14]{$u{Update for 04.0.15 (thanks to lcy03406):}}
+  * Option for translation. It will use a trans.txt in your Salem home directory - check the jar or git for an example trans.txt (it will fall back on the etc/trans.txt from the jar).
+  * Minor bugfix with storing multiple item data's in the crafting window.
+ 
+$size[14]{$u{Update for 04.03.15 (thanks to lcy03406):}}
+  * Better lighting in mines: you can step through the various cardinal directions for lighting with ctrl+N
+  * Auto-sifting is now in! For now, this is completely automatic until I get enough complaints that it should be made an option.
+  * You can now store multiple versions of the recipes in Ender's Craft Window. Scroll them with the mousescroll wheel. Messing up will require you to delete them manually in Salem\item_data.
+  * An additional sort button to sort by highest gluttony value rather than names/purity. Similar as the auto-sifting: as a separate button until I get enough complaints that it should be made an option.
+ 
+$size[14]{$u{Update for 17.05.15 (Ender):}}
+  * Kin ONLINE/OFFLINE messages are colored as kin
+  * added small window with current carrying weight. Can be toggled in Options->General->Show weight widget
+  * added ability to take custom amount of materials from stockpile
+  * changed minimap border color
+  * added content icons for potato seeds
+  * fixed content icons for corn seeds
+ 
+$size[14]{$u{Update for 16.05.15 (Ender):}}
+  * added bars on item icons during gobbling to show food effectiveness
+ 
+$size[14]{$u{Update for 16.05.15 (Ender):}}
+  * added server time displaying as tooltip on season widget
+ 
+$size[14]{$u{Update for 05.05.15 (Ender):}}
+  * added option to auto remove bats
+  * added neck to quick access equipment slots
+  * limited chat channel log to 200 messages
+ 
+$size[14]{$u{Update for 28.04.15 (Ender):}}
+  * added option to make right-click menu to autochoose some options
+  * added camera zoom by + and - on numpad
+ 
+$size[14]{$u{Update for 19.04.15 (Ender):}}
+  * merged with default client
+ 
+$size[14]{$u{Update for 07.04.15 (Ender):}}
+  * inspirations now show also base inspiration cost and current multiplier
+  * small improvements to minimap, including better clean-up on teleporting/exiting buildings/mines - should cause less OOM errors
+  * added music volume slider to options
+ 
+$size[14]{$u{Update for 05.04.15 (Ender):}}
+  * merged with default client
+  * replaced avatar view with season indicator.
+  * made cash shop and manual buttons hide when menu is minimized
+ 
+$size[14]{$u{Update for 12.03.15 (Ender):}}
+  * added fix for floating numbers being invisible near smoke on some videocards.
+  * improved auto-sifting - it will now repeat clicks in same map coordinates, instead of screen coordinates. And will do so just after progress bar finishes, instead of 1.6 seconds.
+  * added ability to display actor path. Activate in Options->Cheats.
+  * added button to open settings of which actor path should be displayed. Can be fine tuned gob_path.json
+  * added goldflakes, egg yolk and different teas  to item content icons config.
+  * added option to make isometric cameras rotate in 90 degree steps.
+ 
+$size[14]{$u{Update for 05.03.15 (Ender):}}
+  * added automated sifting. Can be toggled in Options->Cheats
+  * added option to display actor path. Can be toggled in Options->Cheats
+ 
+$size[14]{$u{Update for 04.03.15 (Ender):}}
+  * added support radius of mine exit
+  * fixed possible crashes related to incorrect radius or timers configurations
+ 
+$size[14]{$u{Update for 03.03.15 (Ender):}}
+  * renamed Culinary to Feasting
+  * added ability to show object radiuses - press ALT+R or X->R. Shows radius of torchposts, braziers and mine supports.
+ 
+$size[14]{$u{Update for 03.03.15 (Latikai):}}
+  * Fixed loading bug when using inventory sorting.
+ 
+$size[14]{$u{Update for 11.02.15 (Latikai):}}
+  * Inventory sorting implemented! One button for sorting, one for undoing any sorting. May be finnicky.
+  * Items of the same type are now sorted by purity.
+ 
+$size[14]{$u{Update for 11.02.15 (Ender):}}
+ * fixed item interactions through invisible widgets
+ * highlight object if you click on its icon on radar
+
+$size[14]{$u{Update for 10.02.15 (Ender):}}
+  * added helmet to equip proxy slots (turn it on in equip options)
+  * added sorting by purity on mass transfers (ALT+SHIFT+Click). By default it goes in descending order. With right-click it transfers in ascending order.
+ 
+$size[14]{$u{Update for 09.02.15 (Ender):}}
+  * fixed gem carat value displaying
+  * added highlighting of objects by ALT+Click. Properly formatted message will be sent in current chat and all recipients with supporting clients will see this object highlighted.
+ 
+$size[14]{$u{Update for 07.02.15 (Ender):}}
+  * merged with default client
+  * fixed carry weight not updating when max carry weight changes (e.g. when you study Packrat)
+  * fixed artifice bonuses not updating properly when last item with bonuses is removed
+ 
+$size[14]{$u{Update for 23.01.15 (Ender):}}
+  * item filters update when item tooltip is updated (e.g. you eat part of food and it can't be gobbled anymore)
+  * fixed invisible widgets blocking item drops
+  * fixed interactions with dragged item (you can smash or pry faces all day long!)
+  * draw item highlight under counters
+ 
+$size[14]{$u{Update for 22.01.15 (Ender):}}
+  * fixed crash when trying to set pclaim as homestead
+ 
+$size[14]{$u{Update for 21.01.15 (Ender):}}
+  * fixed crash when trying to activate empty toolbelt slot
+ 
+$size[14]{$u{Update for 19.01.15 (Ender):}}
+  * added displaying of scalp score to character window (and thus removed it from the equipment window)
+ 
+$size[14]{$u{Update for 04.10.14 (Latikai):}}
+  * Violin mute now also works in the stall area.
+  * Gratefully merged in Ender's last updates!
+ 
+$size[14]{$u{Update for 18.01.15 (Ender):}}
+  * added displaying of artifice bonuses from all equipped items to equipment screen. Can be hidden by $b{<} button on the title bar of equipment window.
+  * added upkeep info to claim management window
+ 
+$size[14]{$u{Update for 11.01.15 (Ender):}}
+  * added ability to set what slots to show in equip proxy widget - accessible by new $b{*} button in equip screen title bar.
+  * highlight items under cursor in list box
+  * added craft window - opened by ALT+C, MenuGrid button (X->C) or on any craft button, if "auto open craft window" option is turned on.
+    You can drop items on craft window with recipe selected - it will store this item stats as stats for this recipe in <Salem>/item_data
+ 
+$size[14]{$u{Update for 04.10.14 (Latikai):}}
+  * A lock button for the minimap was added, allowing you to lock it. This will prevent you from moving the minimap window, but not from panning it.
+  * Made the crafting menu only optionally stay where it is rather than go to root. Option found under general.
+  * Purity percentage colour for food is dictated by the bile it gives most to, on average. Ties are drawn in the standard aether colour.
+ 
+$size[14]{$u{Update for 23.09.14 (Latikai):}}
+  * Bile regen colours reverted to what they were before.
+  * Included changelog for yesterday.
+  * Multiplier has no real relevance anymore over aether percentage. The corresponding toggle will control precision of purity percentage display.
+  * Implemented sorted scrolling of items to and from storage. Press control while scrolling to transfer highest-purity first, press control and alt to transfer lowest purity first.
+
+$size[14]{$u{Update for 23.09.14 (Latikai):}}
+  * Crafting menu will no longer go to root after selecting a recipe (credit to Feone).
+  * Aether multiplier now also available if you have the respective options ticked.
+ 
+$size[14]{$u{Update for 20.09.14 (Latikai):}}
+  * Merged in the latest patch changes. Small tweaks to come when I have time to read the patch notes in detail.
+  * Added in the options to remove the biles and minimap from rendering at all (for some vid'ers out there).
+  * The client currently shows just aether as a purity percentage.
+ 
+$size[14]{$u{Update for 10.08.14 (Latikai):}}
+  * Various updates to the crafting menu: once again correctly reads from the wiki, and will now also show debuffs on food items (undebuffs cannot be shown as these are dependent on the ingredients used).
+ 
+$size[14]{$u{Update for 29.07.14 (Latikai):}}
+  * Lowered the buff icons a bit for better visibility.
+ 
+$size[14]{$u{Update for 08.07.14 (Latikai):}}
+  * Included an abacus window (open with ctrl+A). It lists the scalp score and artifice overview of the current character. The scalp score will only update by closing and reopening the window, but artifice information will be recalculated when you (un)equip an item.
+  * Got rid of some crashes by trying to open tool windows before entering the world.
+  * Got rid of an annoying bug where some tool windows did not close correctly on log-out, preventing them from being opened on other characters.
+ 
+$size[14]{$u{Update for 30.06.14 (Latikai):}}
+  * Migrated to github for file hosting, updater issues should be solved now.
+ 
+$size[14]{$u{Update for 27.06.14 (Latikai):}}
+  * Merged in nikelin's fix for invisible homestead pointers.
+ 
+$size[14]{$u{Update for 10.11.14:}}
+  * copied from latikai client option to not reset menu grid after action has been selected
+  * made system messages draw with different color depending on message type
+ 
+$size[14]{$u{Update for 08.11.14:}}
+  * added option to show contents of seed and flour bags as small icons (Options->General)
+ 
+$size[14]{$u{Update for 07.11.14:}}
+  * fixed store url
+  * merged with default client
+  * made purity color on items display as in Latikai client - if it is food and has dominant gobble value, then use that gobble color, otherwise use Aether color
+ 
+$size[14]{$u{Update for 10.05.14 (Latikai):}}
+  * Finally got round to the long-due merge of loftar's and Ender's changes.
+ 
+$size[14]{$u{Update for 23.03.14 (Latikai):}}
+  * The make window will now remember recipe windows that have been closed for whatever reason (suggested by dakoo).
+ 
+$size[14]{$u{Update for 25.03.14 (Ender):}}
+  * added displaying of new Gluttony values to MenuGrid tooltips
+  * added coloring to food heal and glutton values
+ 
+$size[14]{$u{Update for 14.03.14 (Ender):}}
+  * fixed 'null' in inspirational tooltips in crafting menu
+  * made inspirational tooltips in crafting menu show uses if available
+  * changed gobble event debuffs tooltip to show reduce/restore in different color
+  * changed gobble event debuffs tooltip to show food category name
+ 
+$size[14]{$u{Update for 13.03.14 (Ender):}}
+  * made brightness slider work only in darker places
+  * added ability to transfer item to and from building sign with clicks:
+      $b{SHIFT} - transfer 1 item into sign
+      $b{SHIFT+ALT} - transfer all items into sign
+      $b{CTRL} - transfer 1 item out
+      $b{CTRL+ALT} - transfer all items out
+  * moved skill lists to different tabs (available and learned)
+
+$size[14]{$u{Update for 10.03.14 (Latikai):}}
+  * The radar will now override the color and tooltip of markers with kin info, if such is available.
+ 
+$size[14]{$u{Update for 03.03.14 (Latikai):}}
+  * Merged in loftar's changes, mainly on chat colours. Hotfixed so only bright colours will be chosen.
+  * Merged in Ender's changes.
+  
+$size[14]{$u{Update for 03.03.14 (Ender):}}
+  * merged loftar's changes
+  * made flower menu always fit the screen
+  * added proficiency delta displaying to proficiency increased/decreased message
+ 
+$size[14]{$u{Update for 27.02.14 (Ender):}}
+  * added safeguard to MenuGrid tooltips with data from wiki
+  * fixed FlatnessTool not releasing map grab properly if closed while grabbing mouse
+  * added cranberries to radar
+ 
+$size[14]{$u{Update for 24.02.14 (Latikai):}}
+  * Merged in Ender's changes.
+  * Fixed some outstanding issues.
+  * Made the displaying of ridge tiles in the minimap optional.
+  * Made the promise to clean up my option screen some day.
+ 
+$size[14]{$u{Update for 24.02.14 (Ender):}}
+  * returned ability to save screenshots to disk
+  * fixed path to screenshot upload server
+  * fixed degree symbol in darkness tool
+  * added new radar shape - pentagon
+  * updated radar config - added spiders, wells and mines (to get new config delete $b{Salem/radar.xml} and client will recreate it)
+  
+$size[14]{$u{Update for 21.02.14 (Ender):}}
+  * merged loftar's code
+  * disabled food info on craft icons tooltip for now
+ 
+$size[14]{$u{Update for 21.02.14 (Latikai):}}
+  * The client should now be ready for the new world!
+ 
+$size[14]{$u{Update for 18.01.14 (Latikai):}}
+  * <WIP> cartographer
+  * Scalable chat font sizes: three options available. It shouldn't break.
+  * small fix: antialiasing was not working correctly
+ 
+$size[14]{$u{Update for 18.01.14 (Latikai):}}
+  * The camera will start off further from your character upon log in.
+  * The button to mute the violin player now tries to guilt trip you into not doing it.
+  * Chat messages are now logged by default. They will end up in "C:\Users\<account>\Salem\logs\<character>\<channel>\".
+  * Customizeable hotkeys! Check the new tab in the options for more details.
+ 
+$size[14]{$u{Update for 30.12.13 (Latikai):}}
+  * Lower bound on tree size, meaning trees in pots will now be visible again using the raider mode.
+  * Console commands are now much more visible when typing them, especially on white backgrounds.
+  * Introduced a new button in the main menu, allowing you to walk to your homestead (assuming you have one). Contributions for the icon on it are appreciated. Note that this will only get you a direction from Boston, and not an accurate location in conjunction with the locator.
+ 
+$size[14]{$u{Update for 25.12.13 (Latikai):}}
+  * Finally fixed the issues with raider mode trees. The effects have changed: trees will simply be scaled down to character height/width for better visibility. No more ugly resource hacks resulting in caching errors.
+ 
+$size[14]{$u{Update for 22.12.13 (Latikai):}}
+  * Waste claims will now be displayed in very bright red, so it's pretty obvious when one is around.
+  * Introduced a small button in the character list, which will allow you to reverse the sorting (Z->A when alphabetical, or last-log-in first).
+ 
+$size[14]{$u{Update for 20.12.13 (Latikai):}}
+  * Waste claim display functionality now fixed (for some people, it was always visible while for other people the behaviour was reversed).
+ 
+$size[14]{$u{Update for 30.11.13 (Latikai):}}
+  * The violin player can now be muted for those too poor to buy him off. Please take his family into consideration, he deserves your support!
+ 
+$size[14]{$u{Update for 17.11.13 (Latikai, thanks to Trojanz):}}
+  * Town authority bar now also shows daily drain
+  * Ctrl+shift+A will switch characters, ctrl+shift+Q will log out completely
+  * Introduced a toggle to get rid of the delays on flower menus
+ 
+$size[14]{$u{Update for 16.11.13 (Latikai):}}
+  * Press ctrl+N while in darkness or a mine to reset to standard outside lighting.
+ 
+$size[14]{$u{Update for 13.11.13 (Latikai):}}
+  * The wiki will now interface with salem-wiki.com rather than salemwiki.info
+ 
+$size[14]{$u{Update for 08.11.13 (Latikai):}}
+  * The name filter entry is now remembered between sessions. Please keep this in mind if your characters ever "vanish".
+ 
+$size[14]{$u{Update for 03.02.14 (Ender):}}
+  * merged loftar's code
+ 
+$size[14]{$u{Update for 19.10.13 (Latikai):}}
+  * Second update today! Open the locator tool using CTRL+Q. Grab the attention of the locator, and then walk somewhere. The locator window will show the relative location of your target (in tiles). Notably handy when walking towards people in your party.
+
+
+$size[14]{$u{Update for 19.10.13 (Latikai):}}
+  * Latikai shall try to use the changelog from now on as well!
+  * Added a textbox for filtering the characters when choosing one. The filtered list will still be sorted according to your preferences: alphabetically or by last log-in.
+ 
+$size[14]{$u{Update for 30.08.13:}}
+  * fixed flatness tool displaying
+ 
+$size[14]{$u{Update for 29.08.13:}}
+  * merged loftar's code
+ 
+$size[14]{$u{Update for 25.07.13:}}
+  * fixed crash when looting people
+  * merged loftar's code
+  * improved options dialog a bit
+ 
+$size[14]{$u{Update for 08.07.13:}}
+  * merged loftar's code
+ 
+$size[14]{$u{Update for 25.06.13:}}
+  * merged loftar's code
+ 
+$size[14]{$u{Update for 25.04.13:}}
+  * merged loftar's code
+  * unfortunately, screensooter now lost my changes. It now can't save shots to disk. Will be fixed later.
+ 
+$size[14]{$u{Update for 28.03.13:}}
+  * fixed brightness slider
+  * disabled profiling - no windows will pop-up after pressing ~ key.
+ 
+$size[14]{$u{Update for 27.02.13:}}
+  * added displaying of home pointer as green arrow over character head. Can be toggled in Options
+  * hopefully fixed camera distortions
+ 
+$size[14]{$u{Update for 12.02.13:}}
+  * added displaying of artifact stats and clothing slots information from wiki
+ 
+$size[14]{$u{Update for 09.02.13:}}
+  * added indication of selected area size to flatness tool
+ 
+$size[14]{$u{Update for 07.02.13:}}
+  * merged loftar's code
+  * rotated main menu buttons
+ 
+$size[14]{$u{Update for 31.01.13:}}
+  * fixed ability to click on ingredients in crafting window
+  * fixed changelog appearing on every launch
+  * made pressed war claim button more distinct
+  * added frogs to radar
+ 
+$size[14]{$u{Update for 13.12.12:}}
+  * added proper Wiki browser. Accessible from menu by X->K.
+    You can drop items or icons from menu on it to search for this item.
+  * added ability to take screen shots by pressing PrntScr button 
+    and some options to control how screens are made
+  * made MenuGrid and ToolBelt tooltips update when wiki info changes
+    (it actualy was working before, but got broken after last wiki change)
+ 
+$size[14]{$u{Update for 07.12.12:}}
+  * fixed blink option not read properly
+  * fixed loss of mouse input after clicking on a minimized character window in wrong place
+  * Proficiency gains in ToolBelt and MenuGrid now highlight gains as items do
+  * added food info to MenuGrid and Toolbelt tooltips
+ 
+$size[14]{$u{Update for 30.11.12:}}
+  * added brightness slider to camera options
+ 
+$size[14]{$u{Update for 28.11.12:}}
+  * added tilify mode toggled by CTRL+Z (all clicks will be made in center of tile)
+  * fixed proficiency expirience not updated after KO
+  * all proficiency changes are now logged into system messages
+ 
+$size[14]{$u{Update for 22.11.12:}}
+  * merged loftar's changes
+  * added option to make items detected by radar blink. Will be improved later.
+  * made Flatness tool unaffected by lighting
+ 
+$size[14]{$u{Update for 20.11.12:}}
+  * fixed timers when switching characters on different servers. Each server now has it's own set of timers.
+  * fixed flatness tool when switching characters
+  * flatness tool opens by CTRL+F in addition to CTRL+L
+  * added basic darkness tool opened by CTRL+D. Most useful value there is Elevation - it shows how high sun is.
+  * made shadows and antialiasing options save in salem.cfg once again, for easy restore to defaults
+  * adjusted soft and food bar colors for humors and gluttony
+  * added button to get back to previous craft if you clicked on ingredient in craft window
+ 
+$size[14]{$u{Update for 16.11.12:}}
+  * added ability to click on ingredients in crafting window to open recipe for clicked item
+  * fixed wrong MenuGrid activation when pressing F-keys
+  * added displaying of learning ability on minimized character window
+  * added ability to raise skills by clicking on them in minimized character window
+ 
+$size[14]{$u{Update for 15.11.12:}}
+  * added timers. They can be accessed through lower-right menu (X->T)
+  * show number of items/weight inside container items (pouches, bags, purses)
+  * show purity of items when any modifier key (CTRL, ALT or SHIFT) pressed
+  * purity showing can be toggled to show purity multiplier, instead of percent in Options
+  * use loftar's GLSettings to manage graphics preferences
+  * fixed claim highlight buttons not changing their graphics when toggled on
+  * fixed crash when trying to alt-transfer items from equipment screen (CTR-ALT and SHIFT-ALT clicking on items in equipment screen)
+  * reworked wiki core -  it now has caching and stores more info
+ 
+$size[14]{$u{Update for 10.11.12:}}
+  * maps now save in server-specific folders
+ 
+$size[14]{$u{Update for 09.11.12:}}
+  * merged loftar's code
+    - Added switch character button
+  * fixed size of toolbars
+  * made MenuGrid react to key presses in any keyboard layout (e.g. Russian)
+  * fixed Options window not appearing properly after re-login or character switch
+ 
+$size[14]{$u{Update for 07.11.12:}}
+  * Fixed radio group clicks - camera mode selection works proper now
+  * curio gain bar in character window now drawn from current skill xp, not from the beginning of the bar
+  * fixed meters drawing over items
+  * made Humours and Gluttony bars display numbers if proper option is turned on
+ 
+$size[14]{$u{Update for 05.11.12:}}
+  * Merged new UI from loftar
+ 
+$size[14]{$u{Update for 22.10.12:}}
+  * made all windows save their position
+  * Merged Trojanz's changes: 
+    - Chat transparency
+    - kin window transparency
+    - slightly edited pm text colors and hyperlink color.
+ 
+$size[14]{$u{Update for 16.08.12:}}
+  * added displaying of torch fuel and fishing equipment wear as bars on it's icon
+ 
+$size[14]{$u{Update for 11.08.12:}}
+  * fixed chat channel selection when there's many channels open
+  * added close channel button
+ 
+$size[14]{$u{Update for 10.08.12:}}
+  * fixed possible crash when clicking with bucket on clay through
+  * added background to quick-chat
+ 
+$size[14]{$u{Update for 06.08.12:}}
+  * fixed doubled timestamp in system messages
+  * display inspirational gains from wiki in crafting menu
+ 
+$size[14]{$u{Update for 05.08.12:}}
+  * moved reset button to right side of char window
+  * made flatness tool show mean height
+  * added option to protect study
+  * increased chat font
+  * made shadows option save in salem.cfg
+  * fixed progress meter on items
+ 
+$size[14]{$u{Update for 02.08.12:}}
+  * added marker shape to radar config file. Shape can be defined in marker or group. If it is not defined in marker, group setting will be used. If no shape set circle shape will be used.
+    $size[13]{$b{I recommend to delete or rename your radar.xml to see new default settings.}}
+ 
+$size[14]{$u{Update for 26.07.12:}}
+  * added bar with quick access to hands, purse and back slots from Equipment
+  * changed progress meters on items from circles to colored bars
+ 
+$size[14]{$u{Update for 24.07.12:}}
+  * fixed study bars
+  * made gluttony respect humors bar mode
+ 
+$size[14]{$u{Update for 23.07.12:}}
+  * fixed flattening tool
+  * returned purity multiplier
+  * expand tooltip on Tool Belt items
+ 
+$size[14]{$u{Update for 22.07.12:}}
+  * Added ability to mass-transfer items:
+     - SHIFT+ALT+LClick will transfer all items that share icon with the one clicked on.
+     - CTRL+ALT+LClick will drop all items that share icon eith the one clicked on.
+  * Fixed possible crash on minimap
+ 
+$size[14]{$u{Update for 19.07.12:}}
+  * Added option to disable map saving.
+  * Added one more error logger. If client crashes/freezes and no error report dialog is shown, please find error.log file in client folder and send it's contents to TPABOBAP on Paradox forums.
+ 
+$size[14]{$u{Update for 18.07.12:}}
+  * Added highlighting of actions learned by purchasing skill. 
+    It will post names of learned actions into System chat and highlight action in menu until you  hover mouse over it.
+ 
+$size[14]{$u{Update for 16.07.12:}}
+  * Added Option window. Opened by clicking on Options button. Contains this options:
+    - camera selection (ALT+C does not work now)
+    - shadows toggling
+    - humors displaying mode (ALT+V does not work now)
+    - sound volume
+ 
+$size[14]{$u{Update for 09.07.12:}}
+  * Reworked Toolbar - now it uses default client's mechanics to store and activate actions. Actual changes:
+    - combat actions now work same way as in default client when 
+      activated by key - immediate execution in direction of a cursor
+    - Your stored actions will be same on any computer
+    - ALT+1 ... ALT+6 changes belts for numeric belt
+    - ALT+F1 ... ALT+F6 changes belts for function-key belt. Note that ALT+F4 could close your client.
+ 
+$size[14]{$u{Update for 30.04.12:}}
+  * ALT-V toggles humours bar between diamond and plain modes. Right-click humours bar in plain mode to make it always display values.
+  * fixed minimap drawn not correctly at launch sometime
+  * added height map overlay to minimap. Toggle it by minimap menu button.
+  * made minimap menu buttons for claim, town and height map toggle
+  * fixed crash when ESC pressed while minimap has focus
+ 
+$size[18]{Main differences from default client:}
+ 
+$size[14]{$u{1. Minimap:}}
+  * You can drag it with Left Mouse Button
+  * You can resize it by dragging at bottom-right corner with Left Mouse Button
+  * You can offset map center by dragging with Right Mouse Button
+  * You can center it on your character by clicking Middle Mouse Button
+  * You can zoom it by scrolling Mouse Wheel
+  * It stores minimap tiles in folder $b{<UserHome>/Salem/map}
+  
+$size[14]{$u{2. Radar (made by Marvi):}}
+  * Configured by file $b{radar.xml} in $b{<UserHome>/Salem}
+  * Default $b{radar.xml} will be created at launch if none present
+  * You can type $b{:radar reload} to reload radar config without restarting client
+  * You can type $b{:radar off} to turn radar off
+  * You can type $b{:radar on} to turn radar on
+  * You can Left-click on radar mark on minimap to move to it
+  * You can Right-click on radar mark on minimap to show menu.
+ 
+ $size[14]{$u{3. Camera control:}}
+  * You can press ALT-C to change camera modes
+ 
+$size[14]{$u{4. Land Flatness tool:}}
+  * You can show/hide it by pressing CTRL-L
+  * When you can select area when this tool
+  * You can press release button, to stop selecting, and grab button to start selecting again
+  
+$size[14]{$u{5. Toolbars:}}
+  * There are 2 toolbars to replace default one
+  * You can rotate toolbar by pressing L-shaped button
+  * You can lock toolbar, to prevent accidental skill removal by clicking on lock button
+  
+$size[14]{$u{6. Study Window:}}
+  * You can shrink it by pressing << button
+  * You can restore it by pressing >> button
